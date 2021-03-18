@@ -1,3 +1,4 @@
+
 /* https://coolors.co/177e89-084c61-db3a34-ffc857-1f1e1f-0f0906-dcccbb */
 
 
@@ -32,43 +33,57 @@ hr {
 }
 
 .border--color {
-   border: 1px solid #494649;
+   border: 1px solid #35372F;
    border-radius: 12px; 
 }
 
 .border--bottom {
-   border-bottom: 1px solid #494649; 
+   border-bottom: 1px solid #35372F; 
+}
+
+.primary--color {
+  color: #EBEBEB;
+}
+
+.secondary--color {
+  color: #B8B8B8;  
 }
 
 
-.btn--style {
-  color: #DCCCBB;  
+.Orange {
+  color: #A96260
 }
+
 
 .color--blabk {
   color: #0F0906;
 }
 
 .color--1 {
-  background-color: #1F1E1F;
+  background-color: #1D1D20;
 }
  
 .color--2 {
-  background-color: #2A282A; 
+  background-color: #27272B; 
 }
 
 .color--3 {
-  background-color: #323031;      
+  background-color: #2B2C26;      
 }
 
 /*---------------------------------------------------------------------NavBar*/
 
 .navbar-custom {
-  height: 46px;
-    width: 100%; 
-     line-height: 2em;
-     padding-top: 3px;
-     opacity: .9; 
+  height: 64px;
+  width: 100%; 
+  line-height: 2em;
+  padding: 12px 0;
+  opacity: .9;
+
+ /*added z-index for text contend to go under the navBar  */
+  
+  position: relative; 
+  z-index: 1;
 }
 
 .navbar-custom:hover {
@@ -78,36 +93,37 @@ hr {
 .dropdown--menu {
   background-color: rgb(50,48,49, .8);
   width: 120px;
-  border: 1px solid #494649;
+  border: 1px solid #35372F;
 }
 
 .dropdown--menu a {
  display: inline-block; 
  width: 100px;
  text-align: right;
- font-size: 1.5em;
+ float: right;
+ font-size: 1em;
  margin: 5px 10px;
 }
 
 .brand--style {
-    
 }
 
 .brand--style a{
   text-decoration: none;
-  color: #DCCCBB;
+  color: #B8B8B8;
   font-size: 2em;
   margin-left: 12px;
 }
 
 .brand--style a:hover {
   opacity: .8;
-  color: #DCCCBB;
+  color: #B8B8B8;
 }
  
 .padding--0 {
   padding: 0;
 }
+
 .nav--social--block {
   float: right;
   width:200px;
@@ -121,22 +137,22 @@ hr {
 }
 
 .nav--link--block {
-  font-size: 1.5em;
   width: 315px;
   margin: auto;
 }
 
 .nav--link--block a {
+
  text-align: center;
  display: inline-block; 
  width: 100px;
- border: 2px solid #3a383a;
+ border: 2px solid #35372F;
  border-radius: 12px;
 }
 
 
 .btn--style a {
-  color: #DCCCBB; 
+  color: #B8B8B8; 
   text-decoration: none;
 }
 
@@ -147,14 +163,164 @@ hr {
 
 .btn--hamburger {
   font-size: 2em;
-  color: #DCCCBB;
+  color: #B8B8B8;
   border-radius: 12px;
-  background-color: #323031;
-  border: 1px solid #494649;
+  background-color: rgb(39, 39, 43, .8);
+  border: 1px solid #35372F;
 }
 
 .hanburger--position {
   display: inline-block;
   width: 30px;
   margin: 0 30px;
+}
+
+/*----------------------------------------------------------Home*/
+
+/*-------------header*/
+
+.Header {
+   width:100%;
+   height: 800px;
+   padding: 100px 12px 12pc 12px;
+  
+}
+
+/* Photo by Natasha Babenko from Pexels https://www.pexels.com/photo/selective-focus-photography-of-flower-arrangement-2565348/ */
+
+.main--pic {
+  background: url('../../assets/images/pexels-natasha-babenko-2565348.jpg') center right / cover fixed no-repeat;  
+  height: 640px;
+  background-color: #1F1E1F; 
+  border-radius: 12px; 
+}
+
+.overlay {
+  width: inherit;
+  height: inherit;
+  
+/* https://www.w3schools.com/css/css3_gradients.asp */
+
+  background-image: linear-gradient(to right, rgb(43, 41, 42, .8), rgb(39, 39, 39, .6), rgba(0, 0, 0, 0));
+  
+}
+
+.main--heading {
+  position: absolute;
+  top: 266.6px;
+  left: 20px;
+  padding-right: 20px;
+}
+
+.main--heading h1 {
+  font-size: 5em;
+}
+
+.home--container {
+  
+  
+}
+
+.home--content-container {
+  max-width: 1200px;
+  height: 100%;
+}
+
+
+
+/*----------------------------------------------------------Features*/
+
+.features--container {
+  
+  width: 100%;
+}
+
+.features--content-container {
+  max-width: 1200px;
+  height: 100%;
+  
+}
+
+
+/*--------------------------display: none;--------------------------------Contact*/
+
+.contact--container { 
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.contact--content-container {
+  max-width: 1200px;
+  height: 100%;
+
+}
+
+/*--------------------------display: none;--------------------------------Footer*/
+
+
+.card--text {
+  color: #EBEBEB;
+  border: 1px solid #35372F;
+  border-radius: 12px;
+  margin: 12px 6px;
+
+  background-color: #1F1E1F;
+}
+
+footer {
+  height: 360px;
+  background-color: #BC626F;
+  border-top: 2px solid  #35372F; 
+}
+
+.pic--frame {
+  height: 100%;
+  width: 100%;
+ display: flex; 
+ align-items: center;
+}
+
+.padding--cards {
+  padding: 6px 6px;
+}
+
+.footer--img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.padding--cards--container {
+  padding: 6px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .navbar-custom {
+     opacity: 100%;
+    }
+
+ .main--heading h1 {
+  font-size: 4em;
+   text-align: center; 
+ }
+}
+
+@media screen and (max-width: 768px) {
+  .main--heading h1 {
+  font-size: 3em;
+ }
+}
+
+@media screen and (max-width: 600px) {
+  .main--heading h1 {
+  font-size: 2.3em;
+ }
+}  
+
+@media screen and (max-width: 480px) {
+ .main--heading h1 {
+  font-size: 1.8em;
+ }
 }

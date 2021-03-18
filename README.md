@@ -23,7 +23,7 @@
 -   ### Design
     -   #### Colour Scheme
         -   Dark Theme used for the site.
-        -   Colour palette used [View](https://coolors.co/177e89-084c61-db3a34-ffc857-1f1e1f-0f0906-dcccbb)
+        -   Colour palette used [View](https://coolors.co/8a5275-bc626f-35372f-a96260-9e5785-ebebeb-1d1d20)
     -   #### Typography
         -   ROBOTO font is the main font used throughout the whole website with Sans Serif as the fallback.
     -   #### Media
