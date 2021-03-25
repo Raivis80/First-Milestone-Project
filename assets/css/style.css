@@ -222,7 +222,7 @@ body {
   left: 0px;
   top: 0px;
   z-index: 2;  
-  background-image: linear-gradient(180deg, rgb(169, 98, 96) 8%,  rgb(169, 98, 96, .8) 20%, rgb(169, 98, 96, .05) 35%, #303036 90%);
+  background-image: linear-gradient(180deg, rgb(169, 98, 96) 8%,  rgb(169, 98, 96, .3) 40%, rgb(169, 98, 96, .06) 60%, #303036 90%);
    
 }
 
@@ -231,7 +231,7 @@ body {
   height: 99%;  
   position: absolute;  
   z-index: 1;  
-  background: url('../images/pexels-visually-us-1477166.jpg') center center / cover no-repeat;
+  background: url('../images/pexels-visually-us-1477166_opt.jpg') center center / cover no-repeat;
   filter: blur(4px);   
 }
  
