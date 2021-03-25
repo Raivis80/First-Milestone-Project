@@ -1,25 +1,19 @@
 
-
-/* https://coolors.co/177e89-084c61-db3a34-ffc857-1f1e1f-0f0906-dcccbb */
-
-
 /* https://stackoverflow.com/ ----- Hide scrollbar for Chrome, Safari and Opera */
 body::-webkit-scrollbar {
   display: none;
 }
 
 /* Hide scrollbar for IE, Edge add Firefox */
-body {
-
-  font-family: 'Roboto', sans-serif;
+html {  
   -ms-overflow-style: none;
-  scrollbar-width: none; /* Firefox */
+  scrollbar-width: none;
 }
 
-hr {
-  margin:0;
+body {
+  background-color: #303036;
+  font-family: 'Roboto', sans-serif;
 }
-
 
 /* ----------------------styles--and----colors------------------------------- */
 
@@ -48,11 +42,16 @@ hr {
 }
 
 .primary--color {
-  color: #EBEBEB;
+  color: #d3d3d3;
 }
 
 .primary--color--b {
  color: #CCCCCC;
+}
+
+
+.secondary--color--b {
+  color: #c0c0c0;  
 }
 
 .secondary--color {
@@ -96,32 +95,24 @@ hr {
   background-color:   #A96260;
 }
 
-/* position-fixed */
 /*---------------------------------------------------------------------NavBar*/
 
 .navbar--custom {
-  width: 100%;
+  width: inherit;
   height: 63px;
   line-height: 36px;
-  opacity: .9;
   display: flex;
   position: fixed; 
-  z-index: 1;
-}
-
-.navbar--custom:hover {
-  opacity: 100%;
+  z-index: 4;
 }
 
 .dropdown--menu {
   background-color: rgb(48, 48, 54, .4);
   width: 120px;
   border: 1px solid #565661;
-  box-shadow: 0 0 4px 4px rgba(255, 255, 255, 0.06);
 }
 
 .dropdown--menu a {
- display: inline-block; 
  width: 100px;
  text-align: right;
  float: right;
@@ -138,13 +129,13 @@ hr {
 .brand--style a{
   width: 203px;
   text-decoration: none;
-  color: #CCCCCC;
+  color: #ccc;
   font-size: 36px;
-  border-bottom: 1px solid #b36865;
+  border-bottom: 1px solid #ad7472;
 }
 
 .brand--style a:hover {
-  opacity: .6;
+  opacity: .8;
 }
  
 .padding--0 {
@@ -156,7 +147,7 @@ hr {
   text-align: right;
   float: right;
   width: 209px;
-  border-bottom: 1px solid #b36865;
+  border-bottom: 1px solid #ad7472;
   margin: 12px;
 }
 
@@ -177,13 +168,10 @@ hr {
  display: inline-block; 
  width: 96px;
  letter-spacing: 1.5px;
- border: 1px solid rgb(173, 116, 114);
+ border: 1px solid #ad7472;
  border-radius: 12px;
 }
 
-.nav--link--block a:hover {
-    background-color: #b36865;
-}
 
 .btn--style a {
   color: #CCCCCC; 
@@ -196,21 +184,19 @@ hr {
 }
 
 .btn--hamburger {
-  margin: 9px 12px;
+  margin: 9px 6px;
   width: 45px;
   color:  #CCCCCC;
   border: none;
   background-color: #A96260; 
-  float: right;
- 
-  
+  float: right; 
 }
 
 .btn--hamburger i {
   font-size: 2em;
   margin-top: 6px;
   padding-bottom: 3px;
-  border-bottom: 1px solid #b36865;
+  border-bottom: 1px solid #ad7472;
   
 }
 
@@ -220,31 +206,53 @@ hr {
 
 /*----------------------------------------------------------Home*/
 
-/*-------------header*/
-
 
 .home--container {
-  min-height: 1200px;
-  background-color: #303036 ;
-  border-bottom: solid 36px  #303036;
+  width: 100%;
+  position: relative;    
+  padding-bottom: 63px;
 }
 
 
+
+.overlay {  
+  width: 100%;
+  height: 100%;  
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 2;  
+  background-image: linear-gradient(to bottom, rgb(169, 98, 96),rgb(169, 98, 96),rgb(169, 98, 96, .9),  rgb(0,0,0, .6), rgb(48, 48, 54));
+  
+}
+
+.main--pic {
+  width: 100%;
+  height: 99%;  
+  position: absolute;  
+  z-index: 1;  
+  background: url('../images/pexels-visually-us-1477166.jpg') bottom center / cover no-repeat;   
+}
  
-.header--content {
-    max-width: 1200px;
-    margin: auto;
-    padding: 93px 12px 63px 12px;
+.home--content {
+  width: 100%;
+  
+  position: inherit; 
+  z-index: 3;
+  
+  max-width: 1200px;
+  margin: auto;
+  padding: 93px 12px 0px 12px;
 }
 
 
 .main--heading {
   width: fit-content; 
-  border-bottom: 1px solid #b36865;
+  border-bottom: 1px solid #ad7472;
 }
 
 .main--heading h1 {
-  font-size: min(max(2em, 5vw),4em);
+  font-size: min(max(1.7em, 5vw),4em);
   margin-left: 100px; 
   margin-bottom: 36px;
   margin-top: 63px;
@@ -252,8 +260,7 @@ hr {
 }
 
 .main--heading span {
-  font-size: min(max(4em, 12vw), 9em);
-  text-shadow: 1px 2px #CCCCCC;
+  font-size: min(max(3.5em, 12vw), 9em);
 }
 
 .creative--solutions {
@@ -265,34 +272,22 @@ hr {
 
 }
 
-.main--pic {
-  background: url('../images/pexels-visually-us-1477166_opt.jpg') bottom center / cover no-repeat;  
-  background-color: #A96260; 
-}
-
-.overlay {  
-  
-/* https://www.w3schools.com/css/css3_gradients.asp */
-background-image: linear-gradient(to bottom, rgb(169, 98, 96) , rgb(0,0,0, .0), rgb(48, 48, 54));
-  
-}
-
-.home--content {
+.home--more--content {
   margin: auto;
-  padding: 63px 12px 63px 12px;
+  padding: 0 12px 36px 12px;
   max-width: 1200px;
 }
 
-.home--content h1 {
-     margin: 0 0 93px 0;
-     font-size: min(max(2em, 5vw), 4em);
+.home--more--content h1 {
+  padding: 32px 0 0 0;
+  font-size: min(max(2em, 5vw), 4em);
 }
 
-.home--content h2 {
+.home--more--content h2 {
   margin: 63px 0;
 }
 
-.home--content h3 {
+.home--more--content h3 {
   margin: 36px 0;
 }
 
@@ -300,7 +295,6 @@ background-image: linear-gradient(to bottom, rgb(169, 98, 96) , rgb(0,0,0, .0), 
 /*----------------------------------------------------------Galery*/
 
 .galery--container {
-  min-height: 1200px;
   width: 100%;
 }
 
@@ -321,6 +315,7 @@ background-image: linear-gradient(to bottom, rgb(169, 98, 96) , rgb(0,0,0, .0), 
 }
 
 .galery--content-container {
+  margin: auto;
   max-width: 1200px;
   height: 100%;
   padding: 0 12px 24px 12px;
@@ -332,6 +327,12 @@ background-image: linear-gradient(to bottom, rgb(169, 98, 96) , rgb(0,0,0, .0), 
   width:100%;
   height: 100%;
   border-radius: 12px;
+  box-shadow: 0 0 4px 3px rgba(71, 71, 71, 0.3);
+}
+
+.galery--content-container img:hover {
+  
+  opacity: .8;
 }
 
 .thumbnail-galery {
@@ -342,33 +343,84 @@ background-image: linear-gradient(to bottom, rgb(169, 98, 96) , rgb(0,0,0, .0), 
   margin-bottom: 9%;
 }
 
-/*--------------------------Reviews--------------------------------Contact page*/
+/*-------------------------------------------------------Contact page*/
 
-.contact--container { 
-    min-height: 800px;
-    padding: 36px 0 36px 0;
+.contact--container {     
+    padding: 36px 12px 36px 12px;
 }
 
 .contact--content-container {
+  margin: auto;
   max-width: 1200px;
-  height: 100%;
 }
-/*----------------------------------------------------------contact form*/
+
+/*--------------------------Review--Area*/
+
+.review--heading h3 {
+  margin: auto;
+  margin-bottom: 24px;
+  width: fit-content;
+  padding: 12px 12px 6px 12px;
+  border-bottom: 1px solid #565661;
+}
+
+.card--text {
+  color: #d3d3d3;
+  border-radius: 12px;
+  margin: 12px 6px;
+  background-color: #303036;
+}
+
+.card--text span{
+  text-transform: uppercase;
+  color: #B8B8B8;
+  border-bottom: 1px solid #565661;
+}
+
+
+
+.pic--frame {
+  height: 100%;
+  width: 100%;
+  display: flex; 
+  align-items: center;
+  border-radius: 12px;
+  box-shadow: 0 0 4px 4px rgba(255, 255, 255, 0.06);
+}
+
+
+.padding--cards {
+  padding: 6px;
+}
+
+.review--img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.padding--cards--container {
+  padding: 0 6px 36px 6px;
+}
+
+/*------------------------------------contact form*/
 .Contact--form {
+  padding: 0;
   margin: auto;
   width: 600px;
-  padding: 0 12px 0 12px;
   color: #B8B8B8;
 }
 
 .Contact--form h3 {
   width: fit-content;
   margin: auto;
+  margin-bottom: 24px;
   border-bottom: 1px solid #565661;
-  margin-bottom: 12px;
+  padding:12px 12px 6px 12px;
 }
 
-/* https://www.w3schools.com/css/tryit.asp?filename=trycss_forms--------------------*/
+/* Contact--form--help--from--here--https://www.w3schools.com/css/tryit.asp?filename=trycss_forms---*/
 
 .Contact--form input[type=text], 
 .Contact--form input[type=email],
@@ -400,22 +452,25 @@ textarea:hover {
   background-color: #3d3d44;
 }
 
+/*---auto--complere--background---color----https://stackoverflow.com/questions/2781549
+/removing-input-background-colour-for-chrome-autocomplete */
+
 .Contact--form input::-webkit-input-placeholder,
 .Contact--form textarea::-webkit-input-placeholder {
     color: #CCCCCC;
 }
 
-input:invalid {
-    background-color: #FFAAAA;
+input:-webkit-autofill { 
+    -webkit-text-fill-color: rgb(255, 255, 255);
+    -webkit-background-clip: text;
+    background-clip: text;
 }
 
-input:valid {
-    background-color: #AAFFAA;
-}
+/* ---------END Autocomplete--color------- */
 
 input[type=submit] {
   width: 100%;
-  background-color: #718f35;
+  background-color: #6d7a52;
   color: #CCCCCC;
   padding: 12px;
   border: none;
@@ -424,73 +479,21 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #7fa13b;
+  background-color: #78875a;
 }
 
-/* https://www.w3schools.com/css/tryit.asp?filename=trycss_form_textarea */
 
 .Contact--form textarea {
   resize: none;
-  height: 133.3px;; 
+  height: 133.3px;
 }
 
-.Contact--form textarea:after {
-  border: 1px solid #B8B8B8;
-  border-radius: 12px;
-}
-
-/*--------------------------Review--Content------------------------------*/
-
-
-.card--text {
-  color: #EBEBEB;
-  border-radius: 12px;
-  margin: 12px 6px;
-  background-color: #303036;
-}
-
-.card--text span{
-  color: #B8B8B8;
-}
-
-
-
-.pic--frame {
-  height: 100%;
-  width: 100%;
-  display: flex; 
-  align-items: center;
-  border-radius: 12px;
-  box-shadow: 0 0 4px 4px rgba(255, 255, 255, 0.06);
-}
-
-
-.padding--cards {
-  padding: 6px;
-}
-
-.review--img {
-  height: 100px;
-  width: 100px;
-  border-radius: 50%;
-  margin: 5px;
-}
-
-.padding--cards--container {
-  padding: 0 6px 36px 6px;
-}
-
-/* -------------------------------footer---------------------------------- */
-
-
-.social--footer {
-    text-align: center;
-    background-color: #303036;
-}
+/* -----------------------------------------footer-----------------------------*/
 
 .socia--footer--block {
     width: 250px;
     margin: auto;
+    text-align: center;
     background-color: #A96260;
     border-radius: 12px 12px 0 0;
     padding-top: 6px;
@@ -508,27 +511,81 @@ input[type=submit]:hover {
     background-color: #A96260; 
 }
 
-.footer--container--content {
-    text-align: center;
+.footer--container--content {   
     margin: auto;
-    padding: 12px 12px 12px 12px;
+    padding: 12px;
     max-width: 1200px;
 }
 
-.address {
-
+.footer--container--content ul {
+  padding: 0;
 }
 
 .footer--container--content li {
     margin: auto;
     padding: 6px 0;
     border-bottom: 1px solid #b36865;
-    width: 250px;
+    width: 200px;
+       
+    color: #d3d3d3;
     list-style: none;
+    letter-spacing: 1px;
+    font-size: .8em;
+}
+
+.footer--container--content p {
+  text-align: right;
 }
 
 
-/*--------------------------Media---scree-----------------------------*/
+.footer--container--content span{
+  text-align: left;
+  float: left;
+  width: 45px;
+  color: #B8B8B8;
+  font-weight: bold;
+  margin-right: 6px;
+}
+
+footer {
+  padding-top: 3px;
+  background-color: #303036;
+}
+
+footer h4 {
+  padding: 12px 12px 6px 12px;
+  margin: auto;
+  width: fit-content;
+  color: #ccc;
+  border-bottom: 1px solid #b36865;
+}
+
+.copyright {
+  text-align: center;
+  padding-bottom: 12px;
+  
+}
+
+.copyright p {
+  letter-spacing: 1px;
+  font-size: .8em;
+  margin-bottom: 0;
+}
+
+.copyright span {
+  font-weight: bold;
+}
+
+.icon {
+  text-align: center;
+}
+
+.icon i {
+  font-size: 2em;
+  color: #ccc;
+}
+
+/*--------------------------Media---screen-----------------------------*/
 
 
 @media screen and (max-width: 1024px) {
@@ -550,7 +607,6 @@ input[type=submit]:hover {
   .Contact--form {
   margin: auto;
   width: 100%;
-  padding: 0 12px 0 12px;
   }
    .two-pic-spacer {
   margin-bottom: 0;
