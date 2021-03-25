@@ -1,6 +1,6 @@
 <h1 align="center">My first User Experience (UX) Code Institute Milestone Project</h1>
 
-[View the live project here.](https://)
+[View the live project here.](https://raivis80.github.io/First-Milestone-Project/)
 
 
 ## Floral Fantasy 
@@ -70,8 +70,8 @@
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://raivis80.github.io/First-Milestone-Project/assets/project-files/W3C%20CSS%20Validator%20results%20for%20TextArea%20(CSS%20level%203%20+%20SVG).html)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://raivis80.github.io/First-Milestone-Project/assets/project-files/Showing%20results%20for%20contents%20of%20text-input%20area%20-%20Nu%20Html%20Checker.html)
 
 ### Further Testing
 
@@ -87,7 +87,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -  [stackoverflow.com](https://stackoverflow.com/): Useful website for code tips.
 
--  [www.w3schools](https://www.w3schools.com/):used to help with.
+-  [www.w3schools](https://www.w3schools.com/): Useful website for code tips.
 
 -  [Bootstrap5](https://getbootstrap.com/): Bootstrap Library was used to make site responsive.
 
