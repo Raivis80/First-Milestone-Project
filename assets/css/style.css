@@ -231,7 +231,7 @@ body {
   height: 99%;  
   position: absolute;  
   z-index: 1;  
-  background: url('../images/pexels-visually-us-1477166_opt.jpg') center center / cover no-repeat;
+  background: url('../images/pexels-visually-us-1477166.jpg') center center / cover no-repeat;
   filter: blur(4px);   
 }
  
