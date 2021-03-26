@@ -1,6 +1,6 @@
 ## My first User Experience (UX) Code Institute Milestone Project
 
-![responsivedesign](https://raivis80.github.io/First-Milestone-Project/assets/project-files/wireframes/responsivedesign.JPG)
+![responsivedesign](assets/project-files/wireframes/responsivedesign.JPG)
 
 
 ## Floral Fantasy
@@ -54,7 +54,7 @@
 
 ### Wireframes
 
--   Wireframes - [View](https://raivis80.github.io/First-Milestone-Project/assets/project-files/wireframes/wireframes.png)
+-   Wireframes - [View](assets/project-files/wireframes/wireframes.png)
 
 ### Features
 
@@ -67,8 +67,8 @@
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://raivis80.github.io/First-Milestone-Project/assets/project-files/validarors/W3C%20CSS%20Validator%20results%20for%20TextArea%20(CSS%20level%203%20+%20SVG).html)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://raivis80.github.io/First-Milestone-Project/assets/project-files/validators/Showing%20results%20for%20contents%20of%20text-input%20area%20-%20Nu%20Html%20Checker.html)
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](/workspace/First-Milestone-Project/assets/project-files/validators/HTML-Validator.html)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](assets/project-files/validators/CSS-validator.html)
 
 ### Further Testing
 
