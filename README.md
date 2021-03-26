@@ -1,9 +1,11 @@
-<h1 align="center">My first User Experience (UX) Code Institute Milestone Project</h1>
+## My first User Experience (UX) Code Institute Milestone Project
 
-[View the live project here.](https://raivis80.github.io/First-Milestone-Project/)
+![responsivedesign](https://raivis80.github.io/First-Milestone-Project/assets/project-files/wireframes/responsivedesign.JPG)
 
 
-## Floral Fantasy 
+## Floral Fantasy
+
+### [View the live project here.](https://raivis80.github.io/First-Milestone-Project/) 
 
 ### External Visiror's goal's
 
@@ -26,9 +28,8 @@
     -   #### Typography
         -   ROBOTO font is the main font used Serif as the fallback, family Yellowtail and family Special Elite was used for most headings.
     -   #### Media
-        -   Large, background hero image is designed to be striking and catch the user's attention.
-        -   Display product gallery to promote your products.
-
+        -   Large, background image is designed to be striking and catch the user's attention.
+        -   Photo Gallery & Product Image Gallery helps you display and promote product or service.
 ### Languages Used
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
@@ -51,15 +52,11 @@
 1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the wireframes.
 
-*   ### Wireframes
+### Wireframes
 
-    -   Home Page Wireframe - [View](https://github.com/)
+-   Wireframes - [View](https://raivis80.github.io/First-Milestone-Project/assets/project-files/wireframes/wireframes.png)
 
-    -   Mobile Wireframe - [View](https://github.com/)
-
-    -   Contact Us Page Wireframe - [View](https://github.com/)
-
-## Features
+### Features
 
 -   Responsive on most device sizes
 
@@ -70,8 +67,8 @@
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://raivis80.github.io/First-Milestone-Project/assets/project-files/W3C%20CSS%20Validator%20results%20for%20TextArea%20(CSS%20level%203%20+%20SVG).html)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://raivis80.github.io/First-Milestone-Project/assets/project-files/Showing%20results%20for%20contents%20of%20text-input%20area%20-%20Nu%20Html%20Checker.html)
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://raivis80.github.io/First-Milestone-Project/assets/project-files/validarors/W3C%20CSS%20Validator%20results%20for%20TextArea%20(CSS%20level%203%20+%20SVG).html)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://raivis80.github.io/First-Milestone-Project/assets/project-files/validators/Showing%20results%20for%20contents%20of%20text-input%20area%20-%20Nu%20Html%20Checker.html)
 
 ### Further Testing
 
@@ -95,10 +92,46 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -  [pexels.com](https://www.pexels.com/): Images used throughout site.
 
-### Images
-     
+-  [tinypng.com](https://tinypng.com/): Used for image compression.
 
+### Images 
 
+ - ### [pexels.com](https://www.pexels.com/)
+
+ - #### Main Image
+ 
+   - pexels-visually-us-1477166
+
+ - #### Galery
+
+   - pexels-visually-us-1477166
+ 
+   - pexels-cottonbro-4270232
+ 
+   - pexels-craig-adderley-2306275
+ 
+   - pexels-dmitry-zvolskiy-1721942
+ 
+   - pexels-emma-bauso-3585806
+ 
+   - pexels-fernanda-pereira-3885128
+ 
+   - pexels-ivan-57980
+ 
+   - pexels-olya-kobruseva-4661607
+ 
+   - pexels-rocsana-nicoleta-gurza-948185
+ 
+ - #### Reviews
+  
+   - pexels-amber-janssens-6847775
+ 
+   - pexels-christina-morillo-1181424
+ 
+   - pexels-deden-dicky-ramdhani-2916263
+ 
+   - pexels-la-miko-3681591
+ 
 ### Acknowledgements
 
 -   My Mentor for continuous helpful feedback.
