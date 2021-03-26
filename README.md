@@ -67,8 +67,9 @@
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](assets/project-files/validators/CSS-Validator.pdf)
--   [W3C CSS Validator](assets/project-files/validators/HTML-Vaalidator.pdf)
+-   [W3C Markup Validator](assets/project-files/validators/HTML-Vaalidator.pdf)
+-   [W3C CSS Validator](assets/project-files/validators/CSS-Validator.pdf)
+
 ### Further Testing
 
 -   Chrome DevTools was used to Test variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX for responsiveness.
