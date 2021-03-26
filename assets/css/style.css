@@ -127,7 +127,8 @@ body {
 }
 
 .brand--style a{
-  width: 203px;
+  text-align: center;
+  width: 210px;
   text-decoration: none;
   color: #ccc;
   font-size: 36px;
@@ -275,7 +276,7 @@ body {
 
 .home--more--content {
   margin: auto;
-  padding: 0 12px 36px 12px;
+  padding: 0 0px 36px 0px;
   max-width: 1200px;
 }
 
