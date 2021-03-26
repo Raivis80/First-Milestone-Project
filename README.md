@@ -1,11 +1,10 @@
-## My first User Experience (UX) Code Institute Milestone Project
+## HTML5 and CSS User Experience (UX) 1st Milestone Project.
+
 
 ![responsivedesign](assets/project-files/wireframes/responsivedesign.JPG)
 
+## "Floral Fantasy"  [View the live project here.](https://raivis80.github.io/First-Milestone-Project/) 
 
-## Floral Fantasy
-
-### [View the live project here.](https://raivis80.github.io/First-Milestone-Project/) 
 
 ### External Visiror's goal's
 
@@ -54,7 +53,7 @@
 
 ### Wireframes
 
--   Wireframes - [View](assets/project-files/wireframes/wireframes.png)
+![View](assets/project-files/wireframes/wireframes.png)
 
 ### Features
 
@@ -62,6 +61,7 @@
 
 -   Interactive elements
 
+-   Optimized Thumbnail images gallery for website performance 
 
 ## Testing
 
@@ -75,6 +75,15 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   Chrome DevTools was used to Test variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX for responsiveness.
 -   Testing was done to ensure that all Links were linking correctly.
 
+### Deployment GitHub Pages
+
+1. Log in to GitHub and navigate to your site's repository.
+2. At the top of the Repository, locate and click  Settings menu.
+3. Scroll down until you locate "GitHub Pages",
+4. Use the None or Branch drop-down menu and select a publishing source.
+5. Locate the now published site in the "GitHub Pages" section.
+
+ - [more info here](https://docs.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
 
 ## Credits
 
