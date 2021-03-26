@@ -122,16 +122,18 @@ body {
 }
 
 .brand--style {
-  display: flex;
+  width: 224px;
   padding: 12px;
 }
 
-.brand--style a{
-  text-align: center;
-  width: 210px;
+.brand--style a { 
+  display: block;
   text-decoration: none;
   color: #ccc;
+  padding-bottom: 2px;
   font-size: 36px;
+  
+  width: 200px;
   border-bottom: 1px solid #ad7472;
 }
 
