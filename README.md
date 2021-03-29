@@ -50,15 +50,17 @@
 - [Bootstrap 5.0.0-beta2:](https://getbootstrap.com/docs/5.0/getting-started/download/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
 - [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'ROBOTO, '.
+    - Google fonts were used throughout the site.
 - [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used throughout the website to add icons.
 - [jQuery:](https://jquery.com/)
-    - jQuery came with Bootstrap to make the navbar responsive.
+    - jQuery came with Bootstrap.
 - [Git](https://git-scm.com/)
     - Git was used for version control.
 - [GitHub:](https://github.com/)
     - GitHub is used to store the projects code.
+- [gitpod.io](https://gitpod.io/)
+    - gitpod Was used for codding.
 - [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the wireframes.
 
