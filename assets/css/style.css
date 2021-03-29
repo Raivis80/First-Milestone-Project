@@ -58,15 +58,6 @@ body {
   color: #B8B8B8;  
 }
 
-
-.cherry-red {
-  color: #56242c;
-}
-
-.purple {
- color: #A3668C;
-}
-
 .Orange {
   color: #A96260;
 }
@@ -135,7 +126,7 @@ body {
   width: fit-content;
   text-decoration: none;
   color: #ccc;
-  padding-bottom: 1px;
+  padding:0 12px 1px 6px;
   font-size: 36px;  
   border-bottom: 1px solid #ad7472;
 }
@@ -286,7 +277,7 @@ body {
 }
 
 .home--more--content h1 {
-  padding: 32px 0 0 0;
+  padding: 63px 0 0 0;
   font-size: min(max(2em, 5vw), 4em);
 }
 
@@ -309,12 +300,11 @@ body {
   width: 200px;
   margin: auto;
   background-color: #B8B8B8;
-  border-radius: 12px 12px 0 0;
-  
+  border-radius: 12px 12px 0 0;  
 }
 
 .galery--headding h2 {
-  padding-top: 6px;
+  padding: 6px 9px 0 9px;
   margin-bottom: 0;
   width: fit-content;
   margin: auto;
@@ -367,7 +357,7 @@ body {
   margin: auto;
   margin-bottom: 24px;
   width: fit-content;
-  padding: 12px 12px 6px 12px;
+  padding: 12px 9px 6px 9px;
   border-bottom: 1px solid #565661;
 }
 
@@ -413,7 +403,7 @@ body {
 
 /*------------------------------------contact form*/
 .Contact--form {
-  padding: 0;
+  padding:36px 0 0 0;
   margin: auto;
   width: 600px;
   color: #B8B8B8;
@@ -424,7 +414,7 @@ body {
   margin: auto;
   margin-bottom: 24px;
   border-bottom: 1px solid #565661;
-  padding:12px 12px 6px 12px;
+  padding: 0px 9px 6px 9px;
 }
 
 /* Contact--form--help--from--here--https://www.w3schools.com/css/tryit.asp?filename=trycss_forms--*/
@@ -530,10 +520,10 @@ input[type=submit]:hover {
 
 .footer--container--content li {
     margin: auto;
-    padding: 6px 0;
+    padding: 12px 0 12px 0;
     border-bottom: 1px solid #b36865;
     width: 220px;
-       
+    
     color: #d3d3d3;
     list-style: none;
     letter-spacing: 1px;
@@ -542,6 +532,7 @@ input[type=submit]:hover {
 
 .footer--container--content p {
   text-align: right;
+  margin-bottom: 0;  
 }
 
 
@@ -593,6 +584,11 @@ footer h4 {
 }
 
 /*--------------------------Media---screen-----------------------------*/
+@media screen and (max-width: 1200px) {
+  .galery--content-container {  
+    border-radius: 0px;
+ }
+}
 
 
 @media screen and (max-width: 1024px) {
