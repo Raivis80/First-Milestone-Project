@@ -207,7 +207,7 @@ body {
 .home--container {
   width: 100%;
   position: relative;    
-  padding-bottom: 63px;
+  /* padding-bottom: 63px; */
 }
 
 
@@ -240,7 +240,7 @@ body {
   
   max-width: 1200px;
   margin: auto;
-  padding: 93px 12px 0px 12px;
+  padding: 93px 12px 32px 12px;
 }
 
 
@@ -272,7 +272,6 @@ body {
 
 .home--more--content {
   margin: auto;
-  padding: 0 0px 36px 0px;
   max-width: 1200px;
 }
 
@@ -285,10 +284,30 @@ body {
   margin: 63px 0;
 }
 
-.home--more--content h3 {
-  margin: 36px 0;
+.home--more--content h4 {
 }
 
+/*----------------------------------------------------------About*/
+
+.about--container {
+    width: 100%;
+}
+
+.About--content-container h2{ 
+  margin: auto;
+  width: fit-content;
+  padding: 0px 9px 6px 9px;
+  color: #B8B8B8;
+  border-bottom: 1px solid #565661; 
+}
+
+.About--content-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 36px 12px;
+  height: 1200px;
+  background-color: #6d7a52;
+}
 
 /*----------------------------------------------------------Galery*/
 
@@ -299,6 +318,7 @@ body {
 .galery--headding .underline-galery {
   width: 200px;
   margin: auto;
+  margin-top: 36px;
   background-color: #B8B8B8;
   border-radius: 12px 12px 0 0;  
 }
@@ -313,6 +333,7 @@ body {
 
 .galery--content-container {
   margin: auto;
+  margin-bottom: 36px;
   max-width: 1200px;
   height: 100%;
   padding: 0 12px 24px 12px;
@@ -342,13 +363,14 @@ body {
 
 /*-------------------------------------------------------Contact page*/
 
-.contact--container {     
-    padding: 36px 12px 36px 12px;
+.contact--container {
+    width: 100%;  
 }
 
 .contact--content-container {
-  margin: auto;
   max-width: 1200px;
+  margin: auto;
+  padding: 36px 6px 36px 6px;
 }
 
 /*--------------------------Review--Area*/
@@ -357,14 +379,14 @@ body {
   margin: auto;
   margin-bottom: 24px;
   width: fit-content;
-  padding: 12px 9px 6px 9px;
+  padding: 0px 9px 6px 9px;
   border-bottom: 1px solid #565661;
 }
 
 .card--text {
   color: #d3d3d3;
   border-radius: 12px;
-  margin: 12px 6px;
+  margin: 12px 0;
   background-color: #303036;
 }
 
@@ -373,7 +395,6 @@ body {
   color: #B8B8B8;
   border-bottom: 1px solid #565661;
 }
-
 
 
 .pic--frame {
@@ -386,7 +407,7 @@ body {
 }
 
 
-.padding--cards {
+.review--cards {
   padding: 6px;
 }
 
@@ -397,7 +418,7 @@ body {
   margin: 5px;
 }
 
-.padding--cards--container {
+.review--cards--container {
   padding: 0 6px 36px 6px;
 }
 
@@ -490,6 +511,7 @@ input[type=submit]:hover {
 .socia--footer--block {
     width: 250px;
     margin: auto;
+    margin-top: 36px;
     text-align: center;
     background-color: #A96260;
     border-radius: 12px 12px 0 0;
