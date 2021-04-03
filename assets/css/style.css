@@ -94,7 +94,7 @@ body {
   line-height: 36px;
   display: flex;
   position: fixed; 
-  z-index: 4;
+  z-index: 9;
 }
 
 .dropdown--menu {
@@ -298,14 +298,36 @@ body {
   width:100%;
   height: auto;
   border-radius: 50%;
-  box-shadow: 0 0 4px 3px rgba(71, 71, 71, 0.3);
+  box-shadow: 0 0 4px 4px rgba(129, 129, 129, 0.3);
+  transition: 0.3s; 
 }
+
+.about--content .img-1 img:hover,
+.about--content .img-3 img:hover {
+   width: 105%;
+}
+
 
 .about--content .img-1,
 .about--content .img-2,
 .about--content .img-3 {
     position: absolute; 
-    padding: 12px; 
+    padding: 12px;
+    border-radius: 50%;
+}
+
+.about--content .img-1,
+.about--content .img-3 {
+   opacity: .6;
+   
+   transition: 0.3s;
+}
+
+.about--content .img-1:hover,
+.about--content .img-3:hover {
+    z-index: 6;
+    right: 5%;
+    opacity: 1;
 }
 
 .about--content .img-1 {
@@ -321,13 +343,11 @@ body {
     max-width: 500px;
 }
 
-
 .about--content .img-3 {
     right: 0%;
     bottom: 10%;
     max-width: 400px;
     z-index: 1;
-    max-width: 400px;
 }
 
 
@@ -338,7 +358,7 @@ body {
     max-width: 570px;
     height: fit-content;
     padding: 12px;
-    z-index: 3;
+    z-index: 7;
 
     background-color: rgb(48, 48, 54, .5);
     border: 1px solid #565661;
@@ -354,13 +374,11 @@ body {
 .about--content .occasion {
     left: 0%;
     top: 40%;
-    z-index: 3;
 }
 
 .let {
     left: 0%;
     top: 60%;
-    z-index: 3;
 }
 
 
