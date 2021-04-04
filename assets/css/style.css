@@ -217,7 +217,7 @@ body {
   left: 0px;
   top: 0px;
   z-index: 2;  
-  background-image: linear-gradient(rgb(169, 98, 96) 66px,   rgb(169, 98, 96, .5) 30%, rgb(48, 48, 54) 85%, rgb(48, 48, 54) 90%);   
+  background-image: linear-gradient(rgb(169, 98, 96) 66px,   rgb(169, 98, 96, .3) 50%, rgb(48, 48, 54, .2) 70%, rgb(48, 48, 54) 85%, rgb(48, 48, 54) 90%);   
 }
 
 .main--pic {
@@ -776,6 +776,23 @@ footer h4 {
     .we-choose {
       max-width:  50%;
     }
+
+    .home--content {
+        height: auto;
+        padding: 63px 12px 0px 12px;
+    }
+    .main--heading {
+        padding: 13% 0 5% 0;
+    }
+
+    .main--heading h3 {
+        padding: 9% 0;
+    }
+
+    .creative--solutions {       
+        padding: 0 6px 6px 6px;
+       
+    } 
 }
 
 
@@ -866,7 +883,14 @@ footer h4 {
         opacity: .8;
     }
 
+    .home--content {
+        height: auto;
+    }
+     .main--heading {
+        padding: 19% 0 9% 0;
+    }
 
+}
 
   
 @media screen and (max-width: 767px) {
@@ -936,6 +960,15 @@ footer h4 {
         margin-right: -50%;
         transform: translate(-50%, -50%)
   }
+  .home--content {
+        height: auto;
+        padding: 63px 12px 0px 12px;
+    }
+
+    .main--heading {
+        padding: 23% 0 9% 0;
+    }
+    
 }
 
 
@@ -944,8 +977,15 @@ footer h4 {
   margin: auto;
   width: 100%;
   }
+    .home--content {
+        height: auto;
+        padding: 63px 12px 0px 12px;
+    }
 
-@media screen and (max-width: 603px) {
+    .main--heading {
+        padding: 30% 0 18% 0;
+    }
+
     .two-pic-spacer {
         margin-bottom: 0;
   }
