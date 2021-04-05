@@ -210,23 +210,23 @@ body {
 }
 
 
-.overlay {  
+.overlay { 
   width: 100%;
   height: 100%;  
   position: absolute;
   left: 0px;
   top: 0px;
   z-index: 2;  
-  background-image: linear-gradient(rgb(169, 98, 96) 66px,   rgb(169, 98, 96, .3) 50%, rgb(48, 48, 54, .2) 70%, rgb(48, 48, 54) 85%, rgb(48, 48, 54) 90%);   
+  background-image: linear-gradient(rgb(169, 98, 96) 66px,   rgb(169, 98, 96, .3) 50%, rgb(48, 48, 54, .3) 70%, rgb(48, 48, 54, .5) 90%, rgb(48, 48, 54) 99%);   
 }
 
 .main--pic {
   width: 100%;
-  height: 95%;  
+  height: 99%;  
   position: absolute;  
   z-index: 1;  
-  background: url('../images/pexels-visually-us-1477166.jpg') center center / cover no-repeat;
-  filter: blur(1px);   
+  background: url('../images/pexels-visually-us-1477166.jpg') center center / cover;
+  filter: blur(3px);  
 }
  
 .home--content {
@@ -241,12 +241,12 @@ body {
 .main--heading {
   width: 100%;
   margin: auto;
-  padding: 12% 0;
+  padding: 12% 0 12% 0;
 }
 
 .main--heading h3 {
   font-size: min(max(1.7em, 8vw), 6em);
-  padding: 9% 0;
+  padding: 6% 0;
 }
 
 .main--heading h1 {
@@ -270,15 +270,14 @@ body {
 .About--content-container {
   position: relative;
   max-width: 1280px;
-  height: 1000px;
+  height: 936px;
   margin: auto;
-  padding: 36px 0px;
 }
 
 .about--headding h1 {
     margin: auto;
     width: fit-content;
-    padding: 0 9px 6px 9px;
+    padding: 0px 6px;
     color: #B8B8B8;
     border-bottom: 1px solid #565661;
 }
@@ -299,13 +298,13 @@ body {
 .about--content .img-1 img:hover,
 .about--content .img-2 img:hover,
 .about--content .img-3 img:hover {
-   width: 110%;
+   width: 106%;
 }
 
 .about--content .img-1,
 .about--content .img-3 {
-   opacity: .6;   
-   transition: 0.3s;
+   opacity: .7;   
+   transition: 0.2s;
 }
 
 .about--content .img-1:hover,
@@ -320,7 +319,7 @@ body {
 }
 
 .about--content .img-2:hover {
-    right: 10%;
+    right: 7%;
 }
 
 
@@ -334,13 +333,13 @@ body {
 
 .about--content .img-1 {
     right: 0%;
-    top: 13%;
+    top: 6%;
     max-width: 400px;
 }
 
 .about--content .img-2 {
     right: 5%;
-    top: 30%;
+    top: 26%;
     z-index: 2;
     max-width: 550px;
 }
@@ -361,14 +360,17 @@ body {
     height: auto;
     padding: 0 6px;
     z-index: 7;
-    /* line-height: 1.8em; */
 }
 
-.about--content p, .about--content h4 {
+.about--content p {
     border-bottom: 1px solid #565661;
     padding: 9px 6px;
 }
 
+.about--content h2 {
+    border-bottom: 1px solid #565661;
+    padding: 3px 6px;
+}
 
 .welcome-h4 {
     top: 15%;
@@ -384,24 +386,29 @@ body {
     max-width: 55%;
 }
 
+.welcome span{
+   font-size: 1.2em;
+   color: #CCCCCC;
+}
+
 
 .we-choose {
-    top: 46%;
+    top: 43%;
     max-width: 50%;
 }
 
 .occasion {
-    top: 66%;
+    top: 60%;
     max-width: 55%;
 }
 
 .let {
-   top: 85%;
+   top: 80%;
 }
 
 .let span{
     color: #CCCCCC;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 
@@ -412,7 +419,7 @@ body {
 }
 
 .galery--headding .underline-galery {
-  width: 200px;
+  width: autopx;
   margin: auto;
   margin-top: 36px;
 }
@@ -474,7 +481,7 @@ body {
   margin: auto;
   margin-bottom: 24px;
   width: fit-content;
-  padding: 0px 9px 6px 9px;
+  padding: 0px 9px 3px 9px;
   border-bottom: 1px solid #565661;
 }
 
@@ -530,7 +537,7 @@ body {
   margin: auto;
   margin-bottom: 24px;
   border-bottom: 1px solid #565661;
-  padding: 0px 9px 6px 9px;
+  padding: 0px 9px 3px 9px;
 }
 
 /* Contact--form--help--from--here--https://www.w3schools.com/css/tryit.asp?filename=trycss_forms--*/
@@ -682,13 +689,19 @@ footer h4 {
 }
 
 .copyright p {
+  font-weight: bold;
   letter-spacing: 1px;
   font-size: .8em;
   margin-bottom: 0;
 }
 
-.copyright span {
-  font-weight: bold;
+.copyright span { 
+  font-size: 1.2em;
+  color: #CCCCCC;
+}
+
+.welcome span{
+   
 }
 
 .icon {
@@ -739,7 +752,6 @@ footer h4 {
     .about--content .occasion,
     .about--content .let {
         line-height: 1.2em;
-
     }
 
     .welcome-h4 {
@@ -776,48 +788,33 @@ footer h4 {
     .we-choose {
       max-width:  50%;
     }
-
-    .home--content {
-        height: auto;
-        padding: 63px 12px 0px 12px;
-    }
-    .main--heading {
-        padding: 13% 0 5% 0;
-    }
-
-    .main--heading h3 {
-        padding: 9% 0;
-    }
-
-    .creative--solutions {       
-        padding: 0 6px 6px 6px;
-       
-    } 
 }
+
+@media screen and (max-width: 991.5px) {
+     .nav--link--block {
+        width: 100%;
+        margin: 12px;
+        text-align: right;
+ }
 
 
 @media screen and (max-width: 950px) {
-  .nav--link--block {
-    width: 100%;
-    margin: 12px;
-   text-align: right;
- }
-  .About--content-container {
-         height: 1080px; 
+    .About--content-container {
+         height: 936px; 
     }
 
      .about--content .img-1 {
-        top: 15%;
+        top: 9%;
         right: 0;
     }
 
     .about--content .img-2 {
-        top: 35%;
+        top: 26%;
         left: 0;
     }
  
     .about--content .img-3{
-        top: 70%;
+        top: 63%;
         right: 0%;
     }
      .about--content .img-1,
@@ -835,16 +832,16 @@ footer h4 {
     }
 
      .about--content .welcome {
-         top: 22%;
+         top: 13%;
      }
     
      .about--content .we-choose {
-        top: 52;
+        top: 43%;
         right: 0;
      }
       
      .about--content .occasion {
-        top: 78%;
+        top: 73%;
      }
         
 
@@ -857,11 +854,11 @@ footer h4 {
         font-size: .8em;
     }
     .welcome-h4 {
-        top:13%;
+        top:3%;
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%, -50%)
-  }
+    }
   
     .about--content .img-1 img:hover,
     .about--content .img-2 img:hover,
@@ -883,34 +880,50 @@ footer h4 {
         opacity: .8;
     }
 
-    .home--content {
-        height: auto;
-    }
-     .main--heading {
-        padding: 19% 0 9% 0;
+    .about--headding {
+        display: none;
     }
 
 }
 
   
 @media screen and (max-width: 767px) {
-  .About--content-container {
-         height: 936px; 
+
+    .main--heading h3 {
+        text-align: center;
+        font-size: min(max(1.7em, 8vw), 6em);
+        padding: 6% 0;
     }
 
+    .main--heading h1 {
+        text-align: center;
+        font-size: min(max(3.5em, 17vw), 14em);
+    }
+
+    .creative--solutions {
+        margin: auto;
+        padding: 0 6px 6px 6px;
+        font-size: min(max(.6em, 2.3vw), 2em);
+    } 
+
+
+  .About--content-container {
+         height: 1169px; 
+         
+    }
     .about--content .img-2 {
         display: none;
     }
 
     .about--content .img-1 {
-        top: 30.5%;
+        top: 19%;
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%, -50%)
     }
  
     .about--content .img-3{
-        top: 68.5%;
+        top: 66%;
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%, -50%)
@@ -918,23 +931,27 @@ footer h4 {
 
      .about--content .img-1,
      .about--content .img-3 {
-     max-width: 375px;
-     opacity: 100%;
+        max-width: 600px;
+        opacity: 100%;
      }
 
     .about--content .welcome,
     .about--content .we-choose,
     .about--content .occasion,
-    .about--content .let {
+    .about--content .let    {
+        text-align: center;       
         max-width: 600px;
-       
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%, -50%)
     }
 
+    .welcome-h4 {
+        display:none;
+    }
+
      .about--content .welcome {
-         top: 48%;
+         top: 40.33%;
      }
     
      .about--content .we-choose {
@@ -942,32 +959,27 @@ footer h4 {
      }
       
      .about--content .occasion {
-        top: 85%;
+        top: 88%;
      }
         
 
     .about--content .let {
         width:fit-content;
-        top:95%;
+        bottom: 0;
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%, -50%);
         font-size: .8em;
     }
-    .welcome-h4 {
-        top:13%;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%)
-  }
-  .home--content {
+    
+  /* .home--content {
         height: auto;
         padding: 63px 12px 0px 12px;
     }
 
     .main--heading {
         padding: 23% 0 9% 0;
-    }
+    } */
     
 }
 
@@ -977,14 +989,6 @@ footer h4 {
   margin: auto;
   width: 100%;
   }
-    .home--content {
-        height: auto;
-        padding: 63px 12px 0px 12px;
-    }
-
-    .main--heading {
-        padding: 30% 0 18% 0;
-    }
 
     .two-pic-spacer {
         margin-bottom: 0;
@@ -993,20 +997,91 @@ footer h4 {
 
 @media screen and (max-width: 572px) {
     .no--display {
-        display: none ;
-}
+        display: none ; 
+    }
+    .About--content-container {
+         height: 699px; 
+         
+    }
+    .about--content .img-2 {
+        display: none;
+    }
 
-@media screen and (max-width: 480px) {
-.main--heading h1 {
-  margin-left: 0px; 
- }
-  .about--content .let {
+    .about--content .img-1 {
+        top: 16.9%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+    }
+ 
+    .about--content .img-3{
+        top: 64.9%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+    }
+
+     .about--content .img-1,
+     .about--content .img-3 {
+        max-width: 375px;
+        opacity: 100%;
+     }
+
+
+    .about--content .welcome,
+    .about--content .we-choose,
+    .about--content .occasion,
+    .about--content .let    {
+        text-align: center; 
+        font-size: .8em;      
+        max-width: 444px;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+    }
+
+    .welcome-h4 {
+        display:none;
+    }
+
+     .about--content .welcome {
+         top: 39.9%;
+     }
+    
+     .about--content .we-choose {
+        display: none;
+     }
+      
+     .about--content .occasion {
+        top: 90%;
+     }
+        
+    .about--content .let {
+        width:fit-content;
+        bottom: 0;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
         font-size: .6em;
     }
 
-     .about--content .welcome,
-    .about--content .we-choose,
-    .about--content .occasion {
-       font-size: .8em;
+    .review--cards--container p,  .review--cards--container span{
+        font-size: .8em;
     }
+}
+
+@media screen and (max-width: 320px) {
+    .main--heading h3 {
+       font-size: 1.6em;
+    }
+
+    .main--heading h1,
+    .main--pic,
+    .overlay {
+        display: none;
+    }
+
+    .creative--solutions {
+        font-size: .5em;
+    }  
 }
