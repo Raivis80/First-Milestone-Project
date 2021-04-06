@@ -113,7 +113,7 @@ body {
 }
 
 .brand--style {
-  display: flex;
+  display: inline-block;
 }
 
 .brand--style--position {
@@ -927,7 +927,7 @@ footer h4 {
     .creative--solutions {
         margin: auto;
         padding: 0 6px 6px 6px;
-        font-size: min(max(.6em, 2.3vw), 2em);
+        font-size: min(max(.5em, 2.3vw), 2em);
     } 
 
     .About--content-container {
@@ -996,11 +996,24 @@ footer h4 {
     .review--cards--container p,  .review--cards--container span{
         font-size: .8em;
     }
+ }
+
+    @media screen and (max-width: 367px) {
+    .brand--style a { 
+        font-size: 32px;    
+    }
+
+    .main--heading h1 {
+        font-size: 55.5px;
+    }
+    .main--heading h3 {
+        font-size: 27px;
+    }
 }
 
-@media screen and (max-width: 320px) {
+    @media screen and (max-width: 320px) {
     .main--heading h3 {
-       font-size: 1.6em;
+       font-size: 24px;
     }
 
     .main--heading h1,
@@ -1012,4 +1025,5 @@ footer h4 {
     .creative--solutions {
         font-size: .5em;
     }  
-}
+ }
+
