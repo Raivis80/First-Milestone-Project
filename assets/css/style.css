@@ -248,12 +248,12 @@ body {
 }
 
 .main--heading h3 {
-  font-size: min(max(1.7em, 8vw), 6em);
+  font-size: min(max(1.7rem, 8vw), 6rem);
   padding: 6% 0;
 }
 
 .main--heading h1 {
-  font-size: min(max(3.5em, 17vw), 14em);
+  font-size: min(max(3.5rem, 17vw), 14rem);
 }
 
 .creative--solutions {
@@ -261,7 +261,7 @@ body {
   letter-spacing: 2px;
   padding: 0 6px 6px 6px;
   border-bottom: 1px solid #ad7472;
-  font-size: min(max(.6em, 2.3vw), 2em);
+  font-size: min(max(.6rem, 2.3vw), 2rem);
 } 
 
 /*----------------------------------------------------------About*/
@@ -875,8 +875,9 @@ footer h4 {
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%, -50%);
-        font-size: .8em;
+        font-size: 1rem;
     }
+     
     .about--content .welcome-h4 {
         top: 0;
         left: 50%;
@@ -915,19 +916,19 @@ footer h4 {
 
     .main--heading h3 {
         text-align: center;
-        font-size: min(max(1.7em, 8vw), 6em);
+        font-size: min(max(1.7rem, 8vw), 6rem);
         padding: 6% 0;
     }
 
     .main--heading h1 {
         text-align: center;
-        font-size: min(max(3.5em, 17vw), 14em);
+        font-size: min(max(3.5rem, 17vw), 14rem);
     }
 
     .creative--solutions {
         margin: auto;
         padding: 0 6px 6px 6px;
-        font-size: min(max(.5em, 2.3vw), 2em);
+        font-size: min(max(.6rem, 2.3vw), 2rem);
     } 
 
     .About--content-container {
@@ -975,6 +976,9 @@ footer h4 {
     .about {
       display: none;
     }
+     .let {
+        font-size: 2.5vw;
+    }
   
 }
 
@@ -996,10 +1000,11 @@ footer h4 {
     .review--cards--container p,  .review--cards--container span{
         font-size: .8em;
     }
+     
  }
 
     @media screen and (max-width: 367px) {
-    .brand--style a { 
+    /* .brand--style a { 
         font-size: 32px;    
     }
 
@@ -1008,10 +1013,10 @@ footer h4 {
     }
     .main--heading h3 {
         font-size: 27px;
-    }
+    } */
 }
 
-    @media screen and (max-width: 320px) {
+    @media screen and (max-width: 321px) {
     .main--heading h3 {
        font-size: 24px;
     }
@@ -1023,7 +1028,7 @@ footer h4 {
     }
 
     .creative--solutions {
-        font-size: .5em;
+        font-size: .5rem;
     }  
  }
 
