@@ -773,38 +773,44 @@ footer h4 {
     }
 
     .about--content .welcome-h4 {
-        top: 15%;
+        top: 12%;
         
     }
 
     .about--content .welcome {
-          top: 30%;
+          top: 27.7%;
         max-width: 60%;
     }
 
     .about--content .we-choose {
-        top: 48%;
+        top: 44.4%;
         max-width: 55%;
     }
 
    .about--content .occasion {
-        top: 70%;
+        top: 66.6%;
         max-width: 60%;
     }
 
     .about--content .let {
-        top: 92%;
+        top: 88.8%;
     }
 }
 
-@media screen and (max-width: 1124px) {
-    .about--content .welcome,
-    .about--content .occasion{
-        max-width: 55%;
+@media screen and (max-width: 1004px) {
+    .about--content .welcome {
+          top: 26.6%;
+        max-width: 57.7%;
     }
 
     .about--content .we-choose {
-      max-width:  50%;
+        top: 44.4%;
+        max-width: 53.3%;
+    }
+
+   .about--content .occasion {
+        top: 66.6%;
+        max-width: 57.7%;
     }
 }
 
@@ -818,11 +824,11 @@ footer h4 {
 
 @media screen and (max-width: 950px) {
     .About--content-container {
-         height: 936px; 
+         height: 900px; 
     }
 
      .about--content .img-1 {
-        top: 9%;
+        top: 3%;
         right: 0;
     }
 
@@ -850,16 +856,16 @@ footer h4 {
     }
 
      .about--content .welcome {
-         top: 13%;
+         top: 9.99%;
      }
     
      .about--content .we-choose {
-        top: 43%;
+        top: 40%;
         right: 0;
      }
       
      .about--content .occasion {
-        top: 73%;
+        top: 74%;
      }
         
 
@@ -871,8 +877,8 @@ footer h4 {
         transform: translate(-50%, -50%);
         font-size: .8em;
     }
-    .welcome-h4 {
-        top:3%;
+    .about--content .welcome-h4 {
+        top: 0;
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%, -50%)
@@ -964,6 +970,10 @@ footer h4 {
       height: 100%;
       border-radius: 12px;
       box-shadow: 0 0 4px 4px rgba(129, 129, 129, 0.3);
+    }
+
+    .about {
+      display: none;
     }
   
 }
