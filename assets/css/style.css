@@ -265,6 +265,9 @@ body {
 } 
 
 /*----------------------------------------------------------About*/
+.about--content--mobile {
+  display: none;
+}
 
 .about--container {
     width: 100%;   
@@ -286,7 +289,6 @@ body {
 }
 
 .about--content {
-  color: #CCCCCC;
   font-size: 1.2em;
 }
 
@@ -365,9 +367,11 @@ body {
     z-index: 7;
 }
 
+.about--content--mobile p,
 .about--content p {
     border-bottom: 1px solid #565661;
     padding: 9px 6px;
+    color: #CCCCCC;
 }
 
 .about--content h2 {
@@ -375,16 +379,17 @@ body {
     padding: 3px 6px;
 }
 
-.welcome-h4 {
+.about--content .welcome-h4 {
     top: 15%;
+   color: #B8B8B8;
 }
 
 .welcome-h4 span {
-    color: #CCCCCC;
-    font-size: 1.5em;
+    color: #ccc;
+    font-size: 1.2em;
 }
 
-.welcome {
+.about--content .welcome {
     top: 29%;
     max-width: 55%;
 }
@@ -395,21 +400,21 @@ body {
 }
 
 
-.we-choose {
+.about--content .we-choose {
     top: 43%;
     max-width: 50%;
 }
 
-.occasion {
+.about--content .occasion {
     top: 60%;
     max-width: 55%;
 }
 
-.let {
+.about--content .let {
    top: 80%;
 }
 
-.let span{
+.about--content .let span{
     color: #CCCCCC;
     font-size: 1.2em;
 }
@@ -449,13 +454,13 @@ body {
   width:100%;
   height: 100%;
   border-radius: 12px;
-  opacity: .8;
+  opacity: 1;
   box-shadow: 0 0 4px 4px rgba(129, 129, 129, 0.3);
   transition: 0.2s;
 }
 
 .galery--content-container img:hover {  
-  opacity: 1;
+  opacity: .8;
 }
 
 .thumbnail-galery {
@@ -767,38 +772,38 @@ footer h4 {
         line-height: 1.2em;
     }
 
-    .welcome-h4 {
+    .about--content .welcome-h4 {
         top: 15%;
         
     }
 
-    .welcome {
+    .about--content .welcome {
           top: 30%;
         max-width: 60%;
     }
 
-    .we-choose {
+    .about--content .we-choose {
         top: 48%;
         max-width: 55%;
     }
 
-   .occasion {
+   .about--content .occasion {
         top: 70%;
         max-width: 60%;
     }
 
-    .let {
+    .about--content .let {
         top: 92%;
     }
 }
 
 @media screen and (max-width: 1124px) {
-    .welcome,
-    .occasion{
+    .about--content .welcome,
+    .about--content .occasion{
         max-width: 55%;
     }
 
-    .we-choose {
+    .about--content .we-choose {
       max-width:  50%;
     }
 }
@@ -919,93 +924,56 @@ footer h4 {
         font-size: min(max(.6em, 2.3vw), 2em);
     } 
 
-
-  .About--content-container {
-         height: 1169px; 
-         
-    }
-    .about--content .img-2 {
-        display: none;
+    .About--content-container {
+         height: auto; 
     }
 
-    .about--content .img-1 {
-        top: 19%;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%)
-    }
- 
-    .about--content .img-3{
-        top: 66%;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%)
+    .about--content {
+      display: none;
     }
 
-     .about--content .img-1,
-     .about--content .img-3 {
-        max-width: 600px;
-        opacity: 100%;
-     }
-
-    .about--content .welcome,
-    .about--content .we-choose,
-    .about--content .occasion,
-    .about--content .let    {
-        text-align: center;       
-        max-width: 600px;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%)
+    .about--content--mobile {
+        display: flex;
+        flex-flow: column;
     }
 
-
-     .about--content .welcome {
-         top: 40.33%;
-     }
-
-     
-     .welcome-h4,
-     .about--content .we-choose {
-        display: none;
-     }
-
-     .btn--none {
-         display: none;
-     }
-      
-     .about--content .occasion {
-        top: 88%;
-     }
-        
-
-    .about--content .let {
-        width:fit-content;
-        bottom: 0;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%);
-        font-size: .8em;
-    }
-    
-  /* .home--content {
-        height: auto;
-        padding: 63px 12px 0px 12px;
+    .welcome-h4 {
+        display:none;
     }
 
-    .main--heading {
-        padding: 23% 0 9% 0;
-    } */
-    
+    .about--content--mobile .welcome,
+    .about--content--mobile .we-choose,
+    .about--content--mobile .occasion,
+    .about--content--mobile .let    {
+       max-width: 600px;
+       align-self: center;
+       text-align: center;
+    }
+
+    .about--content--mobile .img-1,
+    .about--content--mobile .img-2,
+    .about--content--mobile .img-3 {
+       max-width: 600px;
+       height: auto;
+       align-self: center;
+       margin: 9px;
+    }
+
+    .about--content--mobile img {
+      width: 100%;
+      height: 100%;
+      border-radius: 12px;
+      box-shadow: 0 0 4px 4px rgba(129, 129, 129, 0.3);
+    }
+  
 }
 
 
 @media screen and (max-width: 603px) {
   .Contact--form {
-  margin: auto;
-  width: 100%;
+    margin: auto;
+    width: 100%;
   }
-
     .two-pic-spacer {
         margin-bottom: 0;
   }
@@ -1015,72 +983,6 @@ footer h4 {
     .no--display {
         display: none ; 
     }
-    .About--content-container {
-         height: 699px; 
-         
-    }
-    .about--content .img-2 {
-        display: none;
-    }
-
-    .about--content .img-1 {
-        top: 16.9%;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%)
-    }
- 
-    .about--content .img-3{
-        top: 64.9%;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%)
-    }
-
-     .about--content .img-1,
-     .about--content .img-3 {
-        max-width: 375px;
-        opacity: 100%;
-     }
-
-
-    .about--content .welcome,
-    .about--content .we-choose,
-    .about--content .occasion,
-    .about--content .let    {
-        text-align: center; 
-        font-size: .8em;      
-        max-width: 444px;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%)
-    }
-
-    .welcome-h4 {
-        display:none;
-    }
-
-     .about--content .welcome {
-         top: 39.9%;
-     }
-    
-     .about--content .we-choose {
-        display: none;
-     }
-      
-     .about--content .occasion {
-        top: 90%;
-     }
-        
-    .about--content .let {
-        width:fit-content;
-        bottom: 0;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%);
-        font-size: .6em;
-    }
-
     .review--cards--container p,  .review--cards--container span{
         font-size: .8em;
     }
