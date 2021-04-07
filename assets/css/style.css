@@ -86,6 +86,11 @@ body {
   background-color:   #A96260;
 }
 
+span{
+    color: #b8b8b8;
+    font-size: 1.3em;
+}
+
 /*---------------------------------------------------------------------NavBar*/
 
 .navbar--custom {
@@ -125,7 +130,7 @@ body {
   display: block;
   width: fit-content;
   text-decoration: none;
-  color: #ccc;
+  color: #CCCCCC;
   padding:0 12px 1px 6px;
   font-size: 36px;  
   border-bottom: 1px solid #ad7472;
@@ -193,7 +198,7 @@ body {
 }
 
 .btn--hamburger i {
-  font-size: 2em;
+  font-size: 2rem;
   margin-top: 6px;
   padding-bottom: 3px;
   border-bottom: 1px solid #ad7472;
@@ -258,7 +263,6 @@ body {
 
 .creative--solutions {
   width: fit-content;
-  letter-spacing: 2px;
   padding: 0 6px 6px 6px;
   border-bottom: 1px solid #ad7472;
   font-size: min(max(.6rem, 2.3vw), 2rem);
@@ -363,15 +367,16 @@ body {
 .about--content .let {
     position: absolute;   
     height: auto;
-    padding: 0 6px;
     z-index: 7;
 }
 
-.about--content--mobile p,
-.about--content p {
+
+.welcome,
+.we-choose,
+.occasion {
     border-bottom: 1px solid #565661;
     padding: 9px 6px;
-    color: #CCCCCC;
+    color: #d3d3d3;
 }
 
 .about--content h2 {
@@ -381,22 +386,13 @@ body {
 
 .about--content .welcome-h4 {
     top: 15%;
-   color: #B8B8B8;
+   color: #d3d3d3;
 }
 
-.welcome-h4 span {
-    color: #ccc;
-    font-size: 1.2em;
-}
 
 .about--content .welcome {
     top: 29%;
     max-width: 55%;
-}
-
-.welcome span{
-   font-size: 1.2em;
-   color: #CCCCCC;
 }
 
 
@@ -414,11 +410,23 @@ body {
    top: 80%;
 }
 
-.about--content .let span{
-    color: #CCCCCC;
-    font-size: 1.2em;
+.let p {
+ margin: auto 0;
+
 }
 
+.let {
+  border: 1px solid #565661;
+  border-radius: 12px;
+  padding: 12px;
+  color: #c0c0c0; 
+  transition: width 0.4s ease-in-out;
+  box-shadow: 0 0 4px 4px rgba(255, 255, 255, 0.06);
+}
+
+.let:hover {
+  background-color: #3d3d44;
+}
 
 /*----------------------------------------------------------Galery*/
 
@@ -480,10 +488,37 @@ body {
 .contact--content-container {
   max-width: 1280px;
   margin: auto;
-  padding: 36px 6px 36px 6px;
+  padding: 36px 0px;
 }
 
 /*--------------------------Review--Area*/
+
+.review--container {
+  padding: 0 12px 15px 12px;
+}
+
+
+.review--padding {
+  min-height: auto;
+  max-width: 600px;
+  padding: 9px;
+}
+
+.pic--frame {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  border-radius: 12px; 
+  box-shadow: 0 0 4px 4px rgba(255, 255, 255, 0.06);
+}
+
+
+.review--img {
+  height: 100px;
+  width: 100px;
+  margin: 3px;
+  border-radius: 50%;
+}
 
 .review--heading h2 {
   margin: auto;
@@ -493,54 +528,28 @@ body {
   border-bottom: 1px solid #565661;
 }
 
-.card--text {
+.pic--frame p{
+  margin-top: auto;
+  margin-bottom: auto;
   color: #d3d3d3;
-  border-radius: 12px;
-  margin: 12px 0;
-  background-color: #303036;
+ padding: 6px;
 }
 
-.card--text span{
+.pic--frame span{
   text-transform: uppercase;
   color: #B8B8B8;
   border-bottom: 1px solid #565661;
 }
 
-
-.pic--frame {
-  height: 100%;
-  width: 100%;
-  display: flex; 
-  align-items: center;
-  border-radius: 12px;
-  box-shadow: 0 0 4px 4px rgba(255, 255, 255, 0.06);
-}
-
-
-.review--cards {
-  padding: 6px;
-}
-
-.review--img {
-  height: 100px;
-  width: 100px;
-  border-radius: 50%;
-  margin: 5px;
-}
-
-.review--cards--container {
-  padding: 0 6px 36px 6px;
-}
-
 /*------------------------------------contact form*/
-.Contact--form {
-  padding:36px 0 0 0;
+.contact--form {
+  padding:36px 9px 0 9px;
   margin: auto;
-  width: 600px;
+  max-width: 600px;
   color: #B8B8B8;
 }
 
-.Contact--form h2 {
+.contact--form h2 {
   width: fit-content;
   margin: auto;
   margin-bottom: 24px;
@@ -550,9 +559,9 @@ body {
 
 /* Contact--form--help--from--here--https://www.w3schools.com/css/tryit.asp?filename=trycss_forms--*/
 
-.Contact--form input[type=text], 
-.Contact--form input[type=email],
-.Contact--form textarea {
+.contact--form input[type=text], 
+.contact--form input[type=email],
+.contact--form textarea {
   width: 100%;
   display: inline-block;
   background-color: #303036;
@@ -583,8 +592,8 @@ textarea:hover {
 /*---auto--complere--background---color--FAILED--CSS--VALIDATION---https://stackoverflow.com/questions/2781549
 /removing-input-background-colour-for-chrome-autocomplete---*/
 
-.Contact--form input::-webkit-input-placeholder,
-.Contact--form textarea::-webkit-input-placeholder {
+.contact--form input::-webkit-input-placeholder,
+.contact--form textarea::-webkit-input-placeholder {
     color: #CCCCCC;
 }
 
@@ -643,7 +652,7 @@ input[type=submit]:hover {
 .footer--container--content {   
     margin: auto;
     padding: 12px;
-    max-width: 1200px;
+    max-width: 1280px;
 }
 
 .footer--container--content ul {
@@ -718,17 +727,33 @@ footer h4 {
   color: #CCCCCC;
 }
 
-.welcome span{
-   
-}
-
 .icon {
   text-align: center;
 }
 
 .icon i {
-  font-size: 2em;
+  font-size: 2rem;
   color: #ccc;
+}
+
+.map-outer {
+  padding: 0;
+  margin: auto;
+}
+
+.map-icon i {
+    padding: 12px 0;
+}
+
+.map {
+  margin: auto;
+  height: 150px;
+  max-width: 600px;
+}
+
+.map iframe {
+  width: 100%;
+  height: 100%;
 }
 
 /*--------------------------Media---screen-----------------------------*/
@@ -820,7 +845,7 @@ footer h4 {
         margin: 12px;
         text-align: right;
  }
-
+}
 
 @media screen and (max-width: 950px) {
     .About--content-container {
@@ -913,23 +938,39 @@ footer h4 {
 
   
 @media screen and (max-width: 767px) {
+/* ---------------------------Home-----page------- */
+   .home--content {
+     padding-left: 0px;
+     padding-right: 0px;
+   }
 
-    .main--heading h3 {
-        text-align: center;
-        font-size: min(max(1.7rem, 8vw), 6rem);
-        padding: 6% 0;
+  .main--heading h3 {
+    text-align: center;
+    font-size: 9.38vw;
+  }
+
+  .main--heading h1 {
+    margin-left: 0;
+    font-size: 18.2vw;
+  }
+
+  .creative--div {
+    border-bottom: 1px solid #565661;
+  }
+
+  .creative--solutions {
+    padding-left: 0;
+    padding-right: 0;
+    margin:  auto;
+    border: none;
+  } 
+  
+    .review--container, 
+    .galery--content-container {
+      max-width: 600px;
+      margin: auto;
+      border-bottom: 1px solid #565661;
     }
-
-    .main--heading h1 {
-        text-align: center;
-        font-size: min(max(3.5rem, 17vw), 14rem);
-    }
-
-    .creative--solutions {
-        margin: auto;
-        padding: 0 6px 6px 6px;
-        font-size: min(max(.6rem, 2.3vw), 2rem);
-    } 
 
     .About--content-container {
          height: auto; 
@@ -977,7 +1018,12 @@ footer h4 {
       display: none;
     }
      .let {
-        font-size: 2.5vw;
+       padding: 12px 9px;
+       margin-top: 24px;
+    }
+
+    .pic--frame {
+     font-size: .8rem;
     }
   
 }
@@ -1003,32 +1049,21 @@ footer h4 {
      
  }
 
-    @media screen and (max-width: 367px) {
-    /* .brand--style a { 
+@media screen and (max-width: 390px) {
+      .brand--style a { 
         font-size: 32px;    
     }
-
-    .main--heading h1 {
-        font-size: 55.5px;
+    .let {
+       font-size: 3.5vw;
     }
-    .main--heading h3 {
-        font-size: 27px;
-    } */
+ 
 }
 
-    @media screen and (max-width: 321px) {
-    .main--heading h3 {
-       font-size: 24px;
-    }
-
+@media screen and (max-width: 321px) {
     .main--heading h1,
     .main--pic,
     .overlay {
         display: none;
     }
-
-    .creative--solutions {
-        font-size: .5rem;
-    }  
  }
 
