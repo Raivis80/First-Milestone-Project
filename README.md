@@ -21,7 +21,8 @@
   3. [Media](#Media)
   4. [Languages](#Languages-Used)
   5. [Technologies Used](#Technologies-and-Frameworks)
-  6. [Wireframes](#Wireframes)     
+  6. [Wireframes](#Wireframes)
+  7. [Site Layout Design](#Site-Layout-Design)     
 ### 5. [Testing](#Testing)
   1. [W3C Markup Validator](#W3C-Markup-Validator)
   2. [Further Testing](#Further-Testing)  
@@ -36,7 +37,7 @@
 
 ## Itroduction
 
-This website was designed for florists, The man focus of the site is to create an online presence allowing members to receive fast venu or any occasion flower arrangements quotes from the best wedding florists, to find out relevant information. 
+This website was designed for florists, The man focus of the site is to create an online presence allowing members to receive fast venu or, occasion flower arrangement quotes from the best wedding florists and to find out relevant information. 
 
 This is the first of four Milestone Projects that the developer must complete during their Full Stack Web Development Program at The Code Institute. 
 
