@@ -12,9 +12,10 @@
 ### 1. [Introduction](#Itroduction)
 
 ### 2. [UX](#UX)
-  1. [External Visiror's goal's](#External-Visiror's-goal's)
-  2. [Site owner's goal's](#Site-owner's-goal's)
-  3. [Features](#Features)
+  1. [Target audiences](#Target-audiences)
+  2. [External Visiror's goal's](#External-Visiror's-goal's)
+  3. [Site owner's goal's](#Site-owner's-goal's)
+  4. [Features](#Features)
 ### 3. [Design](#Design)
   1. [Colour Scheme](#Colour-Scheme)
   2. [Fonts](#Fonts)
@@ -45,8 +46,13 @@ The main requirements were to make a responsive website with a minimum of three 
 
 ## UX
 
+- ### Target audiences
+    - Wedding planners
+    - Event organisers
+    - Current customers
+
  - ### External Visiror's goal's
-        1. To receive - flower Bouquets arrangements, Event arrangements quotes.
+        1. To get quotes for flower arrangemens for weddings or, event flower arrangements.
         2. To be able to navigate throughout the site to find any occasion flower arrangements.
         3. To locate Information on the location, contact details.
         4. To locate links to social media for external resources. 
@@ -120,7 +126,7 @@ The main requirements were to make a responsive website with a minimum of three 
         
         *Originaly about pabe was designed using CSS properties such as float, positioning of elements but later it was redesigned as it was inconvenient for responsive design and required element repositioning on each screen size, later It was redesigned to be responsive following FlexBox Design as for viewport width changes sizes.*
     
-    - Top Picks Feature 
+    - #### Top Picks Feature 
         - Top Picks Feature, features four thumblail images with current offers for the company. 
         - Top Picks Feature was designed to be responsive and using FlexBox design for responsiveness.
         - It was designed to overlap each image using negative margin and z-index. Text was palced over the images using "position:absolute".
@@ -130,13 +136,22 @@ The main requirements were to make a responsive website with a minimum of three 
     - Thumbnail Gallery a grid of images that when clicked on, open in a pop-up full view images. 
     - The gallery configuration designed to have smaller images for Thumbnails and Large Images stored separately on the website.
     - The gallery is fully responsive, bootstrap Grid system was used for responsive galery layout desing.
+    
+    #### **Recent Reviews**
+    - Reviewsis fully responsive, bootstrap Grid system was used for responsive galery layout desing.
+    - For the content inside review box, flexBox design was implemented to be able to align an image next to a paragraph.
+
     #### **Contact Page Design** 
-    - Review Cards 
-    - Contact Form
+    - Contact Form is responsive on most devices.
+    - Contact form help from [here](https://www.w3schools.com/css/tryit.asp?filename=trycss_forms)
+    - Custom input background colour for chrome autocomplete Code copy paste from [here](https://stackoverflow.com/questions/2781549) 
     
     #### **Footer**
-    - 
-## Testing
+    - Footer has 3 main block elements: 1. address for the company, 2. Contact Information, 3. Google Map embeded.
+    - Footer was designed to be responsive using FlexBox design and for mobile devices, block element order was change using FlexBox :order sub-property. 
+    - Iframe embeded Google maps, showing the location, fully responsive on most devices.
+    - Footer Top features social media links.
+
 ### W3C Markup Validator
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
