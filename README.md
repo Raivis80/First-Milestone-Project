@@ -13,28 +13,30 @@
 
 ### 2. [UX](#UX)
   1. [Target audiences](#Target-audiences)
-  2. [External Visiror's goal's](#External-Visiror's-goal's)
-  3. [Site owner's goal's](#Site-owner's-goal's)
-  4. [Features](#Features)
+  1. [External Visiror's goal's](#External-Visiror's-goal's)
+  1. [Site owner's goal's](#Site-owner's-goal's)
+  1. [Features](#Features)
 ### 3. [Design](#Design)
   1. [Colour Scheme](#Colour-Scheme)
-  2. [Fonts](#Fonts)
-  3. [Media](#Media)
-  4. [Languages](#Languages-Used)
-  5. [Technologies Used](#Technologies-and-Frameworks)
-  6. [Wireframes](#Wireframes)
-  7. [Website Design](#Website-Design)     
-### 5. [Testing](#Testing)
+  1. [Fonts](#Fonts)
+  1. [Media](#Media)
+  1. [Languages](#Languages-Used)
+  1. [Technologies Used](#Technologies-and-Frameworks)
+  1. [Wireframes](#Wireframes)
+  1. [Website Design](#Website-Design)     
+### 4. [Testing](#Testing)
   1. [W3C Markup Validator](#W3C-Markup-Validator)
-  2. [Further Testing](#Further-Testing)  
-### 7. [Deployment](#Deployment)
+  1. [Bugs and Issues](#Bugs-and-Issues)
+  1. [Fixed Bugs and Issues](#Fixed-Bugs-and-Issues)
+  1. [Further Testing](#Further-Testing)  
+### 5. [Deployment](#Deployment)
   1. [Deployment on GitHub Pages](#Deploying-on-GitHub-Pages)
-  2. [Forking the Repository](#Forking-the-Repository)
-  3. [Creating a Clone](#Creating-a-Clone)
-### 8. [Credits](#Credits)
+  1 [Forking the Repository](#Forking-the-Repository)
+  1. [Creating a Clone](#Creating-a-Clone)
+### 6. [Credits](#Credits)
   1. [Helpfull sites](#Helpfull-sites)
-  2. [Images](#Images)
-  3. [Acknowledgements](#Acknowledgements)
+  1. [Images](#Images)
+  1. [Acknowledgements](#Acknowledgements)
 
 ## Itroduction
 
@@ -47,28 +49,28 @@ The main requirements were to make a responsive website with a minimum of three 
 ## UX
 
 - ### Target audiences
-    - Wedding planners
-    - Event organisers
-    - Current customers
+    1. Wedding planners
+    1. Event organisers
+    1. Current customers
 
  - ### External Visiror's goal's
-        1. To get quotes for flower arrangemens for weddings or, event flower arrangements.
-        2. To be able to navigate throughout the site to find any occasion flower arrangements.
-        3. To locate Information on the location, contact details.
-        4. To locate links to social media for external resources. 
+    1. To get quotes for flower arrangemens for weddings or, event flower arrangements.
+    1. To be able to navigate throughout the site to find any occasion flower arrangements.
+    1. To locate Information on the location, contact details.
+    1. To locate links to social media for external resources. 
 
  - ### Site owner's goal's
-        1. To be able to attract and retaining potential customers.
-        2. Showcase photos from the flower Bouquets, Events catalog.
-        3. merchandise occasion flower arrangements.
-        4. To Provide Social media links to external resources and contact information.
+    1. To be able to attract and retaining potential customers.
+    1. Showcase photos from the flower Bouquets, Events catalog.
+    1. merchandise occasion flower arrangements.
+    1. To Provide Social media links to external resources and contact information.
 
  - ### Features
-    - Responsive on most device sizes.
-    - Interactive elements.
-    - Thumbnail picture gallery.
-    - Contact Form and contact Information.
-    - links to external resources, such as social media.
+    1. Responsive on most device sizes.
+    1. Interactive elements.
+    1. Thumbnail picture gallery.
+    1. Contact Form and contact Information.
+    1. links to external resources, such as social media.
 
 ## Design
 - ### Colour Scheme
@@ -103,7 +105,27 @@ The main requirements were to make a responsive website with a minimum of three 
 - ### Wireframes
 ![View](assets/project-files/wireframes/wireframes.png)
 
-- ### Website Design
+### Website Design
+ - ### Desktop version
+
+![responsivedesign](assets/project-files/wireframes/site/Home-page-desktop.JPG) 
+![responsivedesign](assets/project-files/wireframes/site/About-Page-desktop.JPG)
+![responsivedesign](assets/project-files/wireframes/site/Glery-Desktop.JPG) 
+![responsivedesign](assets/project-files/wireframes/site/Contact-Page-Desktop.JPG)
+
+- ### Tablet version
+
+![responsivedesign](assets/project-files/wireframes/site/Tablet-1.JPG) 
+![responsivedesign](assets/project-files/wireframes/site/tablet-2.JPG) 
+![responsivedesign](assets/project-files/wireframes/site/Tablet-3.JPG)
+
+- ### Mobile version
+
+![responsivedesign](assets/project-files/wireframes/site/Mobile-1.JPG) 
+![responsivedesign](assets/project-files/wireframes/site/Mobile-2.JPG) 
+![responsivedesign](assets/project-files/wireframes/site/Mobile-3.JPG) 
+![responsivedesign](assets/project-files/wireframes/site/Mobile-4.JPG)
+
   - Website features Long-Scrolling Design with over 4 pages. "Home Page", "About Us", "Galery" and "Contact Us" page.
   - Website is Responsive on most devices such us - mobile devices and Large screen desktop PC's.
 
@@ -151,6 +173,7 @@ The main requirements were to make a responsive website with a minimum of three 
     - Footer was designed to be responsive using FlexBox system design. To change Element order For mobile devices, CSS Media query technique with FlexBox CSS property "flex-item :order" was used to rearrange Element order. 
     - Iframe embeded Google maps, showing the location, fully responsive on most devices.
     - Footer Top features social media links.
+## Testing
 
 ### W3C Markup Validator
     The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
@@ -198,36 +221,36 @@ The main requirements were to make a responsive website with a minimum of three 
 ## Deployment
 - ### Deploying on GitHub Pages
 1. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").
-2. Locate the [GitHub Repository](https://raivis80.github.io/First-Milestone-Project/ "Link to GitHub Repo").
-3. At the top of the repository, select Settings from the menu items.
-4. Scroll down the Settings page to the "GitHub Pages" section.
-5. Under "Source" click the drop-down menu labelled "None" and select "Master Branch".
-6. Upon selection, the page will automatically refresh meaning that the website is now deployed.
-7. Scroll back down to the "GitHub Pages" section to retrieve the deployed link.
-8. At the time of submitting this Milestone project the Development Branch and Master Branch are identical.
+1. Locate the [GitHub Repository](https://raivis80.github.io/First-Milestone-Project/ "Link to GitHub Repo").
+1. At the top of the repository, select Settings from the menu items.
+1. Scroll down the Settings page to the "GitHub Pages" section.
+1. Under "Source" click the drop-down menu labelled "None" and select "Master Branch".
+1. Upon selection, the page will automatically refresh meaning that the website is now deployed.
+1. Scroll back down to the "GitHub Pages" section to retrieve the deployed link.
+1. At the time of submitting this Milestone project the Development Branch and Master Branch are identical.
 
 - ### Forking the Repository
 1. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").
-2. Locate the [GitHub Repository](https://raivis80.github.io/First-Milestone-Project/ "Link to GitHub Repo").
-3. At the top of the repository, on the right side of the page, select "Fork"
-4. You should now have a copy of the original repository in your GitHub account.
+1. Locate the [GitHub Repository](https://raivis80.github.io/First-Milestone-Project/ "Link to GitHub Repo").
+1. At the top of the repository, on the right side of the page, select "Fork"
+1. You should now have a copy of the original repository in your GitHub account.
 
 - ### Creating a Clone
 1. Install the [GitPod Browser](https://www.gitpod.io/docs/browser-extension/ "Link to Gitpod Browser extension download") Extension for Chrome.
-2. After installation, restart the browser.
-3. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").
-2. Locate the [GitHub Repository](https://raivis80.github.io/First-Milestone-Project/ "Link to GitHub Repo").
-5. Click the green "GitPod" button in the top right corner of the repository.
+1. After installation, restart the browser.
+1. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").
+1. Locate the [GitHub Repository](https://raivis80.github.io/First-Milestone-Project/ "Link to GitHub Repo").
+1. Click the green "GitPod" button in the top right corner of the repository.
 This will trigger a new gitPod workspace to be created from the code in github where you can work locally.
 
-   - How to run this project within a local IDE, such as VSCode:
+ - How to run this project within a local IDE, such as VSCode:
 1. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").
-2. Locate the [GitHub Repository](https://raivis80.github.io/First-Milestone-Project/ "Link to GitHub Repo").
-3. Under the repository name, click "Clone or download".
-4. In the Clone with HTTPs section, copy the clone URL for the repository.
-5. In your local IDE open the terminal.
-6. Change the current working directory to the location where you want the cloned directory to be made.
-7. Type 'git clone', and then paste the URL you copied in Step 3.
+1. Locate the [GitHub Repository](https://raivis80.github.io/First-Milestone-Project/ "Link to GitHub Repo").
+1. Under the repository name, click "Clone or download".
+1. In the Clone with HTTPs section, copy the clone URL for the repository.
+1. In your local IDE open the terminal.
+1. Change the current working directory to the location where you want the cloned directory to be made.
+1. Type 'git clone', and then paste the URL you copied in Step 3.
 ```
 git clone https://github.com/USERNAME/REPOSITORY
 ```
