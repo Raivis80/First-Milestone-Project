@@ -23,7 +23,7 @@
   4. [Languages](#Languages-Used)
   5. [Technologies Used](#Technologies-and-Frameworks)
   6. [Wireframes](#Wireframes)
-  7. [Site Layout Design](#Site-Layout-Design)     
+  7. [Website Design](#Website-Design)     
 ### 5. [Testing](#Testing)
   1. [W3C Markup Validator](#W3C-Markup-Validator)
   2. [Further Testing](#Further-Testing)  
@@ -103,33 +103,33 @@ The main requirements were to make a responsive website with a minimum of three 
 - ### Wireframes
 ![View](assets/project-files/wireframes/wireframes.png)
 
-- ### Site Layout Design
-  - Website features Long-Scrolling Design with 4 full pages on Pesonal Computers and 3.5 pages on mobile devices.
-  - Website is Responsive on most devices such us mobile device with resolution of 320x568p and larger as 1980x1280p on desktop PC's.
+- ### Website Design
+  - Website features Long-Scrolling Design with over 4 pages. "Home Page", "About Us", "Galery" and "Contact Us" page.
+  - Website is Responsive on most devices such us - mobile devices and Large screen desktop PC's.
 
     #### **NavBar**
-    - Features custom NavBar using some Bootstrap5 elements such us.. Display property "d-none d-sm-block".... to display, hide items to viewport size, also used customized bootstrab "drop-down" item for mobile devices.
-    - NavBar is Fully responsive, it has 3 designs.. one for desktop computers, one for tablet devices and one for mobile devices.
-    - NavBar has Features such us: "Site Link Element" To Help navigate the site "Social Media Links" element displays link icons to various social media platforms and Clickable "Brand link element" once clicked owuld reload the page.
+    - Features custom NavBar with using some of Bootstrap5 elements such us - Display property "d-none d-sm-block" to display/hide elments to viewport size, also features customized bootstrab "drop-down" menu item for mobile devices.
+    - NavBar is Fully responsive, with 3 designs.. one for desktop computers, one for tablet devices and one for mobile devices.
+    - NavBar has Features such us - "Site Link Block Element" To Help navigate the site "Social Media Links element" displays link icons to various social media platforms and Clickable "Brand link block element" once clicked owuld reload the page.
     - NavBar has display Property "Fixed" As you scroll, it will remain fixed to the top of your browser's viewport.
     
 
     #### **Home Page Design** 
     - Large background Image spans the full width across the whole viewport size Horizontally and shrinks in size as viewport decreases.
-    - Gradient overlay was used over image to blend Image with NavBar and website background color, also to overlay over image was used positioning values of absolute for image and relative on overlay"
-    - Home Page Large font was set min & max font size in CSS that is responsive to all other browser sizes. Positioning text over image with CSS element "position: absolute" along with "z-index".
+    - Gradient-efect-overlay was used over image to blend Image with NavBar and website background color. Gradient-efect-overlay was palced over image using CSS property "position:absolute" and CSS property "position:relative" for Gradient-efect-overlay to position over the image"
+    - Home Page Large font was set CSS property min & max font size, that is responsive to all other browser sizes. Positioning text over image with CSS property  "position: absolute" along with CSS property "z-index".
    
     #### **About Page Design** 
     - About Us page features three visualy apealing, descriptive images, speaking to user before the quote does.
     - Each image has one very telling quote, describing user who the company is, why choice the company and what company does.   
     - About us page was designed flexbox layout design for responsive website.   
         
-        *Originaly about pabe was designed using CSS properties such as float, positioning of elements but later it was redesigned as it was inconvenient for responsive design and required element repositioning on each screen size, later It was redesigned to be responsive following FlexBox Design as for viewport width changes sizes.*
+        *Original about page was designed using CSS properties such as float, positioning of elements but later it was redesigned as it was inconvenient for responsive design and required element repositioning on each screen size, later It was redesigned to be responsive following FlexBox Design as for viewport width changes sizes.*
     
     - #### Top Picks Feature 
         - Top Picks Feature, features four thumblail images with current offers for the company. 
         - Top Picks Feature was designed to be responsive and using FlexBox design for responsiveness.
-        - It was designed to overlap each image using negative margin and z-index. Text was palced over the images using "position:absolute".
+        - It was designed to overlap each image using negative margin and CSS property z-index. Text was palced over the images using CSS property "position:absolute".
         - :hover element was used with transition effects "rotate, translate and scale" for each card to create visual effect such us scale and rotate 6deg on mouse-over.
     
     #### **Picture Galery Design** 
@@ -139,7 +139,7 @@ The main requirements were to make a responsive website with a minimum of three 
     
     #### **Recent Reviews**
     - Reviewsis fully responsive, bootstrap Grid system was used for responsive galery layout desing.
-    - For the content inside review box, flexBox design was implemented to be able to align an image next to a paragraph.
+    - For the content inside review box, flexBox design was implemented to be able to align an image next to a paragraph and to make it responsive.
 
     #### **Contact Page Design** 
     - Contact Form is responsive on most devices.
@@ -148,19 +148,52 @@ The main requirements were to make a responsive website with a minimum of three 
     
     #### **Footer**
     - Footer has 3 main block elements: 1. address for the company, 2. Contact Information, 3. Google Map embeded.
-    - Footer was designed to be responsive using FlexBox design and for mobile devices, block element order was change using FlexBox :order sub-property. 
+    - Footer was designed to be responsive using FlexBox system design. To change Element order For mobile devices, CSS Media query technique with FlexBox CSS property "flex-item :order" was used to rearrange Element order. 
     - Iframe embeded Google maps, showing the location, fully responsive on most devices.
     - Footer Top features social media links.
 
 ### W3C Markup Validator
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+    The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 -   [W3C Markup Validator](assets/project-files/validators/HTML-Vaalidator.pdf)
 -   [W3C CSS Validator](assets/project-files/validators/CSS-Validator.pdf)
 
+### Bugs and Issues
+-  W3C CSS Validator Failled test for following code. In order to Validate CSS solution is, not to use the following code..
+
+     - Hide Browser ScrollBar
+   
+        - <addr>        /* Hide scrollbar for Chrome, Safari and Opera */
+            .example::-webkit-scrollbar {
+            display: none;
+            }
+
+        - <addr> /* Hide scrollbar for IE, Edge and Firefox */
+            .example {
+            -ms-overflow-style: none;  /* IE and Edge */
+            scrollbar-width: none;  /* Firefox */
+        
+     - Custom input background colour for Browser autocomplete
+        
+        - <abbr> contact--form input::-webkit-input-placeholder,
+            .contact--form textarea::-webkit-input-placeholder {
+            color: #CCCCCC;
+            }
+
+        - <abbr>  input:-webkit-autofill { 
+                -webkit-text-fill-color: rgb(255, 255, 255);
+                -webkit-background-clip: text;
+                background-clip: text;
+                }
+### Fixed Bugs and Issues
+ - Boostrap NavBar clors and layout was redesigned and most of the bootstrap NawBar components was replaced in order to customize colors, make drop-down menu custom width and meny to be on the right side. Bootstrap toggle hamburger bars menu was rebuild to match website colors using font awesome "bars" icon.                                       
+ - Firefox browser CSS property "width: fit-content;" interpreting. Solution Was fount [Here](https://developer.mozilla.org/en-US/docs/Web/CSS/width) was to use CSS properties "width:-moz-max-content;"
+ - Issues with content overflow on the right hand side on mobile devices, using Chrome DevTools I was able to locate the Issues, mostly there was issues with bootstrap grid system paddings. Using CSS Property "padding: 0;" resolved most of them.
+
 ### Further Testing
--   Chrome DevTools was used to Test variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX for responsiveness.
--   Testing was done to ensure that all Links were linking correctly.
+-   Tested on Chrome, Opera and Firefox desktop version browsers.
+-  Chrome DevTools was used to Test variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX for responsiveness.
+-  Testing was done to ensure that all Links were linking correctly.
 
 ## Deployment
 - ### Deploying on GitHub Pages
