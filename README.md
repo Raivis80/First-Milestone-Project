@@ -48,24 +48,24 @@ The main requirements were to make a responsive website with a minimum of three 
 
 ## ***UX***
 
-- ### **Target audiences**
+### **Target audiences**
  1. Wedding planners
  1. Event organisers
  1. Current customers
 
- - ### **External Visiror's goal's**
+### **External Visiror's goal's**
  1. To get quotes for weddings flower arrangemens, event flower arrangements.
  1. To be able to navigate throughout the site to find any occasion flower arrangements.
  1. To locate Information on the location, contact details.
  1. To locate links to social media for external resources. 
 
- - ### **Site owner's goal's**
+### **Site owner's goal's**
  1. To be able to attract and retaining potential customers.
  1. Showcase photos from the flower Bouquets, events catalog.
  1. merchandise occasion flower arrangements.
  1. To Provide Social media links to external resources and contact information.
 
- - ### **Features**
+### **Features**
  1. Responsive on most device sizes.
  1. Interactive elements.
  1. Thumbnail picture gallery.
@@ -73,26 +73,26 @@ The main requirements were to make a responsive website with a minimum of three 
  1. links to external resources, such as social media.
 
 ## ***Design***
-- ### **Colour Scheme**
-   - Colour palette used [View](https://coolors.co/8a5275-bc626f-35372f-a96260-9e5785-ebebeb-1d1d20)
-- ### **Fonts**
-  -  ROBOTO font is the main font used Serif as the fallback, family Yellowtail and family Special Elite was used for most headings.
-- ### **Media**
-    -   Large, background image is designed to be striking and catch the user's attention.
-    -   Photo Gallery & Product Image Gallery helps you display and promote product or service.
-- ### **Languages Used**
-    -   [HTML5](https://en.wikipedia.org/wiki/HTML5) Hypertext Markup Language (HTML)
-    -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) Cascading Style Sheets (CSS)
+### **Colour Scheme**
+- Colour palette used [View](https://coolors.co/8a5275-bc626f-35372f-a96260-9e5785-ebebeb-1d1d20)
+### **Fonts**
+-  ROBOTO font is the main font used Serif as the fallback, family Yellowtail and family Special Elite was used for most headings.
+### **Media**
+-   Large, background image is designed to be striking and catch the user's attention.
+-   Photo Gallery & Product Image Gallery helps you display and promote product or service.
+### **Languages Used**
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5) Hypertext Markup Language (HTML)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) Cascading Style Sheets (CSS)
 
-- ### **Technologies and Frameworks**
-    - [Bootstrap 5.0.0-beta2:](https://getbootstrap.com/docs/5.0/getting-started/download/) was used to assist with the responsiveness and styling of the website.
-    - [Google Fonts:](https://fonts.google.com/) were used throughout the site.
-    - [Font Awesome:](https://fontawesome.com/) was used throughout the website to add icons.
-    - [jQuery:](https://jquery.com/) came with Bootstrap.
-    - [Git](https://git-scm.com/) Git was used for version control.
-    - [GitHub:](https://github.com/) used to store the projects code.
-    - [gitpod.io](https://gitpod.io/) gitpod Was used for codding.
-    - [Balsamiq:](https://balsamiq.com/) was used to create the wireframes.
+### **Technologies and Frameworks**
+- [Bootstrap 5.0.0-beta2:](https://getbootstrap.com/docs/5.0/getting-started/download/) was used to assist with the responsiveness and styling of the website.
+- [Google Fonts:](https://fonts.google.com/) were used throughout the site.
+- [Font Awesome:](https://fontawesome.com/) was used throughout the website to add icons.
+- [jQuery:](https://jquery.com/) came with Bootstrap.
+- [Git](https://git-scm.com/) Git was used for version control.
+- [GitHub:](https://github.com/) used to store the projects code.
+- [gitpod.io](https://gitpod.io/) gitpod Was used for codding.
+- [Balsamiq:](https://balsamiq.com/) was used to create the wireframes.
 
 ### **Wireframes**
 ![View](assets/project-files/wireframes/wireframes.png)
@@ -223,7 +223,7 @@ W3C CSS Validator Failled test for following code. In order to Validate CSS solu
 -  Testing was done to ensure that all Links were linking correctly.
 
 ## ***Deployment***
-- ### **Deploying on GitHub Pages**
+### **Deploying on GitHub Pages**
 1. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").
 1. Locate the [GitHub Repository](https://raivis80.github.io/First-Milestone-Project/ "Link to GitHub Repo").
 1. At the top of the repository, select Settings from the menu items.
@@ -233,13 +233,13 @@ W3C CSS Validator Failled test for following code. In order to Validate CSS solu
 1. Scroll back down to the "GitHub Pages" section to retrieve the deployed link.
 1. At the time of submitting this Milestone project the Development Branch and Master Branch are identical.
 
-- ### **Forking the Repository**
+### **Forking the Repository**
 1. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").
 1. Locate the [GitHub Repository](https://raivis80.github.io/First-Milestone-Project/ "Link to GitHub Repo").
 1. At the top of the repository, on the right side of the page, select "Fork"
 1. You should now have a copy of the original repository in your GitHub account.
 
-- ### **Creating a Clone**
+### **Creating a Clone**
 1. Install the [GitPod Browser](https://www.gitpod.io/docs/browser-extension/ "Link to Gitpod Browser extension download") Extension for Chrome.
 1. After installation, restart the browser.
 1. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").
@@ -247,7 +247,7 @@ W3C CSS Validator Failled test for following code. In order to Validate CSS solu
 1. Click the green "GitPod" button in the top right corner of the repository.
 This will trigger a new gitPod workspace to be created from the code in github where you can work locally.
 
- - **How to run this project within a local IDE, such as VSCode:**
+**How to run this project within a local IDE, such as VSCode:**
 1. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").
 1. Locate the [GitHub Repository](https://raivis80.github.io/First-Milestone-Project/ "Link to GitHub Repo").
 1. Under the repository name, click "Clone or download".
@@ -292,5 +292,5 @@ git clone https://github.com/USERNAME/REPOSITORY
 - pexels-la-miko-3681591
  
 ### **Acknowledgements**
--   My Mentor for continuous helpful feedback.
--   Tutor support at Code Institute for their support.
+- My Mentor for continuous helpful feedback.
+- Tutor support at Code Institute for their support.
