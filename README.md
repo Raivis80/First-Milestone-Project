@@ -23,6 +23,7 @@
   1. [Languages](#Languages-Used)
   1. [Technologies Used](#Technologies-and-Frameworks)
   1. [Wireframes](#Wireframes)
+  1. [Completed Life Site Screenshots](#Life-Site)
   1. [Website Design](#Website-Design)     
 ### 4. [Testing](#Testing)
   1. [W3C Markup Validator](#W3C-Markup-Validator)
@@ -62,7 +63,7 @@ The main requirements were to make a responsive website with a minimum of three 
 ### **Site owner's goal's**
  1. To be able to attract and retaining potential customers.
  1. Showcase photos from the flower Bouquets, events catalog.
- 1. merchandise occasion flower arrangements.
+ 1. Merchandise occasion flower arrangements.
  1. To Provide Social media links to external resources and contact information.
 
 ### **Features**
@@ -70,7 +71,7 @@ The main requirements were to make a responsive website with a minimum of three 
  1. Interactive elements.
  1. Thumbnail picture gallery.
  1. Contact Form and contact Information.
- 1. links to external resources, such as social media.
+ 1. Links to external resources, such as social media.
 
 ## ***Design***
 ### **Colour Scheme**
@@ -186,7 +187,7 @@ The main requirements were to make a responsive website with a minimum of three 
 -   [W3C CSS Validator](assets/project-files/validators/CSS-Validator.pdf)
 
 ### **Bugs and Issues**
-W3C CSS Validator Failled test for following code. In order to Validate CSS solution is, not to use the following code..
+W3C CSS Validator Failled validation test for following code. In order to Validate CSS solution is, not to use the following code..
 
 - *Hide Browser ScrollBar*
    
@@ -212,8 +213,13 @@ W3C CSS Validator Failled test for following code. In order to Validate CSS solu
     -webkit-background-clip: text;
     background-clip: text;
     }
+
+- *Mozila maximum width CSS Property*
+    
+    <abbr>width:-moz-max-content;
+
 ### **Fixed Bugs and Issues**
- - Boostrap NavBar clors and layout was redesigned and most of the bootstrap NawBar components was replaced in order to customize colors, make drop-down menu custom width and meny to be on the right side. Bootstrap toggle hamburger bars menu was rebuild to match website colors using font awesome "bars" icon.                                       
+ - Boostrap NavBar was redesigned and most of the bootstrap components was replaced in order to customize colors, make custom drop-down menu width and to be on the right hend side. Bootstrap toggle hamburger, bars menu was rebuild to match website colors using font awesome "bars" icon.                                       
  - Firefox browser CSS property "width: fit-content;" interpreting. Solution Was fount [Here](https://developer.mozilla.org/en-US/docs/Web/CSS/width) was to use CSS properties "width:-moz-max-content;"
  - Issues with content overflow on the right hand side on mobile devices, using Chrome DevTools I was able to locate the Issues, mostly there was issues with bootstrap grid system paddings. Using CSS Property "padding: 0;" resolved most of them.
 
