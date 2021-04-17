@@ -41,7 +41,7 @@
 
 ## ***Itroduction***
 
-This website was designed for florists, The man focus of the site is to create an online presence allowing members to receive fast venu, occasion flower arrangement quotes from the best wedding florists and to find out relevant information. 
+This website was designed for florists, The man focus of the site is to create an online presence allowing members to receive venu or occasion flower arrangement quotes, from the best wedding florists and to find out relevant information. 
 
 This is the first of four Milestone Projects that the developer must complete during their Full Stack Web Development Program at The Code Institute. 
 
@@ -108,13 +108,14 @@ The main requirements were to make a responsive website with a minimum of three 
 
 ### ***Website Design***
 
- Website features Long-Scrolling Design with over 4 pages. "Home Page", "About Us", "Galery" and "Contact Us" page.
+ Website features Long-Scrolling Design with four page design "Home", "About Us", "Galery" and "Contact Us" page.
 
  Website is Responsive on most devices such us - mobile devices and Large screen desktop PC's.
 
 - #### **NavBar**
   
-  Features customized bootstrap NavBar with Bootstrap5 elements such us - "d-none d-sm-block" to display/hide elments to viewport size. bootstrab drop-down menu was modified for mobile devices.
+  Features customized bootstrap NavBar with Bootstrap5 elements such us - "d-none d-sm-block" to display/hide elments to viewport size. 
+  Bootstrab drop-down menu was modified for mobile devices.
 
   NavBar is Fully responsive, with 3 designs.. one for desktop computers, one for tablet devices and one for mobile devices.
 
@@ -140,7 +141,7 @@ The main requirements were to make a responsive website with a minimum of three 
         
   Original about page was designed using CSS properties such as float, positioning of elements but later it was redesigned as it was inconvenient for responsive design and required element repositioning on each screen size, later It was redesigned to be responsive following FlexBox Design as for viewport width changes sizes.
     
- - #### **Top Picks Feature** 
+- #### **Top Picks Feature** 
     
   Top Picks Feature, features four thumblail images with current offers for the company. 
     
@@ -244,9 +245,11 @@ W3C CSS Validation Warning "-moz-max-content is an unknown vendor extension" *Mo
     "width:-moz-max-content;"
 
 ### **Fixed Bugs and Issues**
- - Most of the Bootstrap NavBar components was replaced in order to customize colors, position and width for the drop-down menu, bootstrap toggle hamburger menu was replaced with font awesome "bars" icon to match website color Scheme.                                      
- - Firefox browser CSS property "width: fit-content;" interpreting. Solution Was fount [Here](https://developer.mozilla.org/en-US/docs/Web/CSS/width) was to use CSS properties "width:-moz-max-content;" but with W3C CSS Validator warning.
- - Issues with content overflow on the right hand side on mobile devices, using Chrome DevTools I was able to locate the Issues, mostly there was issues with bootstrap grid system paddings. Using CSS Property "padding: 0;" resolved most of them.
+ - Custom colors, position and width for the Boostrap NavBar, most of the Bootstrap NavBar components was redesigned and replaced. 
+ - Drop-down menu, bootstrap toggle hamburger menu was replaced with font awesome "bars" icon to match website color Scheme.                                      
+ - Issue with CSS property "width: fit-content;" does not work on Firefox browser. Solution for the issue was found [Here](https://developer.mozilla.org/en-US/docs/Web/CSS/width) to use of CSS property "width:-moz-max-content;" with W3C CSS Validation warning.
+ - Issues with content overflow on the right hand side on mobile devices. Using Chrome DevTools I was able to detect that, mostly there was issues with bootstrap grid system paddings. Using CSS Property "padding: 0;" resolved most of them.
+ - Contact Form custom background and placeholder text color to match website color sheme. solution [here](https://stackoverflow.com/questions/2781549/removing-input-background-colour-for-chrome-autocomplete) with W3C CSS Validation warnings.
 
 ### **Further Testing**
 -   Tested on Chrome, Opera and Firefox desktop version browsers.
