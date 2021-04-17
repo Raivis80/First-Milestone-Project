@@ -113,14 +113,14 @@ The main requirements were to make a responsive website with a minimum of three 
  Website is Responsive on most devices such us - mobile devices and Large screen desktop PC's.
 
 - #### **NavBar**
-    Features custom NavBar with using some of Bootstrap5 elements such us - Display property "d-none d-sm-block" to display/hide elments to viewport size, also features customized bootstrab "drop-down" menu item for mobile devices.
+  
+  Features customized bootstrap NavBar with Bootstrap5 elements such us - "d-none d-sm-block" to display/hide elments to viewport size. bootstrab drop-down menu was modified for mobile devices.
 
-    NavBar is Fully responsive, with 3 designs.. one for desktop computers, one for tablet devices and one for mobile devices.
+  NavBar is Fully responsive, with 3 designs.. one for desktop computers, one for tablet devices and one for mobile devices.
 
-    NavBar has Features such us - "Site Link Block Element" To Help navigate the site "Social Media Links element" displays link icons to various social media platforms and Clickable "Brand link block element" once clicked owuld reload the page.
+  NavBar Features - "Site Link Block Element" To Help navigate the site "Social Media Links element" displays link icons to various social media platforms and Clickable "Brand link block element" once clicked owuld reload the page.
 
-    NavBar has display Property "Fixed" As you scroll, it will remain fixed to the top of your browser's viewport.
-    
+  NavBar has display Property "Fixed" As you scroll, it will remain fixed to the top of your browser's viewport.    
 
 - #### **Home Page Design** 
    Large background Image spans the full width across the whole viewport size Horizontally and shrinks in size as viewport decreases.
@@ -132,23 +132,23 @@ The main requirements were to make a responsive website with a minimum of three 
    Home Page Large font was set CSS property min & max font size, that is responsive to all other browser sizes. Positioning text over image with CSS property  "position: absolute" along with CSS property "z-index".
 
 - #### **About Page Design**
-    About Us page features three visualy apealing, descriptive images, speaking to user before the quote does.
+  About Us page features three visualy apealing, descriptive images, speaking to user before the quote does.
     
-    Each image has one very telling quote, describing user who the company is, why choice the company and what company does.   
+  Each image has one very telling quote, describing user who the company is, why choice the company and what company does.   
     
-    About us page was designed flexbox layout design for responsive website.   
+  About us page was designed flexbox layout design for responsive website.   
         
-        *Original about page was designed using CSS properties such as float, positioning of elements but later it was redesigned as it was inconvenient for responsive design and required element repositioning on each screen size, later It was redesigned to be responsive following FlexBox Design as for viewport width changes sizes.*
+  Original about page was designed using CSS properties such as float, positioning of elements but later it was redesigned as it was inconvenient for responsive design and required element repositioning on each screen size, later It was redesigned to be responsive following FlexBox Design as for viewport width changes sizes.
     
  - #### **Top Picks Feature** 
     
-    Top Picks Feature, features four thumblail images with current offers for the company. 
+  Top Picks Feature, features four thumblail images with current offers for the company. 
     
-    Top Picks Feature was designed to be responsive and using FlexBox design for responsiveness.
+  Top Picks Feature was designed to be responsive and using FlexBox design for responsiveness.
     
-    It was designed to overlap each image using negative margin and CSS property z-index. Text was palced over the images using CSS property "position:absolute".
+  It was designed to overlap each image using negative margin and CSS property z-index. Text was palced over the images using CSS property "position:absolute".
     
-    "hover" element was used with transition effects "rotate, translate and scale" for each card to create visual effect such us scale and rotate 6deg on mouse-over.
+  "hover" element was used with transition effects "rotate, translate and scale" for each card to create visual effect such us scale and rotate 6deg on mouse-over.
     
 - #### **Picture Galery Design** 
   Thumbnail Gallery a grid of images that when clicked on, open in a pop-up full view images. 
@@ -158,7 +158,7 @@ The main requirements were to make a responsive website with a minimum of three 
    The gallery is fully responsive, bootstrap Grid system was used for responsive galery layout desing.
     
 - #### **Recent Reviews**
-  Reviewsis fully responsive, bootstrap Grid system was used for responsive galery layout desing.
+  Reviewsis fully responsive, bootstrap Grid system was used for responsive galery layout.
   
   For the content inside review box, flexBox design was implemented to be able to align an image next to a paragraph and to make it responsive.
 
@@ -167,60 +167,85 @@ The main requirements were to make a responsive website with a minimum of three 
   
   Contact form help from [here](https://www.w3schools.com/css/tryit.asp?filename=trycss_forms)
   
-  Custom input background colour for chrome autocomplete Code copy paste from [here](https://stackoverflow.com/questions/2781549) 
+  Custom input background colour for chrome autocomplete Code copy paste from [here](https://stackoverflow.com/questions/2781549) With W3C CSS Validation Warning
     
 - #### **Footer**
-    Footer has 3 main block elements: 1. address for the company, 2. Contact Information, 3. Google Map embeded.
+  Footer has 3 main block elements: 1. address for the company, 2. Contact Information, 3. Google Map embeded.
     
-    Footer was designed to be responsive using FlexBox system design. To change Element order For mobile devices, CSS Media query technique with FlexBox CSS property "flex-item :order" was used to rearrange Element order. 
+  Footer was designed to be responsive using FlexBox system design. To change Element order For mobile devices, CSS Media query technique with FlexBox CSS property "flex-item :order" was used to rearrange Element order. 
    
-   Iframe embeded Google maps, showing the location, fully responsive on most devices.
+  Iframe embeded Google maps, showing the location, fully responsive on most devices.
    
-    Top features social media links.
+  Top features social media links.
 
 ## ***Testing***
 
 ### **W3C Markup Validator**
-    The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+  The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 -   [W3C Markup Validator](assets/project-files/validators/HTML-Vaalidator.pdf)
 -   [W3C CSS Validator](assets/project-files/validators/CSS-Validator.pdf)
 
 ### **Bugs and Issues**
-W3C CSS Validator Failled validation test for following code. In order to Validate CSS solution is, not to use the following code..
+W3C CSS Validator Failled validation test for following code. 
 
 - *Hide Browser ScrollBar*
+
+W3C CSS Validation ERROR - "Property scrollbar-width doesn't exist : none" *Hide scrollbar for Firefox browser*
+    
+    In order to Validate CSS, solution is not to use the following code.. Removed from CSS
+    
+    "scrollbar-width: none;"
+
+W3C CSS Validation Warning - "::-webkit-scrollbar is an unknown vendor extended pseudo-element" *Hide scrollbar for Chrome*   
+    
+    In order to Validate CSS, solution is not to use the following code.. 
+    
+    "html::-webkit-scrollbar display: none;"
+
+W3C CSS Validation Warning "-ms-overflow-style is an unknown vendor extension"  *Hide scrollbar for IE, Edge*
+
+    In order to Validate CSS, solution is not to use the following code.. 
+    
+    "html::-webkit-scrollbar display: none;"
+
+- *Input Form Autofill and input form custom background color*
+
+W3C CSS Validation ERROR  "input:-webkit-autofill	text is not a background-clip value : text" *Input Form autocomplete custom background colour* 
+    
+    In order to Validate CSS, solution is not to use the following code.. Removed from CSS
+    
+    "-webkit-background-clip: text;"
+
+W3C CSS Validator ERROR "::-webkit-input-placeholder is an unknown vendor extended pseudo-element" *Custom input form placeholder font color*
+    
+    In order to Validate CSS, solution is not to use the following code.. 
+    
+    ".contact--form input::-webkit-input-placeholder"
+
+W3C CSS Validator ERROR "-webkit-background-clip is an unknown vendor extension" *Custom input form background color*
    
-    <addr> /* Hide scrollbar for Chrome, Safari and Opera */
-    .example::-webkit-scrollbar {
-    display: none;
-    }
+    In order to Validate CSS, solution is not to use the following code.. 
+    
+    "background-clip: text;"
 
-    <addr> /* Hide scrollbar for IE, Edge and Firefox */
-    .example {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
-        
-- *Custom input background colour for Browser autocomplete*
-        
-    <abbr> contact--form input::-webkit-input-placeholder,
-    .contact--form textarea::-webkit-input-placeholder {
-    color: #CCCCCC;
-    }
-
-    <abbr>  input:-webkit-autofill { 
-    -webkit-text-fill-color: rgb(255, 255, 255);
-    -webkit-background-clip: text;
-    background-clip: text;
-    }
+W3C CSS Validator ERROR "-webkit-text-fill-color is an unknown vendor extension" *Custom input form background color*
+    
+    In order to Validate CSS, solution is not to use the following code.. 
+    
+    "-webkit-text-fill-color: rgb(255, 255, 255);"
 
 - *Mozila maximum width CSS Property*
+ 
+W3C CSS Validation Warning "-moz-max-content is an unknown vendor extension" *Mozilla Firefox css property maximum width fit content*  
     
-    <abbr>width:-moz-max-content;
+    In order to Validate CSS, solution is not to use the following code.. 
+    
+    "width:-moz-max-content;"
 
 ### **Fixed Bugs and Issues**
- - Boostrap NavBar was redesigned and most of the bootstrap components was replaced in order to customize colors, make custom drop-down menu width and to be on the right hend side. Bootstrap toggle hamburger, bars menu was rebuild to match website colors using font awesome "bars" icon.                                       
- - Firefox browser CSS property "width: fit-content;" interpreting. Solution Was fount [Here](https://developer.mozilla.org/en-US/docs/Web/CSS/width) was to use CSS properties "width:-moz-max-content;"
+ - Most of the Bootstrap NavBar components was replaced in order to customize colors, position and width for the drop-down menu, bootstrap toggle hamburger menu was replaced with font awesome "bars" icon to match website color Scheme.                                      
+ - Firefox browser CSS property "width: fit-content;" interpreting. Solution Was fount [Here](https://developer.mozilla.org/en-US/docs/Web/CSS/width) was to use CSS properties "width:-moz-max-content;" but with W3C CSS Validator warning.
  - Issues with content overflow on the right hand side on mobile devices, using Chrome DevTools I was able to locate the Issues, mostly there was issues with bootstrap grid system paddings. Using CSS Property "padding: 0;" resolved most of them.
 
 ### **Further Testing**
