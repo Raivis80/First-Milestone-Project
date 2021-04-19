@@ -92,30 +92,30 @@ The main requirements were to make a responsive website with a minimum of three 
 1. Links to external resources, such as social media.
 1. Responsive design to be able to target broader audiences.
 
-### Content
+#### Content
 1. Descriptive Hero image
 1. About Us, Who we are, What we do.
 1. Showcase Gallery.
 1. Contact information.
 
 ### **Site Structure**
-Website must be responsive with interactive elements Display Thumbnail Gallery
 
-1. NavBar 
+- NavBar 
    - Branding
    - Navigation Links
    - Social Links
-2. Landing Page
+- Landing Page
    - Large description 
    - Background Hero Image
-3. About page (About page was latter added after discussions with Mentor)
+- About page was added latter after discussions with Mentor*
    - About us.
    - Why Us.
    - What we do.
-4. Galery page
-5. Interactive Recent reviews (Was latter added to compliment About Page design)
-6. Contact form
-7. Footer
+   - Top Picks Feature *Was added latter to compliment About Page design*
+- Galery page
+- Recent reviews
+- Contact form
+- Footer
    - Address block
    - Contact information Block
    - Location Map
