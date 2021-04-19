@@ -12,24 +12,24 @@
 ### 1. [Introduction](#Itroduction)
 ### 2. [Ux](#UX)
 - ### Strategy
-  1. [Website strategy](#Website-strategy)
-  1. [Target audiences](#Target-audiences)
-  1. [External Visiror's goal's](#External-Visiror's-goal's)
-  1. [Site owner's goal's](#Site-owner's-goal's)
+1. [Website strategy](#Website-strategy)
+1. [Target audiences](#Target-audiences)
+1. [External Visiror's goal's](#External-Visiror's-goal's)
+1. [Site owner's goal's](#Site-owner's-goal's)
 - ### Scope
-  1. [Features](#Features)
-  1. [Content](#Content)
-- ### Structure
-  1. [Structure](#Structure)
+1. [Features](#Features)
+1. [Content](#Content)
+- ### Structures  
+1. [Structure](#.Structure)
 - ### Skeleton
-  1. [Quick Sketch](#Quick-Sketch)
-  1. [Wireframes](#Wireframes)
+1. [Quick Sketch](#Quick-Sketch)
+1. [Wireframes](#Wireframes)
 - ### Design
-  1. [Colour Scheme](#Colour-Scheme)
-  1. [Fonts](#Fonts)
-  1. [Media](#Media)
-  1. [Languages](#Languages-Used)
-  1. [Technologies Used](#Technologies-and-Frameworks)
+1. [Colour Scheme](#Colour-Scheme)
+1. [Fonts](#Fonts)
+1. [Media](#Media)
+1. [Languages](#Languages-Used)
+1. [Technologies Used](#Technologies-and-Frameworks)
 ### 3. [Completed Live Site](#Completed-Live-Site)
   1. [Completed-site-features](#Completed-site-features)   
 ### 4. [Testing](#Testing)
@@ -98,7 +98,7 @@ The main requirements were to make a responsive website with a minimum of three 
 1. Showcase Gallery.
 1. Contact information.
 
-### Structure
+### .Structure
 Website must be responsive with interactive elements Display Thumbnail Gallery
 
 1. NavBar 
