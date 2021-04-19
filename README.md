@@ -10,21 +10,28 @@
 ## Table of contents
 
 ### 1. [Introduction](#Itroduction)
-
-### 2. [UX](#UX)
+### 2. [Ux](#UX)
+- ### Strategy
+  1. [Website strategy](#Website-strategy)
   1. [Target audiences](#Target-audiences)
   1. [External Visiror's goal's](#External-Visiror's-goal's)
   1. [Site owner's goal's](#Site-owner's-goal's)
+- ### Scope
   1. [Features](#Features)
-### 3. [Design](#Design)
+  1. [Content](#Content)
+- ### Structure
+  1. [Structure](#Structure)
+- ### Skeleton
+  1. [Quick Sketch](#Quick-Sketch)
+  1. [Wireframes](#Wireframes)
+- ### Design
   1. [Colour Scheme](#Colour-Scheme)
   1. [Fonts](#Fonts)
   1. [Media](#Media)
   1. [Languages](#Languages-Used)
   1. [Technologies Used](#Technologies-and-Frameworks)
-  1. [Wireframes](#Wireframes)
-  1. [Completed Life Site Screenshots](#Life-Site)
-  1. [Website Design](#Website-Design)     
+### 3. [Completed Live Site](#Completed-Live-Site)
+  1. [Completed-site-features](#Completed-site-features)   
 ### 4. [Testing](#Testing)
   1. [W3C Validation](#W3C-Validation)
   1. [Bugs and Issues](#Bugs-and-Issues)
@@ -49,31 +56,78 @@ The main requirements were to make a responsive website with a minimum of three 
 
 ## ***UX***
 
-### **Target audiences**
- 1. Wedding planners
- 1. Event organisers
- 1. Current customers
+### **Strategy**
 
-### **External Visiror's goal's**
- 1. To get quotes for weddings flower arrangemens, event flower arrangements.
- 1. To be able to navigate throughout the site to find any occasion flower arrangements.
- 1. To locate Information on the location, contact details.
- 1. To locate links to social media for external resources. 
+### Website strategy
+1. Create online presence
+1. Promote Services
+1. Display Galery
+1. Provide with contact information
+1. provide with social media links
 
-### **Site owner's goal's**
- 1. To be able to attract and retaining potential customers.
- 1. Showcase photos from the flower Bouquets, events catalog.
- 1. Merchandise occasion flower arrangements.
- 1. To Provide Social media links to external resources and contact information.
+### Target audiences
+1. Wedding planners
+1. Event organisers
+1. General Users looking for flower arrangements
+1. Current customers
 
-### **Features**
- 1. Responsive on most device sizes.
- 1. Interactive elements.
- 1. Thumbnail picture gallery.
- 1. Contact Form and contact Information.
- 1. Links to external resources, such as social media.
+### External Visiror's goal's
+1. To get quotes for weddings flower arrangemens, event flower arrangements.
+1. To be able to navigate throughout the site to find any occasion flower arrangements.
+1. To locate Information on the location, contact details.
+1. To locate links to social media for external resources. 
 
-## ***Design***
+### Site owner's goal's
+1. To be able to attract and retaining potential customers.
+1. Showcase photos from the flower Bouquets, events catalog.
+1. Merchandise occasion flower arrangements.
+1. To Provide Social media links to external resources and contact information.
+
+### **Scope**
+
+### Features
+1. Easy website navigation to quickly find the information 
+1. Picture Display gallery to showcase latest work.
+1. Contact Form and contact Information.
+1. Links to external resources, such as social media.
+1. Responsive design to be able to target broader audiences.
+
+### Content
+1. Descriptive Hero image
+1. About Us, Who we are, What we do.
+1. Showcase Gallery.
+1. Contact information.
+
+### Structure
+Website must be responsive with interactive elements Display Thumbnail Gallery
+
+1. NavBar 
+    1. Branding
+    1. Navigation Links
+    1. Social Links 
+1. Landing Page
+    1. Large description 
+    1. Background Hero Image
+1. About page (About page was latter added after discussions with Mentor)
+    1. About us.
+    1. Why Us.
+    1. What we do.
+1. Galery page
+1. Interactive Recent reviews (Was latter added to compliment About Page design)
+1. Contact form
+1. Footer
+    1. Address block
+    1. Contact information Block
+    1. Location Map
+
+### Quick sketch
+
+![View](assets/project-files/wireframes/skech.jpg)    
+
+### Wireframes
+![View](assets/project-files/wireframes/wireframes.png)
+
+### ***Design***
 ### **Colour Scheme**
 - Colour palette used [View](https://coolors.co/8a5275-bc626f-35372f-a96260-9e5785-ebebeb-1d1d20)
 ### **Fonts**
@@ -95,13 +149,11 @@ The main requirements were to make a responsive website with a minimum of three 
 - [gitpod.io](https://gitpod.io/) gitpod Was used for codding.
 - [Balsamiq:](https://balsamiq.com/) was used to create the wireframes.
 
-### **Wireframes**
-![View](assets/project-files/wireframes/wireframes.png)
 
-### **Live Site**
+## **Completed Live Site**
 ![live site](assets/project-files/wireframes/site/live-site.png)
 
-### ***Website Design***
+### ***Completed site features***
 
  Website features Long-Scrolling Design with four pages "Home", "About Us", "Galery" and "Contact Us" page.
 
