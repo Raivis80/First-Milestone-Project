@@ -20,7 +20,7 @@
 1. [Features](#Features)
 1. [Content](#Content)
 - ### Structures  
-1. [Structure](#.Structure)
+1. [Structure](#Site-Structure)
 - ### Skeleton
 1. [Quick Sketch](#Quick-Sketch)
 1. [Wireframes](#Wireframes)
@@ -98,27 +98,27 @@ The main requirements were to make a responsive website with a minimum of three 
 1. Showcase Gallery.
 1. Contact information.
 
-### .Structure
+### Site Structure
 Website must be responsive with interactive elements Display Thumbnail Gallery
 
 1. NavBar 
-    1. Branding
-    1. Navigation Links
-    1. Social Links 
-1. Landing Page
-    1. Large description 
-    1. Background Hero Image
-1. About page (About page was latter added after discussions with Mentor)
-    1. About us.
-    1. Why Us.
-    1. What we do.
-1. Galery page
-1. Interactive Recent reviews (Was latter added to compliment About Page design)
-1. Contact form
-1. Footer
-    1. Address block
-    1. Contact information Block
-    1. Location Map
+   1. Branding
+   1. Navigation Links
+   1. Social Links
+2. Landing Page
+   1. Large description 
+   1. Background Hero Image
+3. About page (About page was latter added after discussions with Mentor)
+   1. About us.
+   1. Why Us.
+   1. What we do.
+4. Galery page
+5. Interactive Recent reviews (Was latter added to compliment About Page design)
+6. Contact form
+7. Footer
+   1. Address block
+   1. Contact information Block
+   1. Location Map
 
 ### Quick sketch
 
