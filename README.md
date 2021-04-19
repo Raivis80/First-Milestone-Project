@@ -98,7 +98,7 @@ The main requirements were to make a responsive website with a minimum of three 
 ### **Wireframes**
 ![View](assets/project-files/wireframes/wireframes.png)
 
-### **Life Site**
+### **Live Site**
 
 ![Desktop](assets/project-files/wireframes/site/Desktop.jpg) 
 
@@ -119,16 +119,15 @@ The main requirements were to make a responsive website with a minimum of three 
 
   NavBar is Fully responsive, with 3 designs.. one for desktop computers, one for tablet devices and one for mobile devices.
 
-  NavBar Features - "Site Link Block Element" To Help navigate the site "Social Media Links element" displays link icons to various social media platforms and Clickable "Brand link block element" once clicked owuld reload the page.
+  NavBar Features - "Site Link Block Element" To Help navigate the site, "Social Media Links element" displays link icons to various social media platforms and Clickable "Brand link block element" once clicked owuld reload the page.
 
   NavBar has display Property "Fixed" As you scroll, it will remain fixed to the top of your browser's viewport.    
 
 - #### **Home Page Design** 
-   Large background Image spans the full width across the whole viewport size Horizontally and shrinks in size as viewport decreases.
+   Large background Image spans the full width across the whole viewport size Horizontally and shrinks in size as viewport decreases. Hero background image and color overlay creates a better background for text, while being more interesting than a solid background color.
   
-   Gradient-efect-overlay was used over image to blend Image with NavBar and website background color. Gradient-efect-overlay was palced over image using CSS property "position:absolute" and 
-   
-   CSS property "position:relative" for Gradient-efect-overlay to position over the image"
+   Gradient-efect-overlay was used over the background image to blend background Image color and NavBar color to the website background. Gradient-efect-overlay was palced over background image using CSS declaration "position:absolute" and 
+   CSS declaration "position:relative" for Gradient-efect-overlay to position over the image"
   
    Home Page Large font was set CSS property min & max font size, that is responsive to all other browser sizes. Positioning text over image with CSS property  "position: absolute" along with CSS property "z-index".
 
@@ -139,7 +138,7 @@ The main requirements were to make a responsive website with a minimum of three 
     
   About us page was designed flexbox layout design for responsive website.   
         
-  Original about page was designed using CSS properties such as float, positioning of elements but later it was redesigned as it was inconvenient for responsive design and required element repositioning on each screen size, later It was redesigned to be responsive following FlexBox Design as for viewport width changes sizes.
+  *Original about page was designed using CSS properties such as float, positioning of elements but later it was redesigned as it was inconvenient for responsive design and required element repositioning on each screen size and it was redesigned folowing responsive FlexBox Design as for viewport width changes sizes.*
     
 - #### **Top Picks Feature** 
     
@@ -147,9 +146,9 @@ The main requirements were to make a responsive website with a minimum of three 
     
   Top Picks Feature was designed to be responsive and using FlexBox design for responsiveness.
     
-  It was designed to overlap each image using negative margin and CSS property z-index. Text was palced over the images using CSS property "position:absolute".
+  Top Picks Feature was designed to overlap each image using negative margin and CSS property z-index. Text was palced over the images using CSS declaration "position:absolute".
     
-  "hover" element was used with transition effects "rotate, translate and scale" for each card to create visual effect such us scale and rotate 6deg on mouse-over.
+  "hover" pseudo-class was used with transition effects "rotate, translate and scale" for each card to create visual effect such us scale and rotate 6deg on mouse-over.
     
 - #### **Picture Galery Design** 
   Thumbnail Gallery a grid of images that when clicked on, open in a pop-up full view images. 
@@ -159,7 +158,7 @@ The main requirements were to make a responsive website with a minimum of three 
   The gallery is fully responsive. Bootstrap Grid system was used for responsive galery layout desing.
     
 - #### **Recent Reviews**
-  Reviews feature is fully responsive. Bootstrap Grid system was used for responsive galery layout.
+  Reviews feature is fully responsive. Bootstrap5 Grid system was used for responsive galery layout.
   
   For the content inside review box, FlexBox design was implemented to align image next to a paragraph and to be responsive.
 
@@ -171,9 +170,9 @@ The main requirements were to make a responsive website with a minimum of three 
   Custom input background colour for chrome autocomplete solution [here](https://stackoverflow.com/questions/2781549) With W3C CSS Validation Warning
     
 - #### **Footer**
-  Footer has 3 main block elements: 1. address for the company, 2. Contact Information, 3. Google Map embeded.
+  Footer has 3 main block elements: "address for the company", "Contact Information", "Google Map embeded".
     
-  Footer was designed to be responsive using FlexBox system design. To change Element order For mobile devices, CSS Media query technique with FlexBox CSS property "flex-item :order" was used to rearrange Element order. 
+  Footer was designed to be responsive using FlexBox system design. To change Element order For mobile devices, CSS Media query technique with FlexBox CSS declaration "flex-item :order" was used to rearrange Element order. 
    
   Iframe embeded Google maps, showing the location, fully responsive on most devices.
    
@@ -194,7 +193,7 @@ W3C CSS Validator Failed validation test for following code.
 
 W3C CSS Validation ERROR - "Property scrollbar-width doesn't exist : none" *Hide scrollbar for Firefox browser*
     
-    In order to Validate CSS, solved this issue by Removeing following property from CSS.. 
+    In order to Validate CSS, solved this issue by Removeing following declaration from CSS.. 
     
     "scrollbar-width: none;"
 
@@ -214,25 +213,25 @@ W3C CSS Validation Warning "-ms-overflow-style is an unknown vendor extension"  
 
 W3C CSS Validation ERROR  "input:-webkit-autofill	text is not a background-clip value : text" *Input Form autocomplete custom background colour* 
     
-    In order to Validate CSS, solved this issue by Removeing following property from CSS...
+    In order to Validate CSS, solved this issue by Removeing following code from CSS...
     
     "-webkit-background-clip: text;"
 
 W3C CSS Validator Warning "::-webkit-input-placeholder is an unknown vendor extended pseudo-element" *Custom input form placeholder font color*
     
-    I decided to use this code for for aesthetics. In order to Validate CSS, solution is not to use the following code.. 
+    This code is in use for aesthetics, to match website color sheme. In order to Validate CSS, solution is not to use the following code.. 
     
     ".contact--form input::-webkit-input-placeholder"
 
 W3C CSS Validator Warning "-webkit-background-clip is an unknown vendor extension" *Custom input form background color*
    
-    I decided to use this code for for aesthetics. In order to Validate CSS, solution is not to use the following code.. 
+    This code is in use for aesthetics, to match website color sheme. In order to Validate CSS, solution is not to use the following code.. 
     
     "background-clip: text;"
 
 W3C CSS Validator Warning "-webkit-text-fill-color is an unknown vendor extension" *Custom input form background color*
     
-    Code is still in use for website aesthetics. In order to Validate CSS, solution is not to use the following code.. 
+    This code is in use for aesthetics, to match website color sheme. In order to Validate CSS, solution is not to use the following code.. 
     
     "-webkit-text-fill-color: rgb(255, 255, 255);"
 
@@ -240,19 +239,19 @@ W3C CSS Validator Warning "-webkit-text-fill-color is an unknown vendor extensio
  
 W3C CSS Validation Warning "-moz-max-content is an unknown vendor extension" *Mozilla Firefox css property maximum width fit content*  
     
-    In order to Validate CSS, Solved this issue by replacing it with the following CSS Property...
+    In order to Validate CSS, Solved this issue by replacing it with the following CSS declaration...
 
-    "width: max-content;"  Text will not wrap with this property but it works in my case.
+    "width: max-content;"  Text will not wrap with this declaration but it works in my case.
 
 ### **Fixed Bugs and Issues**
  - Custom colors, position and width for the Boostrap NavBar, most of the Bootstrap NavBar components was redesigned and replaced. 
  - Drop-down menu, bootstrap toggle hamburger menu was replaced with font awesome "bars" icon to match website color Scheme.                                      
- - Issue with CSS property "width: fit-content;" does not work on Firefox browser. Solution for the issue found [Here](https://developer.mozilla.org/en-US/docs/Web/CSS/width) to use of CSS property "width:-moz-max-content;" with W3C CSS Validation warning.
- - Issues with content overflow on the right hand side on mobile devices. Using Chrome DevTools I was able to detect that, mostly there was issues with bootstrap grid system paddings. Using CSS Property "padding: 0;" resolved most of them.
- - Contact Form custom background and placeholder text color to match website color sheme. solution [here](https://stackoverflow.com/questions/2781549/removing-input-background-colour-for-chrome-autocomplete) with W3C CSS Validation warnings.
+ - Issue with CSS Declaration "width: fit-content;" does not work on Firefox browser. Googled for "fit-content aternative" and CSS Declaration "width: max-content;" worked.  Text does not wrap but in my case it is accetable and Solution works.
+ - Issues with content overflow on the right side on mobile devices. Using Chrome DevTools I was able to detect that, most of tehe time there was an issues with bootstrap grid system paddings. Using CSS Declaration "padding: 0;" I was able to resolve most of them.
+ - Issue with contact form custom background color and placeholder text color to match website color sheme. solution [here](https://stackoverflow.com/questions/2781549/removing-input-background-colour-for-chrome-autocomplete) with W3C CSS Validation warnings.
 
 ### **Further Testing**
--   Tested on Chrome, Opera and Firefox desktop version browsers.
+-  Tested on Chrome, Opera and Firefox desktop version browsers.
 -  Chrome DevTools was used to Test variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX for responsiveness.
 -  Testing was done to ensure that all Links were linking correctly.
 
