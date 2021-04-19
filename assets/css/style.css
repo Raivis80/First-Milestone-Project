@@ -263,8 +263,7 @@ span{
 }
 
 .creative--solutions {
-  width: fit-content;
-  width:-moz-max-content;
+  width: max-content;
   padding: 0 6px 6px 6px;
   border-bottom: 1px solid #ad7472;
   font-size: min(max(.6rem, 2.3vw), 2rem);
@@ -281,8 +280,7 @@ span{
 }
 
 .about--headding h2{
-  width: fit-content;
-  width:-moz-max-content;
+  width: max-content;
   margin: auto;
   border-bottom: 1px solid #565661;
 }
@@ -326,8 +324,7 @@ span{
 }
 
 .let {
-  width:-moz-max-content;
-  width: fit-content;
+  width: max-content;
   margin: auto;
   margin-top: 24px;
 }
@@ -350,8 +347,7 @@ span{
 
 .best-sellers-heading {
   padding: 0px 9px 0 9px;
-  width: fit-content;
-  width:-moz-max-content;
+  width: max-content;
   margin: auto;
   border-bottom: 1px solid #565661;
 }
@@ -474,8 +470,7 @@ span{
 .galery--headding h1 {
   padding: 6px 9px 0 9px;
   margin-bottom: 0;
-  width: fit-content;
-  width:-moz-max-content;
+  width: max-content;
   margin: auto;
   color: #B8B8B8;
   border-bottom: 1px solid #565661;
@@ -553,8 +548,7 @@ span{
 .review--heading h2 {
   margin: auto;
   margin-bottom: 24px;
-  width: fit-content;
-  width:-moz-max-content;
+  width: max-content;
   padding: 0px 9px 3px 9px;
   border-bottom: 1px solid #565661;
 }
@@ -580,8 +574,7 @@ span{
 }
 
 .contact--form h2 {
-  width: fit-content;
-  width:-moz-max-content;
+  width: max-content;
   margin: auto;
   margin-bottom: 24px;
   border-bottom: 1px solid #565661;
@@ -735,8 +728,7 @@ footer h4 {
   padding: 9px 9px 0 9px ;
   margin: auto;
   margin-bottom: 9px;
-  width: fit-content;
-  width:-moz-max-content;
+  width: max-content;
   color: #c0c0c0;
   border-bottom: 1px solid #b36865;
 }

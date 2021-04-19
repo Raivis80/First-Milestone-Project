@@ -108,7 +108,7 @@ The main requirements were to make a responsive website with a minimum of three 
 
 ### ***Website Design***
 
- Website features Long-Scrolling Design with four page design "Home", "About Us", "Galery" and "Contact Us" page.
+ Website features Long-Scrolling Design with four pages "Home", "About Us", "Galery" and "Contact Us" page.
 
  Website is Responsive on most devices such us - mobile devices and Large screen desktop PC's.
 
@@ -154,21 +154,21 @@ The main requirements were to make a responsive website with a minimum of three 
 - #### **Picture Galery Design** 
   Thumbnail Gallery a grid of images that when clicked on, open in a pop-up full view images. 
   
-   The gallery configuration designed to have smaller images for Thumbnails and Large Images stored separately on the website.
+  The gallery configuration designed to have smaller images for Thumbnails and Large Images stored separately on the website.
    
-   The gallery is fully responsive, bootstrap Grid system was used for responsive galery layout desing.
+  The gallery is fully responsive. Bootstrap Grid system was used for responsive galery layout desing.
     
 - #### **Recent Reviews**
-  Reviewsis fully responsive, bootstrap Grid system was used for responsive galery layout.
+  Reviews feature is fully responsive. Bootstrap Grid system was used for responsive galery layout.
   
-  For the content inside review box, flexBox design was implemented to be able to align an image next to a paragraph and to make it responsive.
+  For the content inside review box, FlexBox design was implemented to align image next to a paragraph and to be responsive.
 
 - #### **Contact Page Design** 
-  Contact Form is responsive on most devices.
+  Contact Form is responsive on most devices with maximum width 600px.
   
-  Contact form help from [here](https://www.w3schools.com/css/tryit.asp?filename=trycss_forms)
+  Follow this guide to create a contact form [here](https://www.w3schools.com/css/tryit.asp?filename=trycss_forms)
   
-  Custom input background colour for chrome autocomplete Code copy paste from [here](https://stackoverflow.com/questions/2781549) With W3C CSS Validation Warning
+  Custom input background colour for chrome autocomplete solution [here](https://stackoverflow.com/questions/2781549) With W3C CSS Validation Warning
     
 - #### **Footer**
   Footer has 3 main block elements: 1. address for the company, 2. Contact Information, 3. Google Map embeded.
@@ -188,25 +188,25 @@ The main requirements were to make a responsive website with a minimum of three 
 -   [W3C CSS Validator](assets/project-files/validators/CSS-Validator.pdf)
 
 ### **Bugs and Issues**
-W3C CSS Validator Failled validation test for following code. 
+W3C CSS Validator Failed validation test for following code. 
 
 - *Hide Browser ScrollBar*
 
 W3C CSS Validation ERROR - "Property scrollbar-width doesn't exist : none" *Hide scrollbar for Firefox browser*
     
-    In order to Validate CSS, solution is not to use the following code.. Removed from CSS
+    In order to Validate CSS, solved this issue by Removeing following property from CSS.. 
     
     "scrollbar-width: none;"
 
 W3C CSS Validation Warning - "::-webkit-scrollbar is an unknown vendor extended pseudo-element" *Hide scrollbar for Chrome*   
     
-    In order to Validate CSS, solution is not to use the following code.. 
+   Code is still in use for aesthetics. In order to Validate CSS, solution is not to use the following code...
     
     "html::-webkit-scrollbar display: none;"
 
 W3C CSS Validation Warning "-ms-overflow-style is an unknown vendor extension"  *Hide scrollbar for IE, Edge*
 
-    In order to Validate CSS, solution is not to use the following code.. 
+    Code is still in use for aesthetics. In order to Validate CSS, solution is not to use the following code...
     
     "html::-webkit-scrollbar display: none;"
 
@@ -214,25 +214,25 @@ W3C CSS Validation Warning "-ms-overflow-style is an unknown vendor extension"  
 
 W3C CSS Validation ERROR  "input:-webkit-autofill	text is not a background-clip value : text" *Input Form autocomplete custom background colour* 
     
-    In order to Validate CSS, solution is not to use the following code.. Removed from CSS
+    In order to Validate CSS, solved this issue by Removeing following property from CSS...
     
     "-webkit-background-clip: text;"
 
-W3C CSS Validator ERROR "::-webkit-input-placeholder is an unknown vendor extended pseudo-element" *Custom input form placeholder font color*
+W3C CSS Validator Warning "::-webkit-input-placeholder is an unknown vendor extended pseudo-element" *Custom input form placeholder font color*
     
-    In order to Validate CSS, solution is not to use the following code.. 
+    I decided to use this code for for aesthetics. In order to Validate CSS, solution is not to use the following code.. 
     
     ".contact--form input::-webkit-input-placeholder"
 
-W3C CSS Validator ERROR "-webkit-background-clip is an unknown vendor extension" *Custom input form background color*
+W3C CSS Validator Warning "-webkit-background-clip is an unknown vendor extension" *Custom input form background color*
    
-    In order to Validate CSS, solution is not to use the following code.. 
+    I decided to use this code for for aesthetics. In order to Validate CSS, solution is not to use the following code.. 
     
     "background-clip: text;"
 
-W3C CSS Validator ERROR "-webkit-text-fill-color is an unknown vendor extension" *Custom input form background color*
+W3C CSS Validator Warning "-webkit-text-fill-color is an unknown vendor extension" *Custom input form background color*
     
-    In order to Validate CSS, solution is not to use the following code.. 
+    Code is still in use for website aesthetics. In order to Validate CSS, solution is not to use the following code.. 
     
     "-webkit-text-fill-color: rgb(255, 255, 255);"
 
@@ -240,14 +240,14 @@ W3C CSS Validator ERROR "-webkit-text-fill-color is an unknown vendor extension"
  
 W3C CSS Validation Warning "-moz-max-content is an unknown vendor extension" *Mozilla Firefox css property maximum width fit content*  
     
-    In order to Validate CSS, solution is not to use the following code.. 
-    
-    "width:-moz-max-content;"
+    In order to Validate CSS, Solved this issue by replacing it with the following CSS Property...
+
+    "width: max-content;"  Text will not wrap with this property but it works in my case.
 
 ### **Fixed Bugs and Issues**
  - Custom colors, position and width for the Boostrap NavBar, most of the Bootstrap NavBar components was redesigned and replaced. 
  - Drop-down menu, bootstrap toggle hamburger menu was replaced with font awesome "bars" icon to match website color Scheme.                                      
- - Issue with CSS property "width: fit-content;" does not work on Firefox browser. Solution for the issue was found [Here](https://developer.mozilla.org/en-US/docs/Web/CSS/width) to use of CSS property "width:-moz-max-content;" with W3C CSS Validation warning.
+ - Issue with CSS property "width: fit-content;" does not work on Firefox browser. Solution for the issue found [Here](https://developer.mozilla.org/en-US/docs/Web/CSS/width) to use of CSS property "width:-moz-max-content;" with W3C CSS Validation warning.
  - Issues with content overflow on the right hand side on mobile devices. Using Chrome DevTools I was able to detect that, mostly there was issues with bootstrap grid system paddings. Using CSS Property "padding: 0;" resolved most of them.
  - Contact Form custom background and placeholder text color to match website color sheme. solution [here](https://stackoverflow.com/questions/2781549/removing-input-background-colour-for-chrome-autocomplete) with W3C CSS Validation warnings.
 
