@@ -99,12 +99,7 @@ The main requirements were to make a responsive website with a minimum of three 
 ![View](assets/project-files/wireframes/wireframes.png)
 
 ### **Live Site**
-
-![Desktop](assets/project-files/wireframes/site/Desktop.jpg) 
-
-![Tablet](assets/project-files/wireframes/site/Tablet.jpg) 
-
-![Mobile](assets/project-files/wireframes/site/Mobile.jpg) 
+![live site](assets/project-files/wireframes/site/live-site.png)
 
 ### ***Website Design***
 
