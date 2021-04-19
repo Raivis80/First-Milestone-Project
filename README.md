@@ -58,26 +58,26 @@ The main requirements were to make a responsive website with a minimum of three 
 
 ### **Strategy**
 
-### Website strategy
+#### Website strategy
 1. Create online presence
 1. Promote Services
 1. Display Galery
 1. Provide with contact information
 1. provide with social media links
 
-### Target audiences
+#### Target audiences
 1. Wedding planners
 1. Event organisers
 1. General Users looking for flower arrangements
 1. Current customers
 
-### External Visiror's goal's
+#### External Visiror's goal's
 1. To get quotes for weddings flower arrangemens, event flower arrangements.
 1. To be able to navigate throughout the site to find any occasion flower arrangements.
 1. To locate Information on the location, contact details.
 1. To locate links to social media for external resources. 
 
-### Site owner's goal's
+#### Site owner's goal's
 1. To be able to attract and retaining potential customers.
 1. Showcase photos from the flower Bouquets, events catalog.
 1. Merchandise occasion flower arrangements.
@@ -85,7 +85,7 @@ The main requirements were to make a responsive website with a minimum of three 
 
 ### **Scope**
 
-### Features
+#### Features
 1. Easy website navigation to quickly find the information 
 1. Picture Display gallery to showcase latest work.
 1. Contact Form and contact Information.
@@ -98,7 +98,7 @@ The main requirements were to make a responsive website with a minimum of three 
 1. Showcase Gallery.
 1. Contact information.
 
-### Site Structure
+### **Site Structure**
 Website must be responsive with interactive elements Display Thumbnail Gallery
 
 1. NavBar 
@@ -120,11 +120,11 @@ Website must be responsive with interactive elements Display Thumbnail Gallery
    - Contact information Block
    - Location Map
 
-### Quick sketch
+#### Quick sketch
 
 ![View](assets/project-files/wireframes/skech.jpg)    
 
-### Wireframes
+#### Wireframes
 ![View](assets/project-files/wireframes/wireframes.png)
 
 ### ***Design***
