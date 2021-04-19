@@ -102,23 +102,23 @@ The main requirements were to make a responsive website with a minimum of three 
 Website must be responsive with interactive elements Display Thumbnail Gallery
 
 1. NavBar 
-   1. Branding
-   1. Navigation Links
-   1. Social Links
+   - Branding
+   - Navigation Links
+   - Social Links
 2. Landing Page
-   1. Large description 
-   1. Background Hero Image
+   - Large description 
+   - Background Hero Image
 3. About page (About page was latter added after discussions with Mentor)
-   1. About us.
-   1. Why Us.
-   1. What we do.
+   - About us.
+   - Why Us.
+   - What we do.
 4. Galery page
 5. Interactive Recent reviews (Was latter added to compliment About Page design)
 6. Contact form
 7. Footer
-   1. Address block
-   1. Contact information Block
-   1. Location Map
+   - Address block
+   - Contact information Block
+   - Location Map
 
 ### Quick sketch
 
