@@ -95,12 +95,26 @@ The main requirements were to make a responsive website with a minimum of three 
 1. Responsive design to be able to target broader audiences.
 
 #### Content
+- Landing Page
 1. Descriptive Hero image
-1. About Us, Who we are, What we do.
-1. Showcase Gallery.
-1. Contact information.
+1. Large Description responsive text overlay
+- About Page
+1. About Us description
+1. Who we are description
+1. What we do description
+1. Later added Top Picks feature
+- Galery
+1. Showcase thumbnail Gallery content
+- Contact information.
+1. Contact Form
+- Footer
+1. Address information
+1. Contact information
+1. Embeded locatin Map
 
 ### **Site Structure**
+
+![View](assets/project-files/wireframes/site/Presentation1.jpg) 
 
 - NavBar 
    - Branding
