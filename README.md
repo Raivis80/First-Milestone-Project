@@ -65,6 +65,8 @@ The main requirements were to make a responsive website with a minimum of three 
 1. Provide with contact information
 1. provide with social media links
 
+![Importance](assets/project-files/wireframes/importance.jpg)
+
 #### Target audiences
 1. Wedding planners
 1. Event organisers
