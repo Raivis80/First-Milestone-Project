@@ -13,23 +13,23 @@
 ### 2. [Ux](#UX)
 - ### Strategy
   1. [Website strategy](#Website-strategy)
-  1. [Target audiences](#Target-audiences)
-  1. [External Visitor's goal's](#External-Visiror's-goal's)
-  1. [Site owner's goal's](#Site-owner's-goal's)
+  2. [Target audiences](#Target-audiences)
+  3. [External Visitor's goal's](#External-Visiror's-goal's)
+  4. [Site owner's goal's](#Site-owner's-goal's)
 - ### Scope
   1. [Features](#Features)
-  1. [Content](#Content)
+  2. [Content](#Content)
 - ### Structures  
   1. [Structure](#Site-Structure)
 - ### Skeleton
   1. [Quick Sketch](#Quick-Sketch)
-  1. [Wireframes](#Wireframes)
+  2. [Wireframes](#Wireframes)
 - ### Design
   1. [Colour Scheme](#Colour-Scheme)
-  1. [Fonts](#Fonts)
-  1. [Media](#Media)
-  1. [Languages](#Languages-Used)
-  1. [Technologies Used](#Technologies-and-Frameworks)
+  2. [Fonts](#Fonts)
+  3. [Media](#Media)
+  4. [Languages](#Languages-Used)
+  5. [Technologies Used](#Technologies-and-Frameworks)
 ### 3. [Completed Live Site](#Completed-Live-Site)
   1. [Completed-site-features](#Completed-site-features)   
 ### 4. [Testing](#Testing)
