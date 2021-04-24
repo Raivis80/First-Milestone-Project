@@ -5,46 +5,35 @@
 
 ## User Experience (UX), HTML5 and CSS, Milestone Project. 
 
- - ## [View the live project here.](https://raivis80.github.io/First-Milestone-Project/) 
+## [View the live project here.](https://raivis80.github.io/First-Milestone-Project/) 
 
 ## Table of contents
 
-### 1. [Introduction](#Itroduction)
-### 2. [Ux](#UX)
-- ### Strategy
-  1. [Website strategy](#Website-strategy)
-  2. [Target audiences](#Target-audiences)
-  3. [External Visitor's goal's](#External-Visiror's-goal's)
-  4. [Site owner's goal's](#Site-owner's-goal's)
-- ### Scope
-  1. [Features](#Features)
-  2. [Content](#Content)
-- ### Structures  
-  1. [Structure](#Site-Structure)
-- ### Skeleton
-  1. [Quick Sketch](#Quick-Sketch)
-  2. [Wireframes](#Wireframes)
-- ### Design
-  1. [Colour Scheme](#Colour-Scheme)
-  2. [Fonts](#Fonts)
-  3. [Media](#Media)
-  4. [Languages](#Languages-Used)
-  5. [Technologies Used](#Technologies-and-Frameworks)
-### 3. [Completed Live Site](#Completed-Live-Site)
-  1. [Completed-site-features](#Completed-site-features)   
-### 4. [Testing](#Testing)
-  1. [W3C Validation](#W3C-Validation)
-  1. [Bugs and Issues](#Bugs-and-Issues)
-  1. [Fixed Bugs and Issues](#Fixed-Bugs-and-Issues)
-  1. [Further Testing](#Further-Testing)  
-### 5. [Deployment](#Deployment)
-  1. [Deployment on GitHub Pages](#Deploying-on-GitHub-Pages)
-  1 [Forking the Repository](#Forking-the-Repository)
-  1. [Creating a Clone](#Creating-a-Clone)
-### 6. [Credits](#Credits)
-  1. [Helpfull sites](#Helpfull-sites)
-  1. [Images](#Images)
-  1. [Acknowledgements](#Acknowledgements)
+1. [Introduction](#Itroduction)
+1. [Ux](#UX)
+    - [User Stories](#User-Stories)
+    - [Development Planes](#Development-Planes)
+    - [Design](#Design)
+
+1. [Features](#Features)
+   - [Screenshots](#Screenshots)
+   - [Design features](#Design-features)   
+1. [Testing](#Testing)
+   - [W3C Validation](#W3C-Validation)
+   - [Bugs and Issues](#Bugs-and-Issues)
+   - [Fixed Bugs and Issues](#Fixed-Bugs-and-Issues)
+   - [Further Testing](#Further-Testing)
+1. [Technologies and Frameworks](#Technologies-and-Frameworks)
+   - [Languages Used](#Languages-Used)
+   - [Frameworks, Libraries & Programs Used](#Frameworks,-Libraries-&-Programs-Used)  
+1. [Deployment](#Deployment)
+   - [Deployment on GitHub Pages](#Deploying-on-GitHub-Pages)
+   - [Forking the Repository](#Forking-the-Repository)
+   - [Creating a Clone](#Creating-a-Clone)
+1. [Credits](#Credits)
+   - [Helpfull sites](#Helpfull-sites)
+   - [Images](#Images)
+   - [Acknowledgements](#Acknowledgements)
 
 ## ***Introduction***
 
@@ -56,45 +45,62 @@ The main requirements were to make a responsive website with a minimum of three 
 
 ## ***UX***
 
-### **Strategy**
+### **User Stories**
 
-#### Website strategy
-1. Create online presence
-1. Promote Services
-1. Display Galery
-1. Provide with contact information
-1. Provide with social media links
+#### New/Potential users:
+1. Wedding planners.
+1. Event organisers.
+1. General Users looking for flower arrangements.
+1. Current customers.
 
-![Importance](assets/project-files/wireframes/lineplots.jpg)
-
-#### Target audiences
-1. Wedding planners
-1. Event organisers
-1. General Users looking for flower arrangements
-1. Current customers
-
-#### External Visitor's goal's
+#### External Visitor's goal's:
 1. To get quotes for weddings flower arrangemens or event flower arrangements.
 1. To be able to navigate throughout the site to find any occasion flower arrangements.
 1. To locate Information of the location and contact details.
 1. To locate links to social media for external resources. 
 
-#### Site owner's goal's
+#### Site owner's goal's:
 1. To be able to attract and retaining potential customers.
 1. Showcase photos from the flower Bouquets, events catalog.
 1. Merchandise occasion flower arrangements.
 1. To Provide Social media links to external resources and contact information.
 
+## **Development Planes**
+### **Strategy**
+
+#### Target audiences:
+1. Wedding planners.
+1. Event organisers.
+1. General Users looking for flower arrangements.
+1. Current customers.
+
+#### The website needs to enable the User to:
+1. To find floraal products and/or services.
+1. To navigate site easily through categories clearly.
+1. To find showcase gallery to see company's work.
+1. To easily find company's Contact information.
+1. To find company on their preferred social media platform.
+
+#### The website needs to enable the company to:
+1. To create an online presence for the floral company.
+1. To provide a good site navigation to easy and quickly find the relevant information.
+1. To promote the products and/or services.
+1. To showcase floral artist work to create a thumbnail gallery.
+1. To Provide user with contact information.
+1. To Provide user with social media links.
+
+![Importance](assets/project-files/wireframes/lineplots.jpg)
+
 ### **Scope**
 
-#### Features
+#### Functionality Requirements
 1. Easy website navigation to quickly find the information 
 1. Picture Display gallery to showcase latest work.
 1. Contact Form and contact Information.
 1. Links to external resources such as social media.
 1. Responsive design to be able target broader audiences.
 
-#### Content
+#### Content Requirements
 - Landing Page
 1. Descriptive Hero image
 1. Large Description responsive text overlay
@@ -112,7 +118,7 @@ The main requirements were to make a responsive website with a minimum of three 
 1. Contact information
 1. Embeded location Map
 
-### **Site Structure**
+### **Structure**
 
 ![View](assets/project-files/wireframes/site/site.jpg) 
 
@@ -143,7 +149,7 @@ The main requirements were to make a responsive website with a minimum of three 
 #### Wireframes
 ![View](assets/project-files/wireframes/wireframes.png)
 
-### ***Design***
+## ***Design***
 ### **Colour Scheme**
 - Colour palette used [View](https://coolors.co/8a5275-bc626f-35372f-a96260-9e5785-ebebeb-1d1d20)
 ### **Fonts**
@@ -151,25 +157,12 @@ The main requirements were to make a responsive website with a minimum of three 
 ### **Media**
 -   Large, background image is designed to be striking and catch the user's attention.
 -   Photo Gallery & Product Image Gallery helps you display and promote product or service.
-### **Languages Used**
--   [HTML5](https://en.wikipedia.org/wiki/HTML5) Hypertext Markup Language (HTML)
--   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) Cascading Style Sheets (CSS)
 
-### **Technologies and Frameworks**
-- [Bootstrap 5.0.0-beta2:](https://getbootstrap.com/docs/5.0/getting-started/download/) was used to assist with the responsiveness and to style the website.
-- [Google Fonts:](https://fonts.google.com/) were used throughout the site.
-- [Font Awesome:](https://fontawesome.com/) was used throughout the website to add icons.
-- [jQuery:](https://jquery.com/) came with Bootstrap.
-- [Git](https://git-scm.com/) Git was used for version control.
-- [GitHub:](https://github.com/) used to store the projects code.
-- [gitpod.io](https://gitpod.io/) gitpod Was used for codding.
-- [Balsamiq:](https://balsamiq.com/) was used to create the wireframes.
-
-
-## **Completed Live Site**
+## **Features**
+### **Screenshots**
 ![live site](assets/project-files/wireframes/site/live-site.png)
 
-### ***Completed site features***
+### ***Design features***
 
  Website features the Long-Scrolling design with four pages such as: "Home", "About Us", "Galery" and "Contact Us" page.
 
@@ -315,6 +308,23 @@ The main requirements were to make a responsive website with a minimum of three 
 -  Tested on Chrome, Opera and Firefox desktop version browsers and on Iphone 11 Safari, huawei p30 Pro chrome and android browser.
 -  Chrome DevTools was used to Test variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX for responsiveness.
 -  Testing was done to ensure that all Links were linking correctly.
+
+## **Technologies and Frameworks**
+
+### **Languages Used**
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5) Hypertext Markup Language (HTML)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) Cascading Style Sheets (CSS)
+
+### **Frameworks, Libraries & Programs Used**
+- [Bootstrap 5.0.0-beta2:](https://getbootstrap.com/docs/5.0/getting-started/download/) was used to assist with the responsiveness and to style the website.
+- [Google Fonts:](https://fonts.google.com/) were used throughout the site.
+- [Font Awesome:](https://fontawesome.com/) was used throughout the website to add icons.
+- [jQuery:](https://jquery.com/) came with Bootstrap.
+- [Git](https://git-scm.com/) Git was used for version control.
+- [GitHub:](https://github.com/) used to store the projects code.
+- [gitpod.io](https://gitpod.io/) gitpod Was used for codding.
+- [Balsamiq:](https://balsamiq.com/) was used to create the wireframes.
+**
 
 ## ***Deployment***
 ### **Deploying on GitHub Pages**
