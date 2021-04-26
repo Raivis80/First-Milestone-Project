@@ -1,53 +1,56 @@
 
 ## ***Testing***
 
-1. ## [Testing website responsiveness](#Testing-website-responsiveness)
-1. ## [Testing Functions and Links](#Testing-Functions-and-Links)
-1. ## [Further Testing](#Further-Testing)
-1. ## [W3C Validation](#W3C-Validation)
-1. ## [Bugs and Issues](#Bugs-and-Issues)
-1. ## [Fixed Bugs and Issues](#Fixed-Bugs-and-Issues)
+### ***Content:***
+
+1. #### [Testing website responsiveness](#Testing-website-responsiveness)
+1. #### [Testing Functions and Links](#Testing-Functions-and-Links)
+1. #### [Further Testing](#Further-Testing)
+1. #### [W3C Validation](#W3C-Validation)
+1. #### [Bugs and Issues](#Bugs-and-Issues)
+1. #### [Fixed Bugs and Issues](#Fixed-Bugs-and-Issues)
+1. #### [Back to README.MD](README.md)
 
 
 ### **Testing website responsiveness**
 
 **Testing Navigation responsiveness**
     
-    NavBar is Fully responsive to most viewport sizes and I'm using display Property "Fixed". As you scroll it will remain fixed at the top of the browser's viewport.
+NavBar is Fully responsive to most viewport sizes and I'm using display Property "Fixed". As you scroll it will remain fixed at the top of the browser's viewport.
 
 ![responsivedesign](assets/project-files/testing/responsive-test/testing-nav.gif)
 
 **Testing Home page responsiveness**
    
-   For "home Page" for font responsiveness I'm using CSS property "min & max", that is responsive to all other browser sizes.
+For "home Page" for font responsiveness I'm using CSS property "min & max", that is responsive to all other browser sizes.
 
 ![responsivedesign](assets/project-files/testing/responsive-test/home-testing.gif)
 
 **Testing About page responsiveness**
     
-    I'm using FlexBox design for responsive "About us" page design.
-    I'm using CSS FlexBox property "order" for tablet and mobile device elements reordering.
-    I'm using FlexBox declaration "flex-direction: row;"for desktop device elements and for mobile devices I'm using "flex-direction: column;" for elements.
+I'm using FlexBox design for responsive "About us" page design.
+I'm using CSS FlexBox property "order" for tablet and mobile device elements reordering.
+I'm using FlexBox declaration "flex-direction: row;"for desktop device elements and for mobile devices I'm using "flex-direction: column;" for elements.
 
 ![responsivedesign](assets/project-files/testing/responsive-test/about-page.gif)
 
 **Testing gallery responsiveness**
 
-    For "gallery" responsiveness I'm using Bootstrap Grid system.
-    I'm using media queries with CSS declaration "display: none;" to hide some of the images for mobile devices.
+For "gallery" responsiveness I'm using Bootstrap Grid system.
+I'm using media queries with CSS declaration "display: none;" to hide some of the images for mobile devices.
 
 ![responsivedesign](assets/project-files/testing/responsive-test/gallery-testing.gif)
 
 **Testing Review and Contact form responsiveness**
 
-    For "review area" responsiveness I'm using Bootstrap Grid system.
-    I'm using CSS declaration "max-width: 600px;" for "Contact form" to make it responsive.
+For "review area" responsiveness I'm using Bootstrap Grid system.
+I'm using CSS declaration "max-width: 600px;" for "Contact form" to make it responsive.
 
 ![responsivedesign](assets/project-files/testing/responsive-test/testing-review-and-contact-form.gif)
 
 **Testing footer responsiveness**
 
-    I'm using FlexBox system design for the Footer responsiveness and CSS Media query technique with FlexBox CSS declaration "flex-item :order" to rearrange Element order for mobile devices.
+I'm using FlexBox system design for the Footer responsiveness and CSS Media query technique with FlexBox CSS declaration "flex-item :order" to rearrange Element order for mobile devices.
 
 ![responsivedesign](assets/project-files/testing/responsive-test/footer-testing.gif)
 
