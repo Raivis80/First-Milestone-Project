@@ -1,7 +1,7 @@
 
 ## ***Testing***
 
-### ***Content:***
+### **Table of contents**
 
 1. #### [Testing website responsiveness](#Testing-website-responsiveness)
 1. #### [Testing Functions and Links](#Testing-Functions-and-Links)
@@ -14,7 +14,7 @@
 
 ### **Testing website responsiveness**
 
-**Testing Navigation responsiveness**
+#### **Testing Navigation responsiveness**
     
 NavBar is Fully responsive to most viewport sizes and I'm using display Property "Fixed". As you scroll it will remain fixed at the top of the browser's viewport.
 
@@ -26,7 +26,7 @@ For "home Page" for font responsiveness I'm using CSS property "min & max", that
 
 ![responsivedesign](assets/project-files/testing/responsive-test/home-testing.gif)
 
-**Testing About page responsiveness**
+#### **Testing About page responsiveness**
     
 I'm using FlexBox design for responsive "About us" page design.
 I'm using CSS FlexBox property "order" for tablet and mobile device elements reordering.
@@ -34,7 +34,7 @@ I'm using FlexBox declaration "flex-direction: row;"for desktop device elements 
 
 ![responsivedesign](assets/project-files/testing/responsive-test/about-page.gif)
 
-**Testing gallery responsiveness**
+#### **Testing gallery responsiveness**
 
 For "gallery" responsiveness I'm using Bootstrap Grid system.
 I'm using media queries with CSS declaration "display: none;" to hide some of the images for mobile devices.
@@ -48,7 +48,7 @@ I'm using CSS declaration "max-width: 600px;" for "Contact form" to make it resp
 
 ![responsivedesign](assets/project-files/testing/responsive-test/testing-review-and-contact-form.gif)
 
-**Testing footer responsiveness**
+#### **Testing footer responsiveness**
 
 I'm using FlexBox system design for the Footer responsiveness and CSS Media query technique with FlexBox CSS declaration "flex-item :order" to rearrange Element order for mobile devices.
 
@@ -56,23 +56,23 @@ I'm using FlexBox system design for the Footer responsiveness and CSS Media quer
 
 ### **Testing Functions and Links**
 
-**Testing NavBar**
+#### **Testing NavBar**
 
 ![responsivedesign](assets/project-files/testing/nav-link-test.gif)
 
-**Testing "op picks" feature**
+#### **Testing "op picks" feature**
 
 ![responsivedesign](assets/project-files/testing/top-picks-test.gif)
 
-**Testing thumblail gallery**
+#### **Testing thumblail gallery**
 
 ![responsivedesign](assets/project-files/testing/gallery-test.gif)
 
-**Testing contact-form**
+#### **Testing contact-form**
 
 ![responsivedesign](assets/project-files/testing/contact-form-test.gif)
 
-**Testing Footer links**
+#### **Testing Footer links**
 
 ![responsivedesign](assets/project-files/testing/footer-test.gif)
 
