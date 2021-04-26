@@ -131,4 +131,4 @@
  - Issue with CSS Declaration "width: fit-content;" does not work on Firefox browser. I Googled for "fit-content aternative" and CSS Declaration "width: max-content;" and it worked.  Text does not wrap, but in my case it is accetable and Solution works.
  - I had an issues with content overflow on the right side on mobile devices. Using Chrome DevTools I was able to detect that most of the time there was an issues with bootstrap grid system paddings. Using CSS Declaration "padding: 0;" I was able to resolve most of them.
  - Issue with contact form custom background color and placeholder text color to match the website color sheme. Solution was found [here](https://stackoverflow.com/questions/2781549/removing-input-background-colour-for-chrome-autocomplete) with W3C CSS Validation warnings.
- - Issue with text block element, underline allignment on "contact us" page for tablet devices. underline missalignment was solved using "min-height" CSS declaration.
+ - Issue with text block element, underline allignment on "contact us" page for tablet devices. underline missalignment was solved using "min-height" CSS declaration.#Top Picks Feature
