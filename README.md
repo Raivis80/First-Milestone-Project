@@ -102,22 +102,21 @@ The main requirements were to make a responsive website with a minimum of three 
 1. Responsive design to be able target broader audiences.
 
 #### Content Requirements
-- Landing Page
-1. Descriptive Hero image
-1. Large Description responsive text overlay
-- About Page
-1. "About Us" description
-1. "Who we are" description
-1. "What we do" description
-1. Later added "Top Picks" feature
-- Gallery
-1. Showcase thumbnail Gallery content
-- Contact information.
+1. Landing Page
+   - Descriptive Hero image
+   - Large Description responsive text overlay
+1. About Page
+   - "About Us" description
+   - "Who we are" description
+   - "What we do" description
+   - Later added "Top Picks" feature
+1. Gallery
+   - Showcase thumbnail Gallery content
 1. Contact Form
-- Footer
-1. Address information
-1. Contact information
-1. Embeded location Map
+1. Footer
+   - Address information
+   - Contact information
+   - Embeded location Map
 
 ### **Structure**
 
@@ -138,7 +137,13 @@ The main requirements were to make a responsive website with a minimum of three 
 - Gallery page
 - Recent reviews
 - Contact form
+   - "Name field"
+   - "Last-Namee field"
+   - "eMail field"
+   - "Text-Area field"
+   - "Submit button"
 - Footer
+   - Social Links
    - Address block
    - Contact information Block
    - Location Map
@@ -180,11 +185,7 @@ The main requirements were to make a responsive website with a minimum of three 
 
   NavBar has display Property "Fixed". As you scroll it will remain fixed at the top of the browser's viewport.    
 
-![live site](assets/project-files/testing/site-structure/desktop-nav.JPG)
-
-![live site](assets/project-files/testing/site-structure/tablet-nav-1.JPG)
-
-![live site](assets/project-files/testing/site-structure/mobile-nav.JPG)
+![live site](assets/project-files/testing/site-structure/nav.png)
 
 ### **Home Page** 
    Large background image span the full width across the whole viewport and shrinks in size as viewport decreases. Hero background image and color overlay creates a better background for text while being more appealing than a solid background color.
@@ -194,11 +195,8 @@ The main requirements were to make a responsive website with a minimum of three 
   
    Home Page Large font was set CSS property min & max font size, that is responsive to all other browser sizes. Positioning text over image with CSS property  "position: absolute" along with CSS property "z-index".
 
-![live site](assets/project-files/testing/site-structure/desktop-home.JPG)
+![live site](assets/project-files/testing/site-structure/home.png)
 
-![live site](assets/project-files/testing/site-structure/tablet-home-1.JPG)
-
-![live site](assets/project-files/testing/site-structure/mobile-headder.JPG)
 
 ### **About Us**
   
@@ -210,11 +208,7 @@ About us page was designed flexbox layout design for responsive website.
 
 Original "about us" page was designed using CSS properties such as float, positioning of elements. But later it was redesigned as it was inconvenient for responsive design and required element repositioning on each screen size. And it was redesigned following responsive FlexBox Design as for viewport width changes sizes.
 
-![live site](assets/project-files/testing/site-structure/desktop-about.JPG)
-
-![live site](assets/project-files/testing/site-structure/tablet-about.JPG)
-
-![live site](assets/project-files/testing/site-structure/mobile-about.JPG)
+![live site](assets/project-files/testing/site-structure/about.png)
     
 ### **Top Picks Feature** 
     
@@ -226,9 +220,9 @@ Original "about us" page was designed using CSS properties such as float, positi
     
   "hover" pseudo-class was used with transition effects "rotate, translate and scale" for each card to create visual effect such as scale and rotate 6deg on mouse-over.
     
-![live site](assets/project-files/testing/site-structure/desktop-top-picks.JPG)
+![live site](assets/project-files/testing/site-structure/top-picks.png)
 
-![live site](assets/project-files/testing/site-structure/mobile-top-picks.JPG)
+
 
 ### **Gallery** 
   Thumbnail Gallery is a grid of images that when clicked on opens in a pop-up full view images. 
@@ -237,22 +231,14 @@ Original "about us" page was designed using CSS properties such as float, positi
    
   The gallery is fully responsive. Bootstrap Grid system was used for responsive gallery layout desing.
     
-![live site](assets/project-files/testing/site-structure/desktop-galery.JPG)
-
-![live site](assets/project-files/testing/site-structure/tablet-gallery-1.JPG)
-
-![live site](assets/project-files/testing/site-structure/mobile-gallery.JPG)
+![live site](assets/project-files/testing/site-structure/gallery.png)
 
 ### **Recent Reviews**
   Reviews feature is fully responsive. Bootstrap5 Grid system was used for responsive gallery layout.
   
   For the content inside review box FlexBox design was implemented to align image next to a paragraph and to be responsive.
 
-![live site](assets/project-files/testing/site-structure/desktop-review.JPG)
-
-![live site](assets/project-files/testing/site-structure/tablet-review.JPG)
-
-![live site](assets/project-files/testing/site-structure/mobile-review.JPG)
+![live site](assets/project-files/testing/site-structure/review.png)
 
 ### **Contact Form** 
   Contact Form is responsive on most devices with maximum width 600px.
@@ -261,9 +247,7 @@ Original "about us" page was designed using CSS properties such as float, positi
   
   Custom background colour for browser autocomplete function for the contact form input field. Solution was found [here](https://stackoverflow.com/questions/2781549) With W3C CSS Validation Warning.
     
-![live site](assets/project-files/testing/site-structure/contact-form.JPG)
-
-![live site](assets/project-files/testing/site-structure/mobile-contact.JPG)
+![live site](assets/project-files/testing/site-structure/contact.png)
 
 ### **Footer**
   Footer has 3 main block elements: "address for the company", "Contact Information", "Google Map embeded".
@@ -274,11 +258,7 @@ Original "about us" page was designed using CSS properties such as float, positi
    
   Top of the footer features social media links.
 
-![live site](assets/project-files/testing/site-structure/desktop-footer.JPG)
-
-![live site](assets/project-files/testing/site-structure/tablet-footer.JPG)
-
-![live site](assets/project-files/testing/site-structure/mobile-footer.JPG)
+![live site](assets/project-files/testing/site-structure/footer.png)
 
 ## **Technologies and Frameworks**
 
