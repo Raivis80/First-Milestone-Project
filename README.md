@@ -210,7 +210,11 @@ About us page was designed flexbox layout design for responsive website.
 
 Original "about us" page was designed using CSS properties such as float, positioning of elements. But later it was redesigned as it was inconvenient for responsive design and required element repositioning on each screen size. And it was redesigned following responsive FlexBox Design as for viewport width changes sizes.
 
+![live site](assets/project-files/testing/site-structure/desktop-about.JPG)
 
+![live site](assets/project-files/testing/site-structure/tablet-about.JPG)
+
+![live site](assets/project-files/testing/site-structure/mobile-about.JPG)
     
 ### **Top Picks Feature** 
     
