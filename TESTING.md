@@ -19,7 +19,7 @@
 
 **Testing Home page responsiveness**
    
-   For home Page for font responsiveness I'm using CSS property "min & max", that is responsive to all other browser sizes.
+   For "home Page" for font responsiveness I'm using CSS property "min & max", that is responsive to all other browser sizes.
 
 ![responsivedesign](assets/project-files/testing/responsive-test/home-testing.gif)
 
@@ -31,17 +31,23 @@
 
 ![responsivedesign](assets/project-files/testing/responsive-test/about-page.gif)
 
-**Testing testing gallery responsiveness**
-    For gallery rsponsiveness I'm using Bootstrap Grid system.
+**Testing gallery responsiveness**
+
+    For "gallery" responsiveness I'm using Bootstrap Grid system.
     I'm using media queries with CSS declaration "display: none;" to hide some of the images for mobile devices.
 
 ![responsivedesign](assets/project-files/testing/responsive-test/gallery-testing.gif)
 
-**Testing testing review and contact form responsiveness**
+**Testing Review and Contact form responsiveness**
+
+    For "review area" responsiveness I'm using Bootstrap Grid system.
+    I'm using CSS declaration "max-width: 600px;" for "Contact form" to make it responsive.
 
 ![responsivedesign](assets/project-files/testing/responsive-test/testing-review-and-contact-form.gif)
 
-**Testing testing footer responsiveness**
+**Testing footer responsiveness**
+
+    I'm using FlexBox system design for the Footer responsiveness and CSS Media query technique with FlexBox CSS declaration "flex-item :order" to rearrange Element order for mobile devices.
 
 ![responsivedesign](assets/project-files/testing/responsive-test/footer-testing.gif)
 
