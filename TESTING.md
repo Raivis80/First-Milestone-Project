@@ -1,29 +1,39 @@
 
-# ***Testing***
+## ***Testing***
 
-## 1. [Testing website responsiveness](#Testing-website-responsiveness)
-## 1. [Testing Functions and Links](#Testing-Functions-and-Links)
-## 1. [Further Testing](#Further-Testing)
-## 1. [W3C Validation](#W3C-Validation)
-## 1. [Bugs and Issues](#Bugs-and-Issues)
-## 1. [Fixed Bugs and Issues](#Fixed-Bugs-and-Issues)
+1. ## [Testing website responsiveness](#Testing-website-responsiveness)
+1. ## [Testing Functions and Links](#Testing-Functions-and-Links)
+1. ## [Further Testing](#Further-Testing)
+1. ## [W3C Validation](#W3C-Validation)
+1. ## [Bugs and Issues](#Bugs-and-Issues)
+1. ## [Fixed Bugs and Issues](#Fixed-Bugs-and-Issues)
 
 
-## **Testing website responsiveness**
+### **Testing website responsiveness**
 
 **Testing Navigation responsiveness**
+    
+    NavBar is Fully responsive to most viewport sizes and I'm using display Property "Fixed". As you scroll it will remain fixed at the top of the browser's viewport.
 
 ![responsivedesign](assets/project-files/testing/responsive-test/testing-nav.gif)
 
 **Testing Home page responsiveness**
+   
+   For home Page for font responsiveness I'm using CSS property "min & max", that is responsive to all other browser sizes.
 
 ![responsivedesign](assets/project-files/testing/responsive-test/home-testing.gif)
 
 **Testing About page responsiveness**
+    
+    I'm using FlexBox design for responsive "About us" page design.
+    I'm using CSS FlexBox property "order" for tablet and mobile device elements reordering.
+    I'm using FlexBox declaration "flex-direction: row;"for desktop device elements and for mobile devices I'm using "flex-direction: column;" for elements.
 
 ![responsivedesign](assets/project-files/testing/responsive-test/about-page.gif)
 
 **Testing testing gallery responsiveness**
+    For gallery rsponsiveness I'm using Bootstrap Grid system.
+    I'm using media queries with CSS declaration "display: none;" to hide some of the images for mobile devices.
 
 ![responsivedesign](assets/project-files/testing/responsive-test/gallery-testing.gif)
 
@@ -35,7 +45,7 @@
 
 ![responsivedesign](assets/project-files/testing/responsive-test/footer-testing.gif)
 
-## **Testing Functions and Links**
+### **Testing Functions and Links**
 
 **Testing NavBar**
 
@@ -57,19 +67,19 @@
 
 ![responsivedesign](assets/project-files/testing/footer-test.gif)
 
-## **Further Testing**
+### **Further Testing**
 -  Tested on Chrome, Opera and Firefox desktop version browsers and on Iphone 11 Safari, huawei p30 Pro chrome and android browser.
 -  Chrome DevTools was used to Test variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX for responsiveness.
 -  Testing was done to ensure that all Links were linking correctly.
 
-## **W3C Validation**
+### **W3C Validation**
   The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 -   [W3C Markup Validator](assets/project-files/validators/HTML-Vaalidator.pdf)
 -   [W3C CSS Validator](assets/project-files/validators/CSS-Validator.pdf)
 
 
-## **Bugs and Issues**
+### **Bugs and Issues**
 *hide scroolBar for the browser*
 - W3C CSS Validation Warning: "::-webkit-scrollbar is an unknown vendor extended pseudo-element" *Hide scrollbar for Chrome*   
     
@@ -104,7 +114,7 @@
     "-webkit-text-fill-color: rgb(255, 255, 255);"
 
 
-## **Fixed Bugs and Issues**
+### **Fixed Bugs and Issues**
 
 
 - W3C CSS Validation ERROR: - "Property scrollbar-width doesn't exist : none" *Hide scrollbar for Firefox browser*
