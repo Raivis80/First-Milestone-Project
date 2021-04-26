@@ -170,7 +170,7 @@ The main requirements were to make a responsive website with a minimum of three 
  ![live site](assets/project-files/wireframes/site/live-site.png)
 
 
-- ### **NavBar*
+### **NavBar**
 
   Features customized bootstrap NavBar with Bootstrap5 elements such as: "d-none d-sm-block" to display/hide elments to viewport size. Bootstrab drop-down menu was modified for mobile devices.
 
@@ -186,7 +186,7 @@ The main requirements were to make a responsive website with a minimum of three 
 
 ![live site](assets/project-files/testing/site-structure/mobile-nav.JPG)
 
-- ### **Home Page** 
+### **Home Page** 
    Large background image span the full width across the whole viewport and shrinks in size as viewport decreases. Hero background image and color overlay creates a better background for text while being more appealing than a solid background color.
   
    Gradient-efect-overlay is used over the background image to blend background Image color and NavBar color to the website background. Gradient-efect-overlay was placed over background image using CSS declaration "position:absolute" and 
@@ -200,16 +200,19 @@ The main requirements were to make a responsive website with a minimum of three 
 
 ![live site](assets/project-files/testing/site-structure/mobile-headder.JPG)
 
-- ### **About Us**
-  About Us page features three visualy apealing, descriptive images and speaks to user before the quote does.
+### **About Us**
+  
+About Us page features three visualy apealing, descriptive images and speaks to user before the quote does.
+
+Each image has one very telling quote, describing user who the company is, why choice the company and what company does.
+
+About us page was designed flexbox layout design for responsive website.
+
+Original "about us" page was designed using CSS properties such as float, positioning of elements. But later it was redesigned as it was inconvenient for responsive design and required element repositioning on each screen size. And it was redesigned following responsive FlexBox Design as for viewport width changes sizes.
+
+
     
-  Each image has one very telling quote, describing user who the company is, why choice the company and what company does.   
-    
-  About us page was designed flexbox layout design for responsive website.   
-        
-  *Original "about us" page was designed using CSS properties such as float, positioning of elements. But later it was redesigned as it was inconvenient for responsive design and required element repositioning on each screen size. And it was redesigned following responsive FlexBox Design as for viewport width changes sizes.*
-    
-- ### **Top Picks Feature** 
+### **Top Picks Feature** 
     
   "Top Picks" Feature represents four thumblail images with current offers for the company. 
     
@@ -223,7 +226,7 @@ The main requirements were to make a responsive website with a minimum of three 
 
 ![live site](assets/project-files/testing/site-structure/mobile-top-picks.JPG)
 
-- ### **Gallery** 
+### **Gallery** 
   Thumbnail Gallery is a grid of images that when clicked on opens in a pop-up full view images. 
   
   The gallery configuration designed to have smaller images for Thumbnails and Large Images stored separately on the website.
@@ -236,7 +239,7 @@ The main requirements were to make a responsive website with a minimum of three 
 
 ![live site](assets/project-files/testing/site-structure/mobile-gallery.JPG)
 
-- ### **Recent Reviews**
+### **Recent Reviews**
   Reviews feature is fully responsive. Bootstrap5 Grid system was used for responsive gallery layout.
   
   For the content inside review box FlexBox design was implemented to align image next to a paragraph and to be responsive.
@@ -247,7 +250,7 @@ The main requirements were to make a responsive website with a minimum of three 
 
 ![live site](assets/project-files/testing/site-structure/mobile-review.JPG)
 
-- ### **Contact Form** 
+### **Contact Form** 
   Contact Form is responsive on most devices with maximum width 600px.
   
   Follow this guide to create a contact form [here](https://www.w3schools.com/css/tryit.asp?filename=trycss_forms)
@@ -258,7 +261,7 @@ The main requirements were to make a responsive website with a minimum of three 
 
 ![live site](assets/project-files/testing/site-structure/mobile-contact.JPG)
 
-- ### **Footer**
+### **Footer**
   Footer has 3 main block elements: "address for the company", "Contact Information", "Google Map embeded".
     
   Footer was designed to be responsive using FlexBox system design. CSS Media query technique with FlexBox CSS declaration "flex-item :order" was used to rearrange Element order for mobile devices.
