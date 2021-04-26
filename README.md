@@ -178,7 +178,7 @@ The main requirements were to make a responsive website with a minimum of three 
 
   NavBar has display Property "Fixed". As you scroll it will remain fixed at the top of the browser's viewport.    
 
-- #### **Home Page Design** 
+- #### **Home Page** 
    Large background image span the full width across the whole viewport and shrinks in size as viewport decreases. Hero background image and color overlay creates a better background for text while being more appealing than a solid background color.
   
    Gradient-efect-overlay is used over the background image to blend background Image color and NavBar color to the website background. Gradient-efect-overlay was placed over background image using CSS declaration "position:absolute" and 
@@ -186,7 +186,7 @@ The main requirements were to make a responsive website with a minimum of three 
   
    Home Page Large font was set CSS property min & max font size, that is responsive to all other browser sizes. Positioning text over image with CSS property  "position: absolute" along with CSS property "z-index".
 
-- #### **About Page Design**
+- #### **About Page**
   About Us page features three visualy apealing, descriptive images and speaks to user before the quote does.
     
   Each image has one very telling quote, describing user who the company is, why choice the company and what company does.   
@@ -205,7 +205,7 @@ The main requirements were to make a responsive website with a minimum of three 
     
   "hover" pseudo-class was used with transition effects "rotate, translate and scale" for each card to create visual effect such as scale and rotate 6deg on mouse-over.
     
-- #### **Picture Galery Design** 
+- #### **Picture Galery** 
   Thumbnail Gallery is a grid of images that when clicked on opens in a pop-up full view images. 
   
   The gallery configuration designed to have smaller images for Thumbnails and Large Images stored separately on the website.
@@ -217,7 +217,7 @@ The main requirements were to make a responsive website with a minimum of three 
   
   For the content inside review box FlexBox design was implemented to align image next to a paragraph and to be responsive.
 
-- #### **Contact Page Design** 
+- #### **Contact Page** 
   Contact Form is responsive on most devices with maximum width 600px.
   
   Follow this guide to create a contact form [here](https://www.w3schools.com/css/tryit.asp?filename=trycss_forms)

@@ -719,7 +719,6 @@ input[type=submit]:hover {
     float: left;
     width: 45px;
     font-weight: bold;
-
 }
 
 
@@ -758,7 +757,6 @@ footer h4 {
 }
 
 .icon {
-
     line-height: 2rem;
     text-align: center;
 }
@@ -809,8 +807,9 @@ footer h4 {
     .welcome,
     .we-choose,
     .occasion {
+        padding-top: 9px;
         max-width: 500px;
-        flex-basis: 450px;
+        flex-basis: 200px;
     }
     .welcome {
         order: 1;
@@ -838,19 +837,17 @@ footer h4 {
     .about--content {
         flex-direction: column;
     }
-    .welcome,
-    .we-choose,
-    .occasion {
-        max-width: 900px;       
+    .we-choose {
+        order: 2;
+        margin: 0 9px;
+        align-self: flex-end;
     }
 
     .welcome .about-p,
     .occasion .about-p {
         min-height: auto;
     }
-    .we-choose {
-        margin: 0;       
-    }
+    
 }
 
 @media screen and (max-width: 767px) {
@@ -949,7 +946,4 @@ footer h4 {
     .overlay {
         display: none;
     }
-}
-}
-}
 }
