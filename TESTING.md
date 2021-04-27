@@ -24,9 +24,7 @@
 1. [Back to README.md](README.md)
 
 # [&#8686;](#Testing)
-
 ## ***Testing Website responsiveness***
-
 ### **Testing Navigation responsiveness**
     
 NavBar is responsive to most viewport sizes. 
@@ -79,7 +77,6 @@ I'm using CSS Media query technique with FlexBox CSS declaration "flex-item :ord
 
 # [&#8686;](#Testing)
 ## ***Testing Functions and Links***
-
 ### **Testing NavBar**
 
  I'm using link for NavBar brand element and when I click on it the page reloads.
@@ -128,9 +125,12 @@ I'm using a target="_blank" attribute to links to open links in a new browser ta
 
 # [&#8686;](#Testing)
 ## **Further Testing**
--  Tested on Chrome, Opera and Firefox desktop version browsers and on Iphone 11 Safari, huawei p30 Pro chrome and android browser.
--  Chrome DevTools was used to Test variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX for responsiveness.
--  Testing was done to ensure that all Links were linking correctly.
+
+Tested on Chrome, Opera and Firefox desktop version browsers and on Iphone 11 Safari, huawei p30 Pro chrome and android browser.
+
+Chrome DevTools was used to Test variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX for responsiveness.
+
+Testing was done to ensure that all Links were linking correctly.
 
 # [&#8686;](#Testing)
 ## **W3C Validation**
@@ -140,7 +140,7 @@ I'm using a target="_blank" attribute to links to open links in a new browser ta
 -   [W3C CSS Validator](assets/project-files/validators/CSS-Validator.pdf)
 
 # [&#8686;](#Testing)
-## **Bugs and Issues:**
+## **Bugs and Issues**
 *hide scroolBar for the browser*
 - W3C CSS Validation Warning: "::-webkit-scrollbar is an unknown vendor extended pseudo-element" *Hide scrollbar for Chrome*   
     
