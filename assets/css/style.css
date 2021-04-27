@@ -821,7 +821,6 @@ footer h4 {
     .occasion {
         order: 2;
     }
-
 }
 
 @media screen and (max-width: 991.5px) {
@@ -846,8 +845,7 @@ footer h4 {
     .welcome .about-p,
     .occasion .about-p {
         min-height: auto;
-    }
-    
+    }   
 }
 
 @media screen and (max-width: 767px) {
@@ -945,5 +943,8 @@ footer h4 {
     .main--pic,
     .overlay {
         display: none;
+    }
+    .best-sellers p {
+        font-size: .6rem;
     }
 }
