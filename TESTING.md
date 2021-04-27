@@ -201,8 +201,8 @@ Testing was done to ensure that all Links were linking correctly.
  - Issue with CSS Declaration "width: fit-content;" does not work on Firefox browser. I Googled for "fit-content aternative" and CSS Declaration "width: max-content;" and it worked.  Text does not wrap, but in my case it is accetable and Solution works.
  - I had an issues with content overflow on the right side on mobile devices. Using Chrome DevTools I was able to detect that most of the time there was an issues with bootstrap grid system paddings. Using CSS Declaration "padding: 0;" I was able to resolve most of them.
  - Issue with contact form custom background color and placeholder text color to match the website color sheme. Solution was found [here](https://stackoverflow.com/questions/2781549/removing-input-background-colour-for-chrome-autocomplete) with W3C CSS Validation warnings.
- - Issue with text block element, underline allignment on "contact us" page for tablet devices. underline missalignment was solved using "min-height" CSS declaration for text block elements.
- - Issue with "Contact Us" page: as the viewport decreased in width, one of 3 images shifted below two top images, width for the image below was wider than two images above as they where compressing and image below was expanding. 
+ - Issue with text block element, underline allignment on "contact us" page for tablet devices. Underline missalignment was solved using "min-height" CSS declaration for text block elements.
+ - Issue with "Contact Us" page: as the viewport decreased in width, one of 3 images shifted below two top images and width for the image below was wider than the two images above as they where compressing and image below was expanding. 
    I've solved the issue using media queries and for the single image i was using margins left, right as viewpost decrease the image compressed same rate as two top images.
 
  # [&#8686;](#Testing)
