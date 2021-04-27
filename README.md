@@ -9,7 +9,7 @@
 
 ## Table of contents
 
-1. [Introduction](#Itroduction)
+1. [Introduction](#Introduction)
 1. [Ux](#UX)
    - [User Stories](#User-Stories)
    - [Development Planes](#Development-Planes)
@@ -47,7 +47,7 @@ This is the first of four Milestone Projects that the developer must complete du
 The main requirements were to make a responsive website with a minimum of three pages using primarily *HTML5* and *CSS3*.
 
 # [&#8686;](#Floral-Fantasy)
-## ***UX***
+## ***UX*** 
 
 ### **User Stories**
 
@@ -182,7 +182,7 @@ The main requirements were to make a responsive website with a minimum of three 
 
  ![live site](assets/project-files/wireframes/site/live-site.png)
 
-
+#
 ### **NavBar**
 
   Features customized bootstrap NavBar with Bootstrap5 elements such as: "d-none d-sm-block" to display/hide elments to viewport size. Bootstrab drop-down menu was modified for mobile devices.
@@ -194,42 +194,42 @@ The main requirements were to make a responsive website with a minimum of three 
   NavBar has display Property "Fixed". As you scroll it will remain fixed at the top of the browser's viewport.    
 
 ![live site](assets/project-files/testing/site-structure/nav.png)
-
+#
 ### **Home Page** 
-   Large background image span the full width across the whole viewport and shrinks in size as viewport decreases. Hero background image and color overlay creates a better background for text while being more appealing than a solid background color.
+  Large background image span the full width across the whole viewport and shrinks in size as viewport decreases. Hero background image and color overlay creates a better background for text while being more appealing than a solid background color.
   
-   Gradient-efect-overlay is used over the background image to blend background Image color and NavBar color to the website background. Gradient-efect-overlay was placed over background image using CSS declaration "position:absolute" and 
-   CSS declaration "position:relative" for Gradient-efect-overlay to position over the image"
+  Gradient-efect-overlay is used over the background image to blend background Image color and NavBar color to the website background. 
+  Gradient-efect-overlay was placed over background image using CSS declaration "position:absolute" and CSS declaration "position:relative" for Gradient-efect-overlay to position over the image"
   
-   Home Page Large font was set CSS property min & max font size, that is responsive to all other browser sizes. Positioning text over image with CSS property  "position: absolute" along with CSS property "z-index".
+  Home Page Large font was set CSS property min & max font size, that is responsive to all other browser sizes. Positioning text over image with CSS property  "position: absolute" along with CSS property "z-index".
 
 ![live site](assets/project-files/testing/site-structure/home.png)
 
-
+#
 ### **About Us**
   
-About Us page features three visualy apealing, descriptive images and speaks to user before the quote does.
+  "About Us" page features three visualy apealing, descriptive images and speaks to user before the quote does.
 
-Each image has one very telling quote, describing user who the company is, why choice the company and what company does.
+  Each image has one very telling quote, describing user who the company is, why choice the company and what company does.
 
-About us page was designed flexbox layout design for responsive website.
+  "About us" page was designed flexbox layout design for responsive website.
 
-Original "about us" page was designed using CSS properties such as float, positioning of elements. But later it was redesigned as it was inconvenient for responsive design and required element repositioning on each screen size. And it was redesigned following responsive FlexBox Design as for viewport width changes sizes.
+  Original "about us" page was designed using CSS properties such as float, positioning of elements. But later it was redesigned as it was inconvenient for responsive design and required element repositioning on each screen size. And it was redesigned following responsive FlexBox Design as for viewport width changes sizes.
 
 ![live site](assets/project-files/testing/site-structure/about.png)
-    
+#    
 ### **Top Picks Feature** 
     
   "Top Picks" Feature represents four thumblail images with current offers for the company. 
     
-  Top Picks Feature was designed to be responsive and using FlexBox design for responsiveness.
+  "Top Picks" Feature was designed to be responsive and using FlexBox design for responsiveness.
     
-  Top Picks Feature was designed to overlap each image using negative margin and CSS property z-index. Text was palced over the images using CSS declaration "position:absolute".
+  "Top Picks" Feature was designed to overlap each image using negative margin and CSS property z-index. Text was palced over the images using CSS declaration "position:absolute".
     
   "hover" pseudo-class was used with transition effects "rotate, translate and scale" for each card to create visual effect such as scale and rotate 6deg on mouse-over.
-    
-![live site](assets/project-files/testing/site-structure/top-picks.png)
-
+  
+  ![live site](assets/project-files/testing/site-structure/top-picks.png)
+#
 ### **Gallery** 
   Thumbnail Gallery is a grid of images that when clicked on opens in a pop-up full view images. 
   
@@ -238,14 +238,14 @@ Original "about us" page was designed using CSS properties such as float, positi
   The gallery is fully responsive. Bootstrap Grid system was used for responsive gallery layout desing.
     
 ![live site](assets/project-files/testing/site-structure/gallery.png)
-
+#
 ### **Recent Reviews**
   Reviews feature is fully responsive. Bootstrap5 Grid system was used for responsive gallery layout.
   
   For the content inside review box FlexBox design was implemented to align image next to a paragraph and to be responsive.
 
 ![live site](assets/project-files/testing/site-structure/review.png)
-
+#
 ### **Contact Form** 
   Contact Form is responsive on most devices with maximum width 600px.
   
@@ -254,7 +254,7 @@ Original "about us" page was designed using CSS properties such as float, positi
   Custom background colour for browser autocomplete function for the contact form input field. Solution was found [here](https://stackoverflow.com/questions/2781549) With W3C CSS Validation Warning.
     
 ![live site](assets/project-files/testing/site-structure/contact.png)
-
+#
 ### **Footer**
   Footer has 3 main block elements: "address for the company", "Contact Information", "Google Map embeded".
     

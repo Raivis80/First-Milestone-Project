@@ -13,7 +13,6 @@
 
 # [&#8686;](#Testing)
 
-
 ## ***Testing website responsiveness***
 
 ### **Testing Navigation responsiveness:**
@@ -25,13 +24,13 @@ I'm using bootsrap5 components and flexBox components for NavBar responsiveness.
 I'm using display Property "Fixed". As you scroll it will remain fixed at the top of the browser's viewport.
 
 ![responsivedesign](assets/project-files/testing/responsive-test/testing-nav.gif)
-
+#
 ### **Testing Home page responsiveness:**
    
 For "home Page" for font responsiveness I'm using CSS property "min & max", that is responsive to all other browser sizes.
 
 ![responsivedesign](assets/project-files/testing/responsive-test/home-testing.gif)
-
+#
 ### **Testing About page responsiveness:**
     
 I'm using FlexBox design for responsive "About us" page design.
@@ -41,7 +40,7 @@ I'm using CSS FlexBox property "order" for tablet and mobile device elements reo
 I'm using FlexBox declaration "flex-direction: row;"for desktop device elements and for mobile devices I'm using "flex-direction: column;" for elements.
 
 ![responsivedesign](assets/project-files/testing/responsive-test/about-page.gif)
-
+#
 ### **Testing gallery responsiveness:**
 
 For "gallery" responsiveness I'm using Bootstrap Grid system.
@@ -49,7 +48,7 @@ For "gallery" responsiveness I'm using Bootstrap Grid system.
 I'm using media queries with CSS declaration "display: none;" to hide some of the images for mobile devices.
 
 ![responsivedesign](assets/project-files/testing/responsive-test/gallery-testing.gif)
-
+#
 ### **Testing Review and Contact form responsiveness:**
 
 For "review area" responsiveness I'm using Bootstrap Grid system.
@@ -57,7 +56,7 @@ For "review area" responsiveness I'm using Bootstrap Grid system.
 I'm using CSS declaration "max-width: 600px;" for "Contact form" to make it responsive.
 
 ![responsivedesign](assets/project-files/testing/responsive-test/testing-review-and-contact-form.gif)
-
+#
 ### **Testing footer responsiveness:**
 
 I'm using FlexBox system for the Footer responsiveness. 
@@ -80,7 +79,7 @@ I'm using CSS Media query technique with FlexBox CSS declaration "flex-item :ord
  Navbar also features links to the social media platforms. I'm using font awesome for the link icons. I'm using a target="_blank" attribute to links to open social media links in a new browser tab.
 
 ![responsivedesign](assets/project-files/testing/nav-link-test.gif)
-
+#
 ### **Testing "op picks" feature:**
 
 "Top Picks" Feature was designed to overlap each image using negative margin and CSS property z-index.
@@ -88,13 +87,13 @@ I'm using CSS Media query technique with FlexBox CSS declaration "flex-item :ord
 Pseudo-class "hover" was used with transition effects "rotate, translate and scale" for each card to create visual effect such as scale and rotate 6deg on mouse-over.
 
 ![responsivedesign](assets/project-files/testing/top-picks-test.gif)
-
+#
 ### **Testing thumblail gallery:**
 
 The gallery configuration designed to have smaller images for Thumbnails when clicked on opens full size images in a new tab. 
 
 ![responsivedesign](assets/project-files/testing/gallery-test.gif)
-
+#
 ### **Testing contact-form:**
 
 Contact form was tested ifr input element functioning correctly. 
@@ -102,7 +101,7 @@ Contact form was tested ifr input element functioning correctly.
 And if all of the input fields "required" attribute functioning correctly.
  
 ![responsivedesign](assets/project-files/testing/contact-form-test.gif)
-
+#
 ### **Testing Footer links:**
 
 Footer features links to the social media platforms. 
