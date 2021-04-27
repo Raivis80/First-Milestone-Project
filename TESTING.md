@@ -3,8 +3,20 @@
 
 ### **Table of contents**
 
-1. [Testing website responsiveness](#Testing-website-responsiveness)
+1. [Testing Website responsiveness](#Testing-Website-responsiveness)
+- [NavBar](#Testing-Navigation-responsiveness)
+- [Home Page](#Testing-Home-Page-responsiveness)
+- [About page](#Testing-About-Page-responsiveness)
+- [Gallery](#Testing-Gallery-responsiveness)
+- [Review and Contact form](#Testing-Review-and-Contact-Form-responsiveness)
+- [Footer](#Testing-Footer-responsiveness)
 1. [Testing Functions and Links](#Testing-Functions-and-Links)
+- [NavBar](#Testing-NavBar)
+- [Top Picks](#Testing-"Top Picks"-Feature)
+- [Gallery](#Testing-Thumblail-Gallery)
+- [Gallery](#Testing-Gallery-responsiveness)
+- [Contact form](#Testing-Contact-Form)
+- [Footer](#Testing Footer Links)
 1. [Further Testing](#Further-Testing)
 1. [W3C Validation](#W3C-Validation)
 1. [Bugs and Issues](#Bugs-and-Issues)
@@ -13,9 +25,9 @@
 
 # [&#8686;](#Testing)
 
-## ***Testing website responsiveness***
+## ***Testing Website responsiveness***
 
-### **Testing Navigation responsiveness:**
+### **Testing Navigation responsiveness**
     
 NavBar is responsive to most viewport sizes. 
 
@@ -25,13 +37,13 @@ I'm using display Property "Fixed". As you scroll it will remain fixed at the to
 
 ![responsivedesign](assets/project-files/testing/responsive-test/testing-nav.gif)
 #
-### **Testing Home page responsiveness:**
+### **Testing Home Page responsiveness**
    
 For "home Page" for font responsiveness I'm using CSS property "min & max", that is responsive to all other browser sizes.
 
 ![responsivedesign](assets/project-files/testing/responsive-test/home-testing.gif)
 #
-### **Testing About page responsiveness:**
+### **Testing About Page responsiveness**
     
 I'm using FlexBox design for responsive "About us" page design.
 
@@ -41,7 +53,7 @@ I'm using FlexBox declaration "flex-direction: row;"for desktop device elements 
 
 ![responsivedesign](assets/project-files/testing/responsive-test/about-page.gif)
 #
-### **Testing gallery responsiveness:**
+### **Testing Gallery responsiveness**
 
 For "gallery" responsiveness I'm using Bootstrap Grid system.
 
@@ -49,7 +61,7 @@ I'm using media queries with CSS declaration "display: none;" to hide some of th
 
 ![responsivedesign](assets/project-files/testing/responsive-test/gallery-testing.gif)
 #
-### **Testing Review and Contact form responsiveness:**
+### **Testing Review and Contact Form responsiveness**
 
 For "review area" responsiveness I'm using Bootstrap Grid system.
 
@@ -57,7 +69,7 @@ I'm using CSS declaration "max-width: 600px;" for "Contact form" to make it resp
 
 ![responsivedesign](assets/project-files/testing/responsive-test/testing-review-and-contact-form.gif)
 #
-### **Testing footer responsiveness:**
+### **Testing Footer responsiveness**
 
 I'm using FlexBox system for the Footer responsiveness. 
 
@@ -68,7 +80,7 @@ I'm using CSS Media query technique with FlexBox CSS declaration "flex-item :ord
 # [&#8686;](#Testing)
 ## ***Testing Functions and Links***
 
-### **Testing NavBar:**
+### **Testing NavBar**
 
  I'm using link for NavBar brand element and when I click on it the page reloads.
  
@@ -80,7 +92,7 @@ I'm using CSS Media query technique with FlexBox CSS declaration "flex-item :ord
 
 ![responsivedesign](assets/project-files/testing/nav-link-test.gif)
 #
-### **Testing "op picks" feature:**
+### **Testing "Top Picks" Feature**
 
 "Top Picks" Feature was designed to overlap each image using negative margin and CSS property z-index.
 
@@ -88,13 +100,13 @@ Pseudo-class "hover" was used with transition effects "rotate, translate and sca
 
 ![responsivedesign](assets/project-files/testing/top-picks-test.gif)
 #
-### **Testing thumblail gallery:**
+### **Testing Thumblail Gallery**
 
 The gallery configuration designed to have smaller images for Thumbnails when clicked on opens full size images in a new tab. 
 
 ![responsivedesign](assets/project-files/testing/gallery-test.gif)
 #
-### **Testing contact-form:**
+### **Testing Contact Form**
 
 Contact form was tested ifr input element functioning correctly. 
 
@@ -102,7 +114,7 @@ And if all of the input fields "required" attribute functioning correctly.
  
 ![responsivedesign](assets/project-files/testing/contact-form-test.gif)
 #
-### **Testing Footer links:**
+### **Testing Footer links**
 
 Footer features links to the social media platforms. 
 
@@ -115,7 +127,7 @@ I'm using a target="_blank" attribute to links to open links in a new browser ta
 ![responsivedesign](assets/project-files/testing/footer-test.gif)
 
 # [&#8686;](#Testing)
-## **Further Testing:**
+## **Further Testing**
 -  Tested on Chrome, Opera and Firefox desktop version browsers and on Iphone 11 Safari, huawei p30 Pro chrome and android browser.
 -  Chrome DevTools was used to Test variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX for responsiveness.
 -  Testing was done to ensure that all Links were linking correctly.
@@ -165,7 +177,6 @@ I'm using a target="_blank" attribute to links to open links in a new browser ta
 # [&#8686;](#Testing)
 ## **Fixed Bugs and Issues**
 
-
 - W3C CSS Validation ERROR: - "Property scrollbar-width doesn't exist : none" *Hide scrollbar for Firefox browser*
     
     In order to Validate CSS, solved this issue by Removeing following declaration from CSS: 
@@ -191,6 +202,7 @@ I'm using a target="_blank" attribute to links to open links in a new browser ta
  - I had an issues with content overflow on the right side on mobile devices. Using Chrome DevTools I was able to detect that most of the time there was an issues with bootstrap grid system paddings. Using CSS Declaration "padding: 0;" I was able to resolve most of them.
  - Issue with contact form custom background color and placeholder text color to match the website color sheme. Solution was found [here](https://stackoverflow.com/questions/2781549/removing-input-background-colour-for-chrome-autocomplete) with W3C CSS Validation warnings.
  - Issue with text block element, underline allignment on "contact us" page for tablet devices. underline missalignment was solved using "min-height" CSS declaration for text block elements.
- - Issue with "Contact Us" page: as the viewport decreased in width, one of 3 images shifted below two top images, width for the image below was wider than two images above as they where compressing and image below was expanding. I've solved the issue using media queries and for the single image i was using margins left, right as viewpost decrease the image compressed same rate as two top images.
+ - Issue with "Contact Us" page: as the viewport decreased in width, one of 3 images shifted below two top images, width for the image below was wider than two images above as they where compressing and image below was expanding. 
+   I've solved the issue using media queries and for the single image i was using margins left, right as viewpost decrease the image compressed same rate as two top images.
 
  # [&#8686;](#Testing)

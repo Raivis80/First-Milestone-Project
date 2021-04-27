@@ -70,7 +70,7 @@ The main requirements were to make a responsive website with a minimum of three 
 1. To Provide Social media links to external resources and contact information.
 
 # [&#8686;](#Floral-Fantasy)
-## **Development Planes**
+## ***Development Planes***
 ### **Strategy**
 
 #### Target audiences:
@@ -153,12 +153,12 @@ The main requirements were to make a responsive website with a minimum of three 
    - Address block
    - Contact information Block
    - Location Map
-
-#### Quick sketch
+#
+#### **Quick sketch**
 
 ![View](assets/project-files/wireframes/skech.jpg)    
-
-#### Wireframes
+#
+#### **Wireframes**
 ![View](assets/project-files/wireframes/wireframes.png)
 
 # [&#8686;](#Floral-Fantasy)
@@ -172,9 +172,8 @@ The main requirements were to make a responsive website with a minimum of three 
 -   Photo Gallery & Product Image Gallery helps you display and promote product or service.
 
 # [&#8686;](#Floral-Fantasy)
-## **Features**
-
-### ***Design features***
+## ***Features***
+### **Design features**
 
  Website features the Long-Scrolling design with four pages such as: "Home", "About Us", "Galery" and "Contact Us" page.
 
