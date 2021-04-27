@@ -204,5 +204,6 @@ Testing was done to ensure that all Links were linking correctly.
  - Issue with text block element, underline allignment on "contact us" page for tablet devices. Underline missalignment was solved using "min-height" CSS declaration for text block elements.
  - Issue with "Contact Us" page: as the viewport decreased in width, one of 3 images shifted below two top images and width for the image below was wider than the two images above as they where compressing and image below was expanding. 
    I've solved the issue using media queries and for the single image i was using margins left, right as viewpost decrease the image compressed same rate as two top images.
+ - Issue with "top picks" feature text overflow on devices smaller than 280px in width. Issue was solved using CSS declaration "font-size: .6rem;"
 
  # [&#8686;](#Testing)
