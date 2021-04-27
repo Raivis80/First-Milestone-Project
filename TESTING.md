@@ -3,92 +3,133 @@
 
 ### **Table of contents**
 
-1. #### [Testing website responsiveness](#Testing-website-responsiveness)
-1. #### [Testing Functions and Links](#Testing-Functions-and-Links)
-1. #### [Further Testing](#Further-Testing)
-1. #### [W3C Validation](#W3C-Validation)
-1. #### [Bugs and Issues](#Bugs-and-Issues)
-1. #### [Fixed Bugs and Issues](#Fixed-Bugs-and-Issues)
-1. #### [Back to README.MD](README.md)
+1. [Testing website responsiveness](#Testing-website-responsiveness)
+1. [Testing Functions and Links](#Testing-Functions-and-Links)
+1. [Further Testing](#Further-Testing)
+1. [W3C Validation](#W3C-Validation)
+1. [Bugs and Issues](#Bugs-and-Issues)
+1. [Fixed Bugs and Issues](#Fixed-Bugs-and-Issues)
+1. [Back to README.md](README.md)
+
+# [&#8686;](#Testing)
 
 
-### **Testing website responsiveness**
+## ***Testing website responsiveness***
 
-#### **Testing Navigation responsiveness**
+### **Testing Navigation responsiveness:**
     
-NavBar is Fully responsive to most viewport sizes and I'm using display Property "Fixed". As you scroll it will remain fixed at the top of the browser's viewport.
+NavBar is responsive to most viewport sizes. 
+
+I'm using bootsrap5 components and flexBox components for NavBar responsiveness.
+
+I'm using display Property "Fixed". As you scroll it will remain fixed at the top of the browser's viewport.
 
 ![responsivedesign](assets/project-files/testing/responsive-test/testing-nav.gif)
 
-**Testing Home page responsiveness**
+### **Testing Home page responsiveness:**
    
 For "home Page" for font responsiveness I'm using CSS property "min & max", that is responsive to all other browser sizes.
 
 ![responsivedesign](assets/project-files/testing/responsive-test/home-testing.gif)
 
-#### **Testing About page responsiveness**
+### **Testing About page responsiveness:**
     
 I'm using FlexBox design for responsive "About us" page design.
+
 I'm using CSS FlexBox property "order" for tablet and mobile device elements reordering.
+
 I'm using FlexBox declaration "flex-direction: row;"for desktop device elements and for mobile devices I'm using "flex-direction: column;" for elements.
 
 ![responsivedesign](assets/project-files/testing/responsive-test/about-page.gif)
 
-#### **Testing gallery responsiveness**
+### **Testing gallery responsiveness:**
 
 For "gallery" responsiveness I'm using Bootstrap Grid system.
+
 I'm using media queries with CSS declaration "display: none;" to hide some of the images for mobile devices.
 
 ![responsivedesign](assets/project-files/testing/responsive-test/gallery-testing.gif)
 
-**Testing Review and Contact form responsiveness**
+### **Testing Review and Contact form responsiveness:**
 
 For "review area" responsiveness I'm using Bootstrap Grid system.
+
 I'm using CSS declaration "max-width: 600px;" for "Contact form" to make it responsive.
 
 ![responsivedesign](assets/project-files/testing/responsive-test/testing-review-and-contact-form.gif)
 
-#### **Testing footer responsiveness**
+### **Testing footer responsiveness:**
 
-I'm using FlexBox system design for the Footer responsiveness and CSS Media query technique with FlexBox CSS declaration "flex-item :order" to rearrange Element order for mobile devices.
+I'm using FlexBox system for the Footer responsiveness. 
+
+I'm using CSS Media query technique with FlexBox CSS declaration "flex-item :order" to rearrange Element order for mobile devices.
 
 ![responsivedesign](assets/project-files/testing/responsive-test/footer-testing.gif)
 
-### **Testing Functions and Links**
+# [&#8686;](#Testing)
+## ***Testing Functions and Links***
 
-#### **Testing NavBar**
+### **Testing NavBar:**
+
+ I'm using link for NavBar brand element and when I click on it the page reloads.
+ 
+ The NavBar features navigation menu to navigate the site pages. The menu links all the pages on the site.
+ 
+ For mobile devices I'm using drop down menu Navigation and it is activated using bootstrap grid properties such as: "d-none d-sm-block" to hide or display navigation menu items and media queries.
+ 
+ Navbar also features links to the social media platforms. I'm using font awesome for the link icons. I'm using a target="_blank" attribute to links to open social media links in a new browser tab.
 
 ![responsivedesign](assets/project-files/testing/nav-link-test.gif)
 
-#### **Testing "op picks" feature**
+### **Testing "op picks" feature:**
+
+"Top Picks" Feature was designed to overlap each image using negative margin and CSS property z-index.
+
+Pseudo-class "hover" was used with transition effects "rotate, translate and scale" for each card to create visual effect such as scale and rotate 6deg on mouse-over.
 
 ![responsivedesign](assets/project-files/testing/top-picks-test.gif)
 
-#### **Testing thumblail gallery**
+### **Testing thumblail gallery:**
+
+The gallery configuration designed to have smaller images for Thumbnails when clicked on opens full size images in a new tab. 
 
 ![responsivedesign](assets/project-files/testing/gallery-test.gif)
 
-#### **Testing contact-form**
+### **Testing contact-form:**
 
+Contact form was tested ifr input element functioning correctly. 
+
+And if all of the input fields "required" attribute functioning correctly.
+ 
 ![responsivedesign](assets/project-files/testing/contact-form-test.gif)
 
-#### **Testing Footer links**
+### **Testing Footer links:**
+
+Footer features links to the social media platforms. 
+
+I'm using font awesome for the link icons. 
+
+Also Footer features eMail link and contact phone Link.
+
+I'm using a target="_blank" attribute to links to open links in a new browser tab.
 
 ![responsivedesign](assets/project-files/testing/footer-test.gif)
 
-### **Further Testing**
+# [&#8686;](#Testing)
+## **Further Testing:**
 -  Tested on Chrome, Opera and Firefox desktop version browsers and on Iphone 11 Safari, huawei p30 Pro chrome and android browser.
 -  Chrome DevTools was used to Test variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX for responsiveness.
 -  Testing was done to ensure that all Links were linking correctly.
 
-### **W3C Validation**
+# [&#8686;](#Testing)
+## **W3C Validation**
   The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 -   [W3C Markup Validator](assets/project-files/validators/HTML-Vaalidator.pdf)
 -   [W3C CSS Validator](assets/project-files/validators/CSS-Validator.pdf)
 
-
-### **Bugs and Issues**
+# [&#8686;](#Testing)
+## **Bugs and Issues:**
 *hide scroolBar for the browser*
 - W3C CSS Validation Warning: "::-webkit-scrollbar is an unknown vendor extended pseudo-element" *Hide scrollbar for Chrome*   
     
@@ -122,8 +163,8 @@ I'm using FlexBox system design for the Footer responsiveness and CSS Media quer
     
     "-webkit-text-fill-color: rgb(255, 255, 255);"
 
-
-### **Fixed Bugs and Issues**
+# [&#8686;](#Testing)
+## **Fixed Bugs and Issues**
 
 
 - W3C CSS Validation ERROR: - "Property scrollbar-width doesn't exist : none" *Hide scrollbar for Firefox browser*
@@ -151,3 +192,5 @@ I'm using FlexBox system design for the Footer responsiveness and CSS Media quer
  - I had an issues with content overflow on the right side on mobile devices. Using Chrome DevTools I was able to detect that most of the time there was an issues with bootstrap grid system paddings. Using CSS Declaration "padding: 0;" I was able to resolve most of them.
  - Issue with contact form custom background color and placeholder text color to match the website color sheme. Solution was found [here](https://stackoverflow.com/questions/2781549/removing-input-background-colour-for-chrome-autocomplete) with W3C CSS Validation warnings.
  - Issue with text block element, underline allignment on "contact us" page for tablet devices. underline missalignment was solved using "min-height" CSS declaration.#Top Picks Feature
+
+ # [&#8686;](#Testing)

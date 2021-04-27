@@ -11,9 +11,9 @@
 
 1. [Introduction](#Itroduction)
 1. [Ux](#UX)
-    - [User Stories](#User-Stories)
-    - [Development Planes](#Development-Planes)
-    - [Design](#Design)
+   - [User Stories](#User-Stories)
+   - [Development Planes](#Development-Planes)
+   - [Design](#Design)
 1. [Features](#Features)
    - [Design features](#Design-features) 
    - [NavBar](#NavBar)
@@ -24,6 +24,7 @@
    - [Contact Form](#Contact-Form)
    - [Footer](#Footer)  
 1. [Testing](TESTING.md)
+   - [Bugs and Issues](TESTING.md)
 1. [Technologies and Frameworks](#Technologies-and-Frameworks)
    - [Languages Used](#Languages-Used)
    - [Frameworks, Libraries & Programs Used](#Frameworks,-Libraries-&-Programs-Used)  
@@ -36,6 +37,7 @@
    - [Images](#Images)
    - [Acknowledgements](#Acknowledgements)
 
+# [&#8686;](#Floral-Fantasy)
 ## ***Introduction***
 
 This website was designed for florists. The main focus of the site is to create an online presence allowing members to receive venu or occasion flower arrangement quotes from the best wedding florists and to find out relevant information. 
@@ -44,6 +46,7 @@ This is the first of four Milestone Projects that the developer must complete du
 
 The main requirements were to make a responsive website with a minimum of three pages using primarily *HTML5* and *CSS3*.
 
+# [&#8686;](#Floral-Fantasy)
 ## ***UX***
 
 ### **User Stories**
@@ -66,6 +69,7 @@ The main requirements were to make a responsive website with a minimum of three 
 1. Merchandise occasion flower arrangements.
 1. To Provide Social media links to external resources and contact information.
 
+# [&#8686;](#Floral-Fantasy)
 ## **Development Planes**
 ### **Strategy**
 
@@ -92,6 +96,7 @@ The main requirements were to make a responsive website with a minimum of three 
 
 ![Importance](assets/project-files/wireframes/lineplots.jpg)
 
+# [&#8686;](#Floral-Fantasy)
 ### **Scope**
 
 #### Functionality Requirements
@@ -118,6 +123,7 @@ The main requirements were to make a responsive website with a minimum of three 
    - Contact information
    - Embeded location Map
 
+# [&#8686;](#Floral-Fantasy)
 ### **Structure**
 
 ![View](assets/project-files/wireframes/site/site.jpg) 
@@ -155,6 +161,7 @@ The main requirements were to make a responsive website with a minimum of three 
 #### Wireframes
 ![View](assets/project-files/wireframes/wireframes.png)
 
+# [&#8686;](#Floral-Fantasy)
 ## ***Design***
 ### **Colour Scheme**
 - Colour palette used [View](https://coolors.co/8a5275-bc626f-35372f-a96260-9e5785-ebebeb-1d1d20)
@@ -164,6 +171,7 @@ The main requirements were to make a responsive website with a minimum of three 
 -   Large, background image is designed to be striking and catch the user's attention.
 -   Photo Gallery & Product Image Gallery helps you display and promote product or service.
 
+# [&#8686;](#Floral-Fantasy)
 ## **Features**
 
 ### ***Design features***
@@ -222,8 +230,6 @@ Original "about us" page was designed using CSS properties such as float, positi
     
 ![live site](assets/project-files/testing/site-structure/top-picks.png)
 
-
-
 ### **Gallery** 
   Thumbnail Gallery is a grid of images that when clicked on opens in a pop-up full view images. 
   
@@ -260,6 +266,7 @@ Original "about us" page was designed using CSS properties such as float, positi
 
 ![live site](assets/project-files/testing/site-structure/footer.png)
 
+# [&#8686;](#Floral-Fantasy)
 ## **Technologies and Frameworks**
 
 ### **Languages Used**
@@ -277,6 +284,7 @@ Original "about us" page was designed using CSS properties such as float, positi
 - [Balsamiq:](https://balsamiq.com/) was used to create the wireframes.
 **
 
+# [&#8686;](#Floral-Fantasy)
 ## ***Deployment***
 ### **Deploying on GitHub Pages**
 1. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").
@@ -317,6 +325,7 @@ git clone https://github.com/USERNAME/REPOSITORY
 
   Further reading and troubleshooting on cloning a repository from GitHub [here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository "Link to GitHub troubleshooting")
 
+# [&#8686;](#Floral-Fantasy)
 ## ***Credits***
 ### **Helpfull sites**
 -  [placeholder.com](https://placeholder.com/): Free Image Placeholder.
@@ -349,3 +358,5 @@ git clone https://github.com/USERNAME/REPOSITORY
 ### **Acknowledgements**
 - My Mentor for continuous support and helpful feedback.
 - Tutor support at Code Institute for their support.
+
+# [&#8686;](#Floral-Fantasy)
