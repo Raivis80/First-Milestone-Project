@@ -27,9 +27,9 @@
 ## ***Testing Website responsiveness***
 ### **Testing Navigation responsiveness**
     
-Navigation Bar is fully responsive using flexbox, bootsrap5 components and a bit of bootstrap Javascript function (for toggle menu) drop-down. 
+Navigation Bar is fully responsive. I'm using flexbox system with some bootsrap 5 components and a bit of bootstrap Javascript function (for toggle menu) drop-down. 
 
-As you scroll page Navigation Bar will remain fixed at the top of the browser's viewport. I'm using display Property "Fixed" for this. 
+I'm using display Property "display" with value "fixed" as you scroll page Navigation Bar will remain fixed at the top of the browser's viewport.
 
 ![responsivedesign](assets/project-files/testing/responsive-test/testing-nav.gif)
 #
@@ -41,19 +41,19 @@ For the responsive font size of "home Page" I have set "min & max" font size pro
 #
 ### **Testing About Page responsiveness**
     
-I'm using FlexBox design for responsive "About us" page design.
+I'm using FlexBox design for "About us" page responsiveness.
 
-I'm using CSS FlexBox property "order" for tablet and mobile device elements reordering.
+For tablet and mobile device elements reordering I'm using CSS FlexBox property "order".
 
-I'm using FlexBox declaration "flex-direction: row;"for desktop device elements and for mobile devices I'm using "flex-direction: column;" for elements.
+For desktop device elements I'm using FlexBox declaration "flex-direction: row;" and for mobile device for elements "flex-direction: column;".
 
 ![responsivedesign](assets/project-files/testing/responsive-test/about-page.gif)
 #
 ### **Testing Gallery responsiveness**
 
-For "gallery" responsiveness I'm using Bootstrap Grid system.
+For the "Gallery" responsiveness I'm using Bootstrap 5 Grid system.
 
-I'm using media queries with CSS declaration "display: none;" to hide some of the images for mobile devices.
+In order to hide some of the images on mobile devices I'm using media queries with CSS declaration "display: none;".
 
 ![responsivedesign](assets/project-files/testing/responsive-test/gallery-testing.gif)
 #
@@ -61,7 +61,7 @@ I'm using media queries with CSS declaration "display: none;" to hide some of th
 
 For "review area" responsiveness I'm using Bootstrap Grid system.
 
-I'm using CSS declaration "max-width: 600px;" for "Contact form" to make it responsive.
+For the "Contact form" responsiveness I'm using CSS declaration "max-width: 600px;", so that form can shrink in size but won't grow in width over 600 pixels.
 
 ![responsivedesign](assets/project-files/testing/responsive-test/testing-review-and-contact-form.gif)
 #
@@ -69,7 +69,7 @@ I'm using CSS declaration "max-width: 600px;" for "Contact form" to make it resp
 
 I'm using FlexBox system for the Footer responsiveness. 
 
-I'm using CSS Media query technique with FlexBox CSS declaration "flex-item :order" to rearrange Element order for mobile devices.
+To rearrange Element order for mobile device I'm using CSS Media query technique with FlexBox CSS declaration "flex-item :order".
 
 ![responsivedesign](assets/project-files/testing/responsive-test/footer-testing.gif)
 
@@ -77,13 +77,13 @@ I'm using CSS Media query technique with FlexBox CSS declaration "flex-item :ord
 ## ***Testing Functions and Links***
 ### **Testing NavBar**
 
- I'm using link for NavBar brand element and when I click on it the page reloads.
+ NavBar brand element features link element and when clicked on the page will reload.
  
- The NavBar features navigation menu to navigate the site pages. The menu links all the pages on the site.
+ NavBar features navigation menu links. The links in the main navigation lead to pages within the site.
  
- For mobile devices I'm using drop down menu Navigation and it is activated using bootstrap grid properties such as: "d-none d-sm-block" to hide or display navigation menu items and media queries.
+ For mobile devices  I'm using  drop-down menu Navigation. It is activated on viewport sizes and to hide or display navigation menu items I'm using bootstrap 5 grid properties such as: "d-none d-sm-block" along with the Media Queries techniques.
  
- Navbar also features links to the social media platforms. I'm using font awesome for the link icons. I'm using a target="_blank" attribute to links to open social media links in a new browser tab.
+ Navbar also features links to the social media platforms. I'm using font awesome for the link icons and a target="_blank" attribute for the links to open in a new browser tab.
 
 ![responsivedesign](assets/project-files/testing/nav-link-test.gif)
 #
