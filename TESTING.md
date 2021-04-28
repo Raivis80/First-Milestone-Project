@@ -89,35 +89,33 @@ To rearrange Element order for mobile device I'm using CSS Media query technique
 #
 ### **Testing Top Picks Feature**
 
-"Top Picks" Feature was designed to overlap each image using negative margin and CSS property z-index.
+"Top Picks" Feature was designed to overlap each image using negative margin along with whe CSS property z-index.
 
-Pseudo-class "hover" was used with transition effects "rotate, translate and scale" for each card to create visual effect such as scale and rotate 6deg on mouse-over.
+Pseudo-class "hover" was used with transition effects "rotate, translate and scale" for each card to create visual effect such as: scale and rotate 6deg on mouse-over.
 
 ![responsivedesign](assets/project-files/testing/top-picks-test.gif)
 #
 ### **Testing Thumblail Gallery**
 
-The gallery configuration designed to have smaller images for Thumbnails when clicked on opens full size images in a new tab. 
+To improve website Gallery performance I'm using thumbnails "compressed versions of the images" and linking a thumbnails to the full size images that will open in a pop-up new tab browser window. 
 
 ![responsivedesign](assets/project-files/testing/gallery-test.gif)
 #
 ### **Testing Contact Form**
 
-Contact form was tested ifr input element functioning correctly. 
+Contact form was tested for list of content server processing this form correctly. 
 
-And if all of the input fields "required" attribute functioning correctly.
+And if all of the input fields "required" attribute correct functionality.
  
 ![responsivedesign](assets/project-files/testing/contact-form-test.gif)
 #
 ### **Testing Footer links**
 
-Footer features links to the social media platforms. 
+Footer features links to common social media platforms menu with icons from the free fontawesome library.
 
-I'm using font awesome for the link icons. 
+Footer Features a call link as well as a few other clickable links such as eMail and Fax Link.
 
-Also Footer features eMail link and contact phone Link.
-
-I'm using a target="_blank" attribute to links to open links in a new browser tab.
+I'm using a target="_blank" attribute for the links to open in a new browser tab.
 
 ![responsivedesign](assets/project-files/testing/footer-test.gif)
 
