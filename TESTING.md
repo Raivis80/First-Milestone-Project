@@ -27,17 +27,15 @@
 ## ***Testing Website responsiveness***
 ### **Testing Navigation responsiveness**
     
-NavBar is responsive to most viewport sizes. 
+Navigation Bar is fully responsive using flexbox, bootsrap5 components and a bit of bootstrap Javascript function (for toggle menu) drop-down. 
 
-I'm using bootsrap5 components and flexBox components for NavBar responsiveness.
-
-I'm using display Property "Fixed". As you scroll it will remain fixed at the top of the browser's viewport.
+As you scroll page Navigation Bar will remain fixed at the top of the browser's viewport. I'm using display Property "Fixed" for this. 
 
 ![responsivedesign](assets/project-files/testing/responsive-test/testing-nav.gif)
 #
 ### **Testing Home Page responsiveness**
    
-For "home Page" for font responsiveness I'm using CSS property "min & max", that is responsive to all other browser sizes.
+For the responsive font size of "home Page" I have set "min & max" font size property in CSS that is responsive to all other browser sizes viewport.
 
 ![responsivedesign](assets/project-files/testing/responsive-test/home-testing.gif)
 #
@@ -194,7 +192,6 @@ Testing was done to ensure that all Links were linking correctly.
     In order to Validate CSS, Solved this issue by replacing it with the following CSS declaration:
 
     "width: max-content;"  Text will not wrap with this declaration but it works in my case.
-
 
  - Custom colors, position and width was used for the Boostrap NavBar. Most of the Bootstrap NavBar components was redesigned and replaced. 
  - Drop-down menu, bootstrap toggle hamburger menu was replaced with font awesome "bars" icon to match website color Scheme.                                      
