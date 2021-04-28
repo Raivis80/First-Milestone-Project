@@ -132,43 +132,43 @@ Testing was done to ensure that all Links were linking correctly.
 ## **W3C Validation**
   The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](assets/project-files/validators/HTML-Vaalidator.pdf)
--   [W3C CSS Validator](assets/project-files/validators/CSS-Validator.pdf)
+- [W3C Markup Validator](assets/project-files/validators/HTML-Vaalidator.pdf)
+- [W3C CSS Validator](assets/project-files/validators/CSS-Validator.pdf)
 
 # [&#8686;](#Testing)
 ## **Bugs and Issues**
-### *hide scroolBar for the browser*
+#### *hide scroolBar for the browser*
 #### **W3C CSS Validation Warning:**
-- "::-webkit-scrollbar is an unknown vendor extended pseudo-element" *Hide scrollbar for Chrome*   
+"::-webkit-scrollbar is an unknown vendor extended pseudo-element" *Hide scrollbar for Chrome*   
     
     Code is still in use for aesthetics. In order to Validate CSS, solution is not to use the following code:
     
     "html::-webkit-scrollbar display: none;"
 
 #### **W3C CSS Validation Warning:**
-- "-ms-overflow-style is an unknown vendor extension"  *Hide scrollbar for IE, Edge*
+"-ms-overflow-style is an unknown vendor extension"  *Hide scrollbar for IE, Edge*
 
     Code is still in use for aesthetics. In order to Validate CSS, solution is not to use the following code:
     
     "html::-webkit-scrollbar display: none;"
 
-### *Input Form Autofill and input form custom background color*
+#### *Input Form Autofill and input form custom background color*
 #### **W3C CSS Validator Warning:** 
-- "::-webkit-input-placeholder is an unknown vendor extended pseudo-element" *Custom input form placeholder font color*
+"::-webkit-input-placeholder is an unknown vendor extended pseudo-element" *Custom input form placeholder font color*
     
     This code is in use for aesthetics, to match website color sheme. In order to Validate CSS, solution is not to use the following code:
     
     ".contact--form input::-webkit-input-placeholder"
 
 #### **W3C CSS Validator Warning:**
-- "-webkit-background-clip is an unknown vendor extension" *Custom input form background color*
+"-webkit-background-clip is an unknown vendor extension" *Custom input form background color*
    
     This code is in use for aesthetics, to match website color sheme. In order to Validate CSS, solution is not to use the following code: 
     
     "background-clip: text;"
 
 #### **W3C CSS Validator Warning:** 
-- "-webkit-text-fill-color is an unknown vendor extension" *Custom input form background color*
+"-webkit-text-fill-color is an unknown vendor extension" *Custom input form background color*
     
     This code is in use for aesthetics, to match website color sheme. In order to Validate CSS, solution is not to use the following code: 
     
@@ -178,41 +178,43 @@ Testing was done to ensure that all Links were linking correctly.
 ## **Fixed Bugs and Issues**
 
 #### **W3C CSS Validation ERROR:** 
-- "Property scrollbar-width doesn't exist : none" *Hide scrollbar for Firefox browser*
+"Property scrollbar-width doesn't exist : none" *Hide scrollbar for Firefox browser*
     
     In order to Validate CSS, solved this issue by Removeing following declaration from CSS: 
     
     "scrollbar-width: none;"
 
 #### **W3C CSS Validation ERROR:**  
-- "input:-webkit-autofill	text is not a background-clip value : text" *Input Form autocomplete custom background colour* 
+"input:-webkit-autofill	text is not a background-clip value : text" *Input Form autocomplete custom background colour* 
     
     In order to Validate CSS, solved this issue by Removeing following code from CSS:
     
     "-webkit-background-clip: text;"
 
 #### **W3C CSS Validation Warning:**
-- "-moz-max-content is an unknown vendor extension" Mozilla Firefox css property maximum width fit content
+"-moz-max-content is an unknown vendor extension" Mozilla Firefox css property maximum width fit content
 
     n order to Validate CSS, Solved this issue by replacing it with the following CSS declaration:
 
     "width: max-content;"  Text will not wrap with this declaration but it works in my case.
 
 #### **Firefox "width: fit-content;" issue**
- - Issue with CSS Declaration "width: fit-content;" does not work on Firefox browser. I Googled for "fit-content aternative" and CSS Declaration "width: max-content;" and it worked.  Text does not wrap, but in my case it is accetable and Solution works.
+Issue with CSS Declaration "width: fit-content;" does not work on Firefox browser. I Googled for "fit-content aternative" and CSS Declaration "width: max-content;" and it worked.  Text does not wrap, but in my case it is accetable and Solution works.
 #### **Navigation Bar issues**
- - Custom colors, position and width was used for the Boostrap NavBar. Most of the Bootstrap NavBar components was redesigned and replaced. 
- - Drop-down menu, bootstrap toggle hamburger menu was replaced with font awesome "bars" icon to match website color Scheme.                                      
+Custom colors, position and width was used for the Boostrap NavBar. Most of the Bootstrap NavBar components was redesigned and replaced. 
+
+Drop-down menu, bootstrap toggle hamburger menu was replaced with font awesome "bars" icon to match website color Scheme.                                      
 #### **Content Overflow issues**
- - I had an issues with content overflow on the right side on mobile devices. Using Chrome DevTools I was able to detect that most of the time there was an issues with bootstrap grid system paddings. Using CSS Declaration "padding: 0;" I was able to resolve most of them.
+I had an issues with content overflow on the right side on mobile devices. Using Chrome DevTools I was able to detect that most of the time there was an issues with bootstrap grid system paddings. Using CSS Declaration "padding: 0;" I was able to resolve most of them.
 #### **Contact Form issues** 
- - Issue with contact form custom background color and placeholder text color to match the website color sheme. Solution was found [here](https://stackoverflow.com/questions/2781549/removing-input-background-colour-for-chrome-autocomplete) with W3C CSS Validation warnings.
+Issue with contact form custom background color and placeholder text color to match the website color sheme. Solution was found [here](https://stackoverflow.com/questions/2781549/removing-input-background-colour-for-chrome-autocomplete) with W3C CSS Validation warnings.
 #### **Top Picks overflow issues**
-- Issue with "top picks" feature text overflow on devices smaller than 280px in width. Issue was solved using CSS declaration "font-size: .6rem;"
+Issue with "top picks" feature text overflow on devices smaller than 280px in width. Issue was solved using CSS declaration "font-size: .6rem;"
 #### **About Us" page issues** 
-- Issue with text block element, underline allignment on "contact us" page for tablet devices. Underline missalignment was solved using "min-height" CSS declaration for text block elements.
-- Issue with "About Us" page as the viewport decreased in width. One of 3 images shifted below of the top two images. And width for the image below was wider than the width of the two images above.
- I was able to solved the issue using media queries and for the single image i was using margins left, right as viewpost decrease the image compressed same rate as two top images.
+Issue with text block element, underline allignment on "contact us" page for tablet devices. Underline missalignment was solved using "min-height" CSS declaration for text block elements.
+
+Issue with "About Us" page as the viewport decreased in width. One of 3 images shifted below of the top two images. And width for the image below was wider than the width of the two images above.
+I was able to solved the issue using media queries and for the single image i was using margins left, right as viewpost decrease the image compressed same rate as two top images.
 ![issue](assets/project-files/testing/issues/issue-about.PNG)
 
  # [&#8686;](#Testing)
