@@ -137,37 +137,37 @@ Testing was done to ensure that all Links were linking correctly.
 
 # [&#8686;](#Testing)
 ## **Bugs and Issues**
-#### *hide scroolBar for the browser*
-#### **W3C CSS Validation Warning:**
+### *hide scroolBar for the browser*
+#### **W3C CSS Validation Warning**
 "::-webkit-scrollbar is an unknown vendor extended pseudo-element" *Hide scrollbar for Chrome*   
     
 Code is still in use for aesthetics. In order to Validate CSS, solution is not to use the following code:
     
     "html::-webkit-scrollbar display: none;"
 
-#### **W3C CSS Validation Warning:**
+#### **W3C CSS Validation Warning**
 "-ms-overflow-style is an unknown vendor extension"  *Hide scrollbar for IE, Edge*
 
 Code is still in use for aesthetics. In order to Validate CSS, solution is not to use the following code:
     
     "html::-webkit-scrollbar display: none;"
 
-#### *Input Form Autofill and input form custom background color*
-#### **W3C CSS Validator Warning:** 
+### *Input Form Autofill and input form custom background color*
+#### **W3C CSS Validator Warning** 
 "::-webkit-input-placeholder is an unknown vendor extended pseudo-element" *Custom input form placeholder font color*
     
 This code is in use for aesthetics, to match website color sheme. In order to Validate CSS, solution is not to use the following code:
     
     ".contact--form input::-webkit-input-placeholder"
 
-#### **W3C CSS Validator Warning:**
+#### **W3C CSS Validator Warning**
 "-webkit-background-clip is an unknown vendor extension" *Custom input form background color*
    
 This code is in use for aesthetics, to match website color sheme. In order to Validate CSS, solution is not to use the following code: 
     
     "background-clip: text;"
 
-#### **W3C CSS Validator Warning:** 
+#### **W3C CSS Validator Warning** 
 "-webkit-text-fill-color is an unknown vendor extension" *Custom input form background color*
     
 This code is in use for aesthetics, to match website color sheme. In order to Validate CSS, solution is not to use the following code: 
@@ -177,21 +177,21 @@ This code is in use for aesthetics, to match website color sheme. In order to Va
 # [&#8686;](#Testing)
 ## **Fixed Bugs and Issues**
 
-#### **W3C CSS Validation ERROR:** 
+#### **W3C CSS Validation ERROR** 
 "Property scrollbar-width doesn't exist : none" *Hide scrollbar for Firefox browser*
     
 In order to Validate CSS, solved this issue by Removeing following declaration from CSS: 
     
     "scrollbar-width: none;"
 
-#### **W3C CSS Validation ERROR:**  
+#### **W3C CSS Validation ERROR**  
 "input:-webkit-autofill	text is not a background-clip value : text" *Input Form autocomplete custom background colour* 
     
 In order to Validate CSS, solved this issue by Removeing following code from CSS:
     
     "-webkit-background-clip: text;"
 
-#### **W3C CSS Validation Warning:**
+#### **W3C CSS Validation Warning**
 "-moz-max-content is an unknown vendor extension" Mozilla Firefox css property maximum width fit content
 
 n order to Validate CSS, Solved this issue by replacing it with the following CSS declaration:
