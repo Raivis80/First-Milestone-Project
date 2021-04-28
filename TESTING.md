@@ -208,6 +208,7 @@ Drop-down menu, bootstrap toggle hamburger menu was replaced with font awesome "
 I had an issues with content overflow on the right side on mobile devices. Using Chrome DevTools I was able to detect that most of the time there was an issues with bootstrap grid system paddings. Using CSS Declaration "padding: 0;" I was able to resolve most of them.
 #### **Contact Form issues** 
 Issue with contact form custom background color and placeholder text color to match the website color sheme. Solution was found [here](https://stackoverflow.com/questions/2781549/removing-input-background-colour-for-chrome-autocomplete) with W3C CSS Validation warnings.
+![issue](assets/project-files/testing/issues/contact-issue-solved.PNG)
 #### **Top Picks overflow issues**
 Issue with "top picks" feature text overflow on devices smaller than 280px in width. Issue was solved using CSS declaration "font-size: .6rem;"
 #### **About Us" page issues** 
