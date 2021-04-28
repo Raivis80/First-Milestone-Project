@@ -12,7 +12,7 @@
     - [Footer responsiveness](#Testing-Footer-responsiveness)
 1. [Testing Functions and Links](#Testing-Functions-and-Links)
     - [NavBar Functions and Links](#Testing-NavBar)
-    - [Top Picks Functions and Links](#Testing-"Top-Picks"-Feature)
+    - [Top Picks Functions and Links](#Testing-Top-Picks-Feature)
     - [Gallery Functions and Links](#Testing-Thumblail-Gallery)
     - [Gallery Functions and Links](#Testing-Gallery-responsiveness)
     - [Contact form Functions and Links](#Testing-Contact-Form)
@@ -87,7 +87,7 @@ I'm using CSS Media query technique with FlexBox CSS declaration "flex-item :ord
 
 ![responsivedesign](assets/project-files/testing/nav-link-test.gif)
 #
-### **Testing "Top Picks" Feature**
+### **Testing Top Picks Feature**
 
 "Top Picks" Feature was designed to overlap each image using negative margin and CSS property z-index.
 
