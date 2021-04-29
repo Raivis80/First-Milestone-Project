@@ -28,7 +28,7 @@
     
 For responsive NavBar, I'm using flexbox system with some bootstrap-5 components, and bootstrap-5 Javascript function for the toggle, drop-down menu. 
 
-Navigation Bar will remain fixed at the top of the browser's viewport. I'm using CSS Property "display" with value "fixed" as you scroll the page, Navigation Bar will remain fixed at the top of the browser's viewport.
+I'm using CSS Property "display" with value "fixed" as you scroll the page, Navigation Bar will remain fixed at the top of the browser's viewport.
 
 ![responsivedesign](assets/project-files/testing/responsive-test/testing-nav.gif)
 #
