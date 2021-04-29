@@ -3,13 +3,13 @@
 
 ### **Table of contents**
 
-1. [Testing Website responsive design](#Testing-Website-responsive design)
-    - [NavBar responsive design](#Testing-Navigation-responsive design)
-    - [Home Page responsive design](#Testing-Home-Page-responsive design)
-    - [About Page responsive design](#Testing-About-Page-responsive design)
+1. [Testing Website responsive design](#Testing-Website-responsive-design)
+    - [NavBar responsive design](#Testing-Navigation-responsive-design)
+    - [Home Page responsive design](#Testing-Home-Page-responsive-design)
+    - [About Page responsive design](#Testing-About-Page-responsive-design)
     - [Gallery responsive design](#Testing-Gallery-responsive design)
-    - [Review and Contact form responsive design](#Testing-Review-and-Contact-Form-responsive design)
-    - [Footer responsive design](#Testing-Footer-responsive design)
+    - [Review and Contact form responsive design](#Testing-Review-and-Contact-Form-responsive-design)
+    - [Footer responsive design](#Testing-Footer-responsive-design)
 1. [Testing Functions and Links](#Testing-Functions-and-Links)
     - [NavBar Functions and Links](#Testing-NavBar)
     - [Top Picks Functions and Links](#Testing-Top-Picks-Feature)
