@@ -229,7 +229,7 @@ The main requirements were to make a responsive website with a minimum of three 
     
   "hover" pseudo-class was used with transition effects "rotate, translate and scale" for each card to create visual effect such as scale and rotate 6deg on mouse-over.
   
-  ![live site](assets/project-files/testing/site-structure/Floral-Fantasy-picks.png)
+![live site](assets/project-files/testing/site-structure/top-picks.png)
 
 #
 ### **Gallery** 
@@ -238,7 +238,8 @@ The main requirements were to make a responsive website with a minimum of three 
   The gallery configuration designed to have smaller images for Thumbnails and Large Images stored separately on the website.
    
   The gallery is fully responsive. Bootstrap Grid system was used for responsive gallery layout desing.
- ![live site](assets/project-files/testing/site-structure/gallery.png) 
+
+![live site](assets/project-files/testing/site-structure/gallery.png) 
 
 #
 ### **Recent Reviews**
