@@ -19,7 +19,7 @@
    - [Design features](#Design-features) 
    - [NavBar](#NavBar)
    - [About Us](#About-Us)
-   - [Floral-Fantasy Picks Feature](#Floral-Fantasy-Picks-Feature)
+   - [Top Picks Feature](#Top-Picks-Feature)
    - [Gallery](#Gallery)
    - [Recent Reviews](#Recent-Reviews)
    - [Contact Form](#Contact-Form)
@@ -115,7 +115,7 @@ The main requirements were to make a responsive website with a minimum of three 
    - "About Us" description
    - "Who we are" description
    - "What we do" description
-   - Later added "Floral-Fantasy Picks" feature
+   - Later added "Top Picks" feature
 1. Gallery
    - Showcase thumbnail Gallery content
 1. Contact Form
@@ -140,7 +140,7 @@ The main requirements were to make a responsive website with a minimum of three 
    - About us.
    - Why Us.
    - What we do.
-   - Floral-Fantasy "Picks Feature" *was added later to compliment "About us" Page design*
+   - Top "Picks Feature" *was added later to compliment "About us" Page design*
 - Gallery page
 - Recent reviews
 - Contact form
@@ -219,13 +219,13 @@ The main requirements were to make a responsive website with a minimum of three 
 ![live site](assets/project-files/testing/site-structure/about.png)
 
 #   
-### **Floral-Fantasy Picks Feature** 
+### **Top Picks Feature** 
     
-  "Floral-Fantasy Picks" Feature represents four thumblail images with current offers for the company. 
+  "Top Picks" Feature represents four thumblail images with current offers for the company. 
     
-  "Floral-Fantasy Picks" Feature was designed to be responsive and using FlexBox design for responsiveness.
+  "Top Picks" Feature was designed to be responsive and using FlexBox design for responsiveness.
     
-  "Floral-Fantasy Picks" Feature was designed to overlap each image using negative margin and CSS property z-index. Text was palced over the images using CSS declaration "position:absolute".
+  "Top Picks" Feature was designed to overlap each image using negative margin and CSS property z-index. Text was palced over the images using CSS declaration "position:absolute".
     
   "hover" pseudo-class was used with transition effects "rotate, translate and scale" for each card to create visual effect such as scale and rotate 6deg on mouse-over.
   
