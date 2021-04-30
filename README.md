@@ -5,9 +5,9 @@
 # Floral Fantasy  
 
 ## User Experience (UX), HTML5 and CSS, Milestone Project. 
-
+---
 ## [View the live project here.](https://raivis80.github.io/First-Milestone-Project/) 
-
+---
 ## Table of contents
 
 1. [Introduction](#Introduction)
@@ -156,7 +156,7 @@ The main requirements were to make a responsive website with a minimum of three 
    - Address block
    - Contact information Block
    - Location Map
-#
+---
 #### **Quick sketch**
 
 ![View](assets/project-files/wireframes/skech.jpg)    
@@ -184,7 +184,7 @@ The main requirements were to make a responsive website with a minimum of three 
 
  ![live site](assets/project-files/wireframes/site/live-site.png)
 
-#
+---
 ### **NavBar**
 
   Features customized bootstrap NavBar with Bootstrap5 elements such as: "d-none d-sm-block" to display/hide elments to viewport size. Bootstrab drop-down menu was modified for mobile devices.
@@ -196,7 +196,7 @@ The main requirements were to make a responsive website with a minimum of three 
   NavBar has display Property "Fixed". As you scroll it will remain fixed at the Floral-Fantasy of the browser's viewport.    
 
 ![live site](assets/project-files/testing/site-structure/nav.png)
-#
+---
 ### **Home Page** 
   Large background image span the full width across the whole viewport and shrinks in size as viewport decreases. Hero background image and color overlay creates a better background for text while being more appealing than a solid background color.
   
@@ -207,7 +207,7 @@ The main requirements were to make a responsive website with a minimum of three 
 
 ![live site](assets/project-files/testing/site-structure/home.png)
 
-#
+---
 ### **About Us**
   
   "About Us" page features three visualy apealing, descriptive images and speaks to user before the quote does.
@@ -219,7 +219,8 @@ The main requirements were to make a responsive website with a minimum of three 
   Original "about us" page was designed using CSS properties such as float, positioning of elements. But later it was redesigned as it was inconvenient for responsive design and required element repositioning on each screen size. And it was redesigned following responsive FlexBox Design as for viewport width changes sizes.
 
 ![live site](assets/project-files/testing/site-structure/about.png)
-#    
+
+---   
 ### **Floral-Fantasy Picks Feature** 
     
   "Floral-Fantasy Picks" Feature represents four thumblail images with current offers for the company. 
@@ -231,23 +232,25 @@ The main requirements were to make a responsive website with a minimum of three 
   "hover" pseudo-class was used with transition effects "rotate, translate and scale" for each card to create visual effect such as scale and rotate 6deg on mouse-over.
   
   ![live site](assets/project-files/testing/site-structure/Floral-Fantasy-picks.png)
-#
+
+---
 ### **Gallery** 
   Thumbnail Gallery is a grid of images that when clicked on opens in a pop-up full view images. 
   
   The gallery configuration designed to have smaller images for Thumbnails and Large Images stored separately on the website.
    
   The gallery is fully responsive. Bootstrap Grid system was used for responsive gallery layout desing.
-    
-![live site](assets/project-files/testing/site-structure/gallery.png)
-#
+ ![live site](assets/project-files/testing/site-structure/gallery.png) 
+
+---
 ### **Recent Reviews**
   Reviews feature is fully responsive. Bootstrap5 Grid system was used for responsive gallery layout.
   
   For the content inside review box FlexBox design was implemented to align image next to a paragraph and to be responsive.
 
 ![live site](assets/project-files/testing/site-structure/review.png)
-#
+
+---
 ### **Contact Form** 
   Contact Form is responsive on most devices with maximum width 600px.
   
@@ -256,7 +259,8 @@ The main requirements were to make a responsive website with a minimum of three 
   Custom background colour for browser autocomplete function for the contact form input field. Solution was found [here](https://stackoverflow.com/questions/2781549) With W3C CSS Validation Warning.
     
 ![live site](assets/project-files/testing/site-structure/contact.png)
-#
+
+---
 ### **Footer**
   Footer has 3 main block elements: "address for the company", "Contact Information", "Google Map embeded".
     
