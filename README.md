@@ -5,10 +5,10 @@
 # Floral Fantasy  
 
 ## User Experience (UX), HTML5 and CSS, Milestone Project. 
----
+
 ## [View the live project here.](https://raivis80.github.io/First-Milestone-Project/) 
----
-## Table of contents
+
+### Table of contents
 
 1. [Introduction](#Introduction)
 1. [Ux](#UX)
@@ -51,9 +51,7 @@ The main requirements were to make a responsive website with a minimum of three 
 
 # [&#8686;](#Floral-Fantasy)
 ## ***UX*** 
-
 ### **User Stories**
-
 #### New/Potential users:
 1. Wedding planners.
 1. Event organisers.
@@ -156,9 +154,8 @@ The main requirements were to make a responsive website with a minimum of three 
    - Address block
    - Contact information Block
    - Location Map
----
+#
 #### **Quick sketch**
-
 ![View](assets/project-files/wireframes/skech.jpg)    
 #
 #### **Wireframes**
@@ -184,7 +181,7 @@ The main requirements were to make a responsive website with a minimum of three 
 
  ![live site](assets/project-files/wireframes/site/live-site.png)
 
----
+#
 ### **NavBar**
 
   Features customized bootstrap NavBar with Bootstrap5 elements such as: "d-none d-sm-block" to display/hide elments to viewport size. Bootstrab drop-down menu was modified for mobile devices.
@@ -196,7 +193,8 @@ The main requirements were to make a responsive website with a minimum of three 
   NavBar has display Property "Fixed". As you scroll it will remain fixed at the Floral-Fantasy of the browser's viewport.    
 
 ![live site](assets/project-files/testing/site-structure/nav.png)
----
+
+#
 ### **Home Page** 
   Large background image span the full width across the whole viewport and shrinks in size as viewport decreases. Hero background image and color overlay creates a better background for text while being more appealing than a solid background color.
   
@@ -207,7 +205,7 @@ The main requirements were to make a responsive website with a minimum of three 
 
 ![live site](assets/project-files/testing/site-structure/home.png)
 
----
+#
 ### **About Us**
   
   "About Us" page features three visualy apealing, descriptive images and speaks to user before the quote does.
@@ -220,7 +218,7 @@ The main requirements were to make a responsive website with a minimum of three 
 
 ![live site](assets/project-files/testing/site-structure/about.png)
 
----   
+#   
 ### **Floral-Fantasy Picks Feature** 
     
   "Floral-Fantasy Picks" Feature represents four thumblail images with current offers for the company. 
@@ -233,7 +231,7 @@ The main requirements were to make a responsive website with a minimum of three 
   
   ![live site](assets/project-files/testing/site-structure/Floral-Fantasy-picks.png)
 
----
+#
 ### **Gallery** 
   Thumbnail Gallery is a grid of images that when clicked on opens in a pop-up full view images. 
   
@@ -242,7 +240,7 @@ The main requirements were to make a responsive website with a minimum of three 
   The gallery is fully responsive. Bootstrap Grid system was used for responsive gallery layout desing.
  ![live site](assets/project-files/testing/site-structure/gallery.png) 
 
----
+#
 ### **Recent Reviews**
   Reviews feature is fully responsive. Bootstrap5 Grid system was used for responsive gallery layout.
   
@@ -250,7 +248,7 @@ The main requirements were to make a responsive website with a minimum of three 
 
 ![live site](assets/project-files/testing/site-structure/review.png)
 
----
+#
 ### **Contact Form** 
   Contact Form is responsive on most devices with maximum width 600px.
   
@@ -260,7 +258,7 @@ The main requirements were to make a responsive website with a minimum of three 
     
 ![live site](assets/project-files/testing/site-structure/contact.png)
 
----
+#
 ### **Footer**
   Footer has 3 main block elements: "address for the company", "Contact Information", "Google Map embeded".
     
@@ -294,7 +292,6 @@ The main requirements were to make a responsive website with a minimum of three 
 - [GitHub:](https://github.com/) used to store the projects code.
 - [gitpod.io](https://gitpod.io/) gitpod Was used for codding.
 - [Balsamiq:](https://balsamiq.com/) was used to create the wireframes.
-**
 
 # [&#8686;](#Floral-Fantasy)
 ## ***Deployment***
