@@ -13,7 +13,7 @@
 1. [Testing Functions and Links](#Testing-Functions-and-Links)
     - [NavBar Functions and Links](#Testing-NavBar)
     - [Top Picks Functions and Links](#Testing-Top-Picks-Feature)
-    - [Gallery Functions and Links](#Testing-Thumblail-Gallery)
+    - [Gallery Functions and Links](#Testing-Gallery)
     - [Contact form Functions and Links](#Testing-Contact-Form)
     - [Footer Functions and Links](#Testing-Footer-Links)
 1. [Further Testing](#Further-Testing)
@@ -34,7 +34,7 @@ I'm using CSS Property "display" with value "fixed" as you scroll the page, Navi
 #
 ### **Testing Home Page responsive design**
    
-For the responsive font size of "home Page" I have set "min & max" font size property in CSS, that is responsive to all other browser sizes viewport.
+For the responsive font size of "home Page" I have set "min & max" font size property in the CSS, that is responsive to all other browser sizes viewport.
 
 ![responsivedesign](assets/project-files/testing/responsive-test/home-testing.gif)
 #
@@ -94,7 +94,7 @@ Pseudo-class "hover" was used with transition effects "rotate, translate and sca
 
 ![responsivedesign](assets/project-files/testing/top-picks-test.gif)
 #
-### **Testing Thumblail Gallery**
+### **Testing Gallery**
 
 To improve website gallery performance, I'm using thumbnails "compressed versions of the images", and by linking a thumbnails to the full size images, that will open in a pop-up, new tab browser window. 
 

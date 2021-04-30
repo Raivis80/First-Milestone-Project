@@ -23,8 +23,10 @@
    - [Recent Reviews](#Recent-Reviews)
    - [Contact Form](#Contact-Form)
    - [Footer](#Footer)  
-1. [Testing](TESTING.md)
-   - [Bugs and Issues](TESTING.md)
+1. [Testing](#Testing)
+   - [TESTING.md](TESTING.md)
+   - [Bugs and Issues TESTING.md](TESTING.md#Fixed-Bugs-and-Issues)
+   - [W3C-Validation TESTING.md](TESTING.md#W3C-Validation)   
 1. [Technologies and Frameworks](#Technologies-and-Frameworks)
    - [Languages Used](#Languages-Used)
    - [Frameworks, Libraries & Programs Used](#Frameworks,-Libraries-&-Programs-Used)  
@@ -264,6 +266,12 @@ The main requirements were to make a responsive website with a minimum of three 
   Top of the footer features social media links.
 
 ![live site](assets/project-files/testing/site-structure/footer.png)
+
+# [&#8686;](#Floral-Fantasy)
+## [TESTING](TESTING.md)
+- Testing information can be found in a separate testing file [TESTING.md](TESTING.md)
+- Bugs and Issues moved to the TESTING file here [TESTING.md#Fixed-Bugs-and-Issues](TESTING.md#Bugs-and-Issues)
+- W3C-Validation moved to the TESTING file here [W3C-Validation TESTING.md](TESTING.md#W3C-Validation)  
 
 # [&#8686;](#Floral-Fantasy)
 ## **Technologies and Frameworks**
