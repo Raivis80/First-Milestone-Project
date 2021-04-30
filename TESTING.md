@@ -23,7 +23,7 @@
 1. [Back to README.md](README.md)
 
 # [&#8686;](#Testing)
-## ***Testing Website responsive design***
+## ***Testing Website responsive design*** 
 ### **Testing Navigation responsive design**
     
 For responsive NavBar, I'm using flexbox system with some bootstrap-5 components, and bootstrap-5 Javascript function for the toggle, drop-down menu. 
@@ -73,6 +73,7 @@ For mobile devices, to change the order of the elements, I'm using CSS Media que
 ![responsivedesign](assets/project-files/testing/responsive-test/footer-testing.gif)
 
 # [&#8686;](#Testing)
+[Back to README.md](README.md)
 ## ***Testing Functions and Links***
 ### **Testing NavBar**
 
@@ -119,6 +120,7 @@ I'm using a target="_blank" attribute for the links to open in a new browser tab
 ![responsivedesign](assets/project-files/testing/footer-test.gif)
 
 # [&#8686;](#Testing)
+[Back to README.md](README.md)
 ## **Further Testing**
 
 Website was tested on Chrome, Opera and Firefox desktop version browsers and on Iphone 11 Safari, huawei p30 Pro chrome and android browser.
@@ -128,6 +130,7 @@ Chrome DevTools was used to Test variety of devices such as Desktop, Laptop, iPh
 Testing was done to ensure that all Links were linking correctly.
 
 # [&#8686;](#Testing)
+[Back to README.md](README.md)
 ## **W3C Validation**
   The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
@@ -174,6 +177,7 @@ This code is in use to match website color sheme. In order to Validate CSS solut
     "-webkit-text-fill-color: rgb(255, 255, 255);"
 
 # [&#8686;](#Testing)
+[Back to README.md](README.md)
 ## **Fixed Bugs and Issues**
 
 #### **W3C CSS Validation ERROR** 
@@ -218,3 +222,4 @@ I was able to solve the issue using media queries. For the single image I was us
 ![issue](assets/project-files/testing/issues/issue-about.PNG)
 
  # [&#8686;](#Testing)
+ [Back to README.md](README.md)
