@@ -73,7 +73,7 @@ For mobile devices, to change the order of the elements, I'm using CSS Media que
 ![responsivedesign](assets/project-files/testing/responsive-test/footer-testing.gif)
 
 # [&#8686;](#Testing)
-[Back to README.md](README.md)
+README.md
 ## ***Testing Functions and Links***
 ### **Testing NavBar**
 
@@ -120,7 +120,7 @@ I'm using a target="_blank" attribute for the links to open in a new browser tab
 ![responsivedesign](assets/project-files/testing/footer-test.gif)
 
 # [&#8686;](#Testing)
-[Back to README.md](README.md)
+README.md
 ## **Further Testing**
 
 Website was tested on Chrome, Opera and Firefox desktop version browsers and on Iphone 11 Safari, huawei p30 Pro chrome and android browser.
@@ -138,7 +138,7 @@ Testing was done to ensure that all Links were linking correctly.
 - [W3C CSS Validator](assets/project-files/validators/CSS-Validator.pdf)
 
 # [&#8686;](#Testing)
-[Back to README.md](README.md)
+README.md
 ## **Bugs and Issues**
 ### *hide scroolBar for the browser*
 #### **W3C CSS Validation Warning**
@@ -178,7 +178,7 @@ This code is in use to match website color sheme. In order to Validate CSS solut
     "-webkit-text-fill-color: rgb(255, 255, 255);"
 
 # [&#8686;](#Testing)
-[Back to README.md](README.md)
+README.md
 ## **Fixed Bugs and Issues**
 
 #### **W3C CSS Validation ERROR** 
@@ -223,4 +223,4 @@ I was able to solve the issue using media queries. For the single image I was us
 ![issue](assets/project-files/testing/issues/issue-about.PNG)
 
  # [&#8686;](#Testing)
- [Back to README.md](README.md)
+README.md
