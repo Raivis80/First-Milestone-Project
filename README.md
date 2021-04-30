@@ -25,7 +25,7 @@
    - [Footer](#Footer)  
 1. [Testing](#Testing)
    - [TESTING.md](TESTING.md)
-   - [Bugs and Issues TESTING.md](TESTING.md#Fixed-Bugs-and-Issues)
+   - [Bugs and Issues TESTING.md](TESTING.md#Bugs-and-Issues)
    - [W3C-Validation TESTING.md](TESTING.md#W3C-Validation)   
 1. [Technologies and Frameworks](#Technologies-and-Frameworks)
    - [Languages Used](#Languages-Used)
@@ -295,7 +295,7 @@ The main requirements were to make a responsive website with a minimum of three 
 ## ***Deployment***
 ### **Deploying on GitHub Pages**
 1. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").
-1. Locate the [GitHub Repository](https://raivis80.github.io/First-Milestone-Project/ "Link to GitHub Repo").
+1. Locate the [GitHub Repository](https://github.com/Raivis80/First-Milestone-Project/ "Link to GitHub Repo").
 1. At the top of the repository, select Settings from the menu items.
 1. Scroll down the Settings page to the "GitHub Pages" section.
 1. Under "Source" click the drop-down menu labelled "None" and select "Master Branch".
@@ -305,7 +305,7 @@ The main requirements were to make a responsive website with a minimum of three 
 
 ### **Forking the Repository**
 1. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").
-1. Locate the [GitHub Repository](https://raivis80.github.io/First-Milestone-Project/ "Link to GitHub Repo").
+1. Locate the [GitHub Repository](https://github.com/Raivis80/First-Milestone-Project "Link to GitHub Repo").
 1. At the top of the repository, on the right side of the page, select "Fork"
 1. You should now have a copy of the original repository in your GitHub account.
 
@@ -313,13 +313,13 @@ The main requirements were to make a responsive website with a minimum of three 
 1. Install the [GitPod Browser](https://www.gitpod.io/docs/browser-extension/ "Link to Gitpod Browser extension download") Extension for Chrome.
 1. After installation, restart the browser.
 1. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").
-1. Locate the [GitHub Repository](https://raivis80.github.io/First-Milestone-Project/ "Link to GitHub Repo").
+1. Locate the [GitHub Repository](https://github.com/Raivis80/First-Milestone-Project"Link to GitHub Repo").
 1. Click the green "GitPod" button in the top right corner of the repository.
 This will trigger a new gitPod workspace to be created from the code in github where you can work locally.
 
 **How to run this project within a local IDE, such as VSCode:**
 1. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").
-1. Locate the [GitHub Repository](https://raivis80.github.io/First-Milestone-Project/ "Link to GitHub Repo").
+1. Locate the [GitHub Repository](https://github.com/Raivis80/First-Milestone-Project "Link to GitHub Repo").
 1. Under the repository name, click "Clone or download".
 1. In the Clone with HTTPs section, copy the clone URL for the repository.
 1. In your local IDE open the terminal.
@@ -363,7 +363,7 @@ git clone https://github.com/USERNAME/REPOSITORY
 - pexels-la-miko-3681591
  
 ### **Acknowledgements**
-- My Mentor for continuous support and helpful feedback.
+- A huge thanks to Owonikoko Oluwaseun, My Mentor for continuous support and inspire me to push myself beyond where I think I can go.
 - Tutor support at Code Institute for their support.
 
 # [&#8686;](#Floral-Fantasy)
