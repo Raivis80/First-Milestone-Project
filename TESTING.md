@@ -138,6 +138,7 @@ Testing was done to ensure that all Links were linking correctly.
 - [W3C CSS Validator](assets/project-files/validators/CSS-Validator.pdf)
 
 # [&#8686;](#Testing)
+[Back to README.md](README.md)
 ## **Bugs and Issues**
 ### *hide scroolBar for the browser*
 #### **W3C CSS Validation Warning**
